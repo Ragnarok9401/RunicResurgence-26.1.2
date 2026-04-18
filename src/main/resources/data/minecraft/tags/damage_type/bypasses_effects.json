@@ -1,0 +1,9 @@
+{
+  "replace": false,
+    "values": [
+      "rr_recast:magic_chaos",
+      
+      "rr_aea:unrest",
+      "rr_aea:strain"
+    ]
+  }

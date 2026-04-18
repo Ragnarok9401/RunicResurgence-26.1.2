@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "rr_recast:item/boss/necrosculker/siphon_aura"
+	},
+	"display": {
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -3.5, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

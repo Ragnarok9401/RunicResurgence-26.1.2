@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rr_recast:item/equipment/armor/sculk_plate/sculk_plate_chestplate",
+    "layer1": "minecraft:trims/items/chestplate_trim_quartz"
+  }
+}

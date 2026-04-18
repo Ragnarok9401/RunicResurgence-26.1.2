@@ -1,0 +1,6 @@
+{
+  "parent": "custom/menu/generic/underlay",
+  "textures": {
+    "texture": "item/menu/compendium/spells/spell_type_menu"
+  }
+}

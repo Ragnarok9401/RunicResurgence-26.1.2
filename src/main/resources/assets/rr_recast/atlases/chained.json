@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "rr_recast:trims/models/armor/chained",
+        "layer1": "rr_recast:trims/models/armor/chained_leggings"
+    }
+}

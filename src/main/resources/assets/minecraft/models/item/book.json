@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/book"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/items/tomes/overworld_tome"},
+		{"predicate": {"custom_model_data": 12346}, "model": "custom/items/tomes/nether_tome"},
+		{"predicate": {"custom_model_data": 12347}, "model": "custom/items/tomes/runic_compendium"}
+    ]
+}

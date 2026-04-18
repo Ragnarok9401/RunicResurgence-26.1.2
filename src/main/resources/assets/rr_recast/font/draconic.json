@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "rr_recast:draconic.ttf",
+			"shift": [0, 0],
+			"size": 10.5,
+			"oversample": 30.0
+
+        }
+	]
+}

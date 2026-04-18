@@ -1,0 +1,12 @@
+{
+    "values":[
+        "rr_aea:fervor",
+        "rr_aea:shrink",
+        "rr_aea:enlarge",
+        "rr_aea:slipstream",
+        
+        "sbhp:bolster",
+        "sbhp:recovery"
+    ],
+    "replace":false
+}

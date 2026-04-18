@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rr_recast:catalystum/arcane/catalystum"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rr_recast:catalystum/arcane/catalystum"
+      }
+    ]
+  }
+}

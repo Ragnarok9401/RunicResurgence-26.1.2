@@ -1,0 +1,17 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/enchanted_book"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/enchanted_book_echo"},
+		{"predicate": {"custom_model_data": 12346}, "model": "custom/enchanted_book_fervor"},
+		{"predicate": {"custom_model_data": 12347}, "model": "custom/enchanted_book_recursion"},
+		{"predicate": {"custom_model_data": 12348}, "model": "custom/enchanted_book_sunstruck"},
+		{"predicate": {"custom_model_data": 12349}, "model": "custom/enchanted_book_moonstruck"},
+		{"predicate": {"custom_model_data": 12350}, "model": "custom/enchanted_book_gravity"},
+		{"predicate": {"custom_model_data": 12351}, "model": "custom/enchanted_book_tether"},
+		{"predicate": {"custom_model_data": 12352}, "model": "custom/enchanted_book_rebound"}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/template/tablet_new",
+	"textures": {
+		"layer0": "rr_recast:item/tablet/runic_tablet_basic_new"
+	}
+}

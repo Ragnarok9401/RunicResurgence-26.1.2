@@ -1,0 +1,6 @@
+{
+    "parent": "custom/bows/starbow_s",
+    "textures": {
+        "layer0": "item/bows/supernova_starbow_pulling_1"
+    }
+}

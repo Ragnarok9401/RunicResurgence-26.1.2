@@ -1,0 +1,7 @@
+{
+    "values": [
+        "rr_recast:technical/soft_boot",
+        "rr_aea:technical/soft_boot",
+        "sbhp:technical/soft_boot"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "rr_recast:item/equipment/weapon/tomahawk/stone_tomahawk"
+  }
+}

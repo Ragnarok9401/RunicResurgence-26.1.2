@@ -1,8 +1,0 @@
-{
-    "id": "rr_recast",
-    "pack": {
-      "min_format": [101,1],
-      "max_format": [101,1],
-      "description": "Runic Resurgence brings mysterious magic to Minecraft!"
-    }
-  }

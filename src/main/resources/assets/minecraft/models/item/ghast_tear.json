@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/ghast_tear"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12344}, "model": "custom/miscellaneous/clear_item"},
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/items/havenite/havenite_shard"},
+		{"predicate": {"custom_model_data": 12346}, "model": "custom/items/havenite/gilded_havenite_shard"},
+		{"predicate": {"custom_model_data": 12347}, "model": "custom/items/havenite/havenite_crystal"},
+		{"predicate": {"custom_model_data": 12348}, "model": "custom/items/brimstone/brimstone_nugget"}
+    ]
+}

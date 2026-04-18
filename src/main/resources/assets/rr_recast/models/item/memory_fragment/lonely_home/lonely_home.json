@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/memory_fragment/knowledge_fragment",
+	"textures": {
+		"layer0": "rr_recast:item/memory_fragment/lonely_home/knowledge_fragment_lonely_home"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "rr_recast:item/menu/template/underlay",
+  "textures": {
+    "texture": "rr_recast:item/menu/compendium/menu_with_return"
+  }
+}

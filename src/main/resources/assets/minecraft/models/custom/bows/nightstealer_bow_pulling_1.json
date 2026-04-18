@@ -1,0 +1,6 @@
+{
+    "parent": "custom/bows/nightstealer_bow",
+    "textures": {
+        "layer0": "item/bows/nightstealer_bow_pulling_1"
+    }
+}

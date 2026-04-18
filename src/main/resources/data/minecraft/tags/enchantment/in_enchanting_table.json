@@ -1,0 +1,15 @@
+{
+    "values": [
+        "rr_aea:echo",
+        "rr_aea:pin",
+        "rr_aea:rebound",
+        "rr_aea:maul",
+        "rr_aea:slipstream",
+        "rr_aea:extension",
+        "rr_aea:aegis",
+        
+        "sbhp:bolster",
+        "sbhp:recovery"
+    ],
+    "replace": false
+}

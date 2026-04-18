@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "rr_recast:magic_chaos",
+    "rr_recast:magic_cold",
+    "rr_recast:magic_fire",
+    "rr_recast:magic_generic",
+    "rr_recast:magic_lightning",
+    "rr_recast:magic_piercing",
+    "rr_recast:magic_darkness",
+    "rr_recast:tomahawk_pin",
+    "rr_recast:tomahawk_headshot",
+    
+    "rr_aea:magic_sun",
+    "rr_aea:magic_air",
+    "rr_aea:maul",
+    "rr_aea:pressure",
+    "rr_aea:opening",
+    "rr_aea:unrest",
+    "rr_aea:strain",
+    "rr_aea:magic_reverb"
+  ]
+}

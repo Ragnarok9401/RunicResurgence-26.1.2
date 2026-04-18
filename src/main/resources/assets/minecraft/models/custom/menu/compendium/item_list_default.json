@@ -1,0 +1,6 @@
+{
+  "parent": "custom/menu/generic/underlay",
+  "textures": {
+    "texture": "item/menu/compendium/item_list_default"
+  }
+}

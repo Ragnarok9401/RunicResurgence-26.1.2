@@ -1,0 +1,15 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/nether_star"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/items/stars/netherite_star"},
+        {"predicate": {"custom_model_data": 12346}, "model": "custom/items/stars/end_star"},
+        {"predicate": {"custom_model_data": 12347}, "model": "custom/items/stars/infinity_star"},
+		{"predicate": {"custom_model_data": 12348}, "model": "custom/necrosculker_head"},
+		{"predicate": {"custom_model_data": 12349}, "model": "custom/items/stars/overworld_star"},
+		{"predicate": {"custom_model_data": 12350}, "model": "custom/items/stars/dark_overworld_star"}
+    ]
+}

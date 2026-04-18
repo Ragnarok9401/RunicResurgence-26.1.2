@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "rr_recast:item/mob_drop/deep_dark_core"
+	}
+}

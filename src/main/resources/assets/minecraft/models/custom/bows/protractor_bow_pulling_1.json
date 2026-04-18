@@ -1,0 +1,6 @@
+{
+    "parent": "custom/bows/protractor_bow",
+    "textures": {
+        "layer0": "item/bows/protractorbow_pulling_1"
+    }
+}

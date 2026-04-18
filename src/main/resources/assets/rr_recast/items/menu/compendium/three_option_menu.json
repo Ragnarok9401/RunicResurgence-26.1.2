@@ -1,0 +1,7 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "rr_recast:item/menu/compendium/three_option_menu"
+    },
+    	"oversized_in_gui": true
+  }

@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/netherite_sword"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/nethersculk_cleaver"},
+		{"predicate": {"custom_model_data": 12346}, "model": "custom/restored_ancient_sword"},
+		{"predicate": {"custom_model_data": 12347}, "model": "custom/soulsalve"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "rr_aea:rebound",
+    "rr_aea:pin",
+    "rr_aea:tether",
+    "rr_aea:echo",
+    "rr_aea:maul",
+    "rr_aea:shrink",
+    "rr_aea:enlarge",
+    "rr_aea:extension",
+    "rr_aea:weightless",
+    "rr_aea:aegis",
+    
+    "sbhp:bolster",
+    "sbhp:recovery"
+  ],
+  "replace":false
+}

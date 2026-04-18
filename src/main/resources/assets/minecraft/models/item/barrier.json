@@ -1,0 +1,24 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/barrier"
+	},
+	"overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "custom/menu/generic/empty"},
+        {"predicate": {"custom_model_data": 2}, "model": "custom/menu/generic/menu_test"},
+        {"predicate": {"custom_model_data": 3}, "model": "custom/menu/compendium/menu"},
+        {"predicate": {"custom_model_data": 4}, "model": "custom/menu/compendium/spells/spell_type_menu"},
+        {"predicate": {"custom_model_data": 5}, "model": "custom/menu/compendium/blocks_and_items/block_or_item"},
+        {"predicate": {"custom_model_data": 6}, "model": "custom/menu/compendium/item_list_default_p1"},
+        {"predicate": {"custom_model_data": 7}, "model": "custom/menu/compendium/item_list_default"},
+        {"predicate": {"custom_model_data": 8}, "model": "custom/menu/compendium/item_list_default_last"},
+        {"predicate": {"custom_model_data": 9}, "model": "custom/menu/compendium/item_details_1"},
+        {"predicate": {"custom_model_data": 10}, "model": "custom/menu/compendium/item_details_1_recipe"},
+        {"predicate": {"custom_model_data": 11}, "model": "custom/menu/compendium/item_details_2"},
+        {"predicate": {"custom_model_data": 12}, "model": "custom/menu/compendium/item_details_2_recipe"},
+        {"predicate": {"custom_model_data": 13}, "model": "custom/menu/compendium/item_details_3"},
+        {"predicate": {"custom_model_data": 14}, "model": "custom/menu/compendium/item_details_3_recipe"},
+        {"predicate": {"custom_model_data": 15}, "model": "custom/menu/compendium/item_details_4"},
+        {"predicate": {"custom_model_data": 16}, "model": "custom/menu/compendium/item_details_4_recipe"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/template/tablet",
+	"textures": {
+		"layer0": "item/memory_t3_spells/liquid_state_s"
+	}
+}

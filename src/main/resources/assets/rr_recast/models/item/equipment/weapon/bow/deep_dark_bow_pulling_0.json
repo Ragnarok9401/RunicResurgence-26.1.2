@@ -1,0 +1,6 @@
+{
+    "parent": "rr_recast:item/equipment/weapon/bow/deep_dark_bow",
+    "textures": {
+        "layer0": "rr_recast:item/equipment/weapon/bow/deep_dark_bow_pulling_0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/chaotic_energy_essence_tendril_wave"
+	}
+}

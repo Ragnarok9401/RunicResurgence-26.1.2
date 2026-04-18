@@ -1,0 +1,19 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "rr_recast:trims/models/armor/chained",
+                "rr_recast:trims/models/armor/chained_leggings",
+                "rr_recast:trims/models/armor/technoknight",
+                "rr_recast:trims/models/armor/technoknight_leggings"
+            ],
+            "palette_key": "rr_recast:trims/color_palettes/trim_palette",
+            "permutations": {
+                "blaze_powder": "rr_recast:trims/color_palettes/blaze_powder",
+                "crying_obsidian": "rr_recast:trims/color_palettes/crying_obsidian",
+                "pink_tulip": "rr_recast:trims/color_palettes/pink_tulip"
+            }
+        }
+    ]
+}

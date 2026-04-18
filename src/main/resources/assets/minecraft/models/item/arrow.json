@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/arrow"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data": 12344}, "model": "custom/menu/compendium/icons/back"},
+		{"predicate": {"custom_model_data": 12345}, "model": "custom/menu/compendium/icons/spells"},
+		{"predicate": {"custom_model_data": 12346}, "model": "custom/menu/compendium/icons/blocks_and_items"},
+		{"predicate": {"custom_model_data": 12347}, "model": "custom/menu/compendium/icons/enemies"},
+		{"predicate": {"custom_model_data": 12348}, "model": "custom/menu/compendium/icons/other"},
+		{"predicate": {"custom_model_data": 12349}, "model": "custom/menu/compendium/icons/spells/combat"},
+		{"predicate": {"custom_model_data": 12350}, "model": "custom/menu/compendium/icons/spells/utility"},
+		{"predicate": {"custom_model_data": 12351}, "model": "custom/menu/compendium/icons/spells/misc"}
+	]
+}

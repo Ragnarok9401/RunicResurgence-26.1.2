@@ -1,0 +1,6 @@
+{
+  "parent": "menus/generic/overlay",
+  "textures": {
+    "texture": "item/menu/generic/menu"
+  }
+}

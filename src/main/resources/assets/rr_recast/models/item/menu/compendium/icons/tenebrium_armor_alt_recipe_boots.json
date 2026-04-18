@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "rr_recast:item/menu/compendium/icons/tenebrium_armor_alt_recipe_boots"
+	}
+}

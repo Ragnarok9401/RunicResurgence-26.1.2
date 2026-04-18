@@ -1,1 +1,0 @@
-execute as @s run return 1

@@ -1,0 +1,6 @@
+{
+    "parent": "custom/bows/deep_dark_bow",
+    "textures": {
+        "layer0": "item/bows/deep_dark_bow_pulling_1"
+    }
+}

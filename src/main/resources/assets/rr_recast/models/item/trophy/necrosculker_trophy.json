@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rr_recast:item/trophy/necrosculker_trophy"
+  }
+}

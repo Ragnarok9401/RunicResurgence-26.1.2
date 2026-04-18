@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/memory_fragment/knowledge_fragment",
+	"textures": {
+		"layer0": "rr_recast:item/memory_fragment/ancient_city/knowledge_fragment_ancient_city_1"
+	}
+}

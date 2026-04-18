@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/menu/underlay_equipment",
+	"textures": {
+		"texture": "rr_recast:item/menu/equipment/menu_t9"
+	}
+}

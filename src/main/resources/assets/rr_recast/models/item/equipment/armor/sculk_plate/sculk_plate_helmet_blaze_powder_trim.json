@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rr_recast:item/equipment/armor/sculk_plate/sculk_plate_helmet",
+    "layer1": "rr_recast:trims/items/helmet_trim_blaze_powder"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/template/small_item",
+	"textures": {
+		"layer0": "rr_recast:item/havenite/rare_havenite_shard"
+	}
+}

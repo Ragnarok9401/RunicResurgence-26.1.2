@@ -1,0 +1,6 @@
+{
+	"parent": "item/templates/ring_selected_first",
+	"textures": {
+		"layer0": "item/runic_ring/selected_first/runic_ring_selected_2"
+	}
+}

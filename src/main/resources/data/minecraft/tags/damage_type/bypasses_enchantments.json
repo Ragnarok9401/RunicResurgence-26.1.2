@@ -1,0 +1,11 @@
+{
+  "replace": false,
+    "values": [
+      "rr_recast:magic_chaos",
+      "rr_recast:magic_darkness",
+      
+      "rr_aea:pressure",
+      "rr_aea:unrest",
+      "rr_aea:strain"
+    ]
+  }

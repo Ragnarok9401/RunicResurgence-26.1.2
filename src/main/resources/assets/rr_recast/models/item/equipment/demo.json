@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "rr_recast:emerald"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "rr_recast:emerald"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rr_recast:emerald"
+      }
+    ]
+  }
+}

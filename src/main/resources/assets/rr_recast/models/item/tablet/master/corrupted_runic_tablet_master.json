@@ -1,0 +1,6 @@
+{
+	"parent": "rr_recast:item/template/tablet",
+	"textures": {
+		"layer0": "rr_recast:item/tablet/corrupted_runic_tablet_master"
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "rr_recast:alagard.ttf",
+			"shift": [0, 0],
+			"size": 11.0,
+			"oversample": 25.0
+
+        }
+	]
+}

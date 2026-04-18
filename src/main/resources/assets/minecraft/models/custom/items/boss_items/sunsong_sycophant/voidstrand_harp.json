@@ -1,0 +1,6 @@
+{
+	"parent": "item/boss_item/harp",
+	"textures": {
+		"layer0": "item/boss_item/sunsong_sycophant/voidstrand_harp"
+	}
+}

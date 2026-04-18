@@ -1,0 +1,7 @@
+{
+    "values": [
+        "rr_recast:technical/tick",
+        "rr_aea:technical/tick",
+        "sbhp:technical/tick"
+    ]
+}
