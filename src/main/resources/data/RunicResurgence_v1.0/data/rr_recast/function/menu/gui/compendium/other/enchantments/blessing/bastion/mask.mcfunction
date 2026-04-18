@@ -1,0 +1,121 @@
+# 13b = center, 9b - 17b = center row, 0b - 8b = top row, 18b - 26b = bottom row
+data modify storage rr.ui mask set value \
+[\
+    {\
+        Slot:9b,\
+        id:"minecraft:arrow",\
+        "components":\
+        {\
+            item_model:"rr_recast:menu/compendium/icons/back",\
+            "minecraft:item_name":{"text":"Back","color":"red"},\
+            "minecraft:custom_data":\
+            {\
+                RunicMenuItem:{command:"function rr_recast:menu/gui/compendium/other/enchantments/blessing/open"}\
+            }\
+        }\
+    },\
+    {\
+        Slot:11b,\
+        id:"minecraft:music_disc_cat",\
+        "components":\
+        {\
+            "minecraft:item_name":{"text":"Bastion","color":"light_purple"},\
+            lore:[\
+                {"color":"gray","italic":false,"text":"This is where we stand!"},\
+                {"color":"gray","italic":false,"text":"Bastion causes your shield to"},\
+                {"color":"gray","italic":false,"text":"create a smaller, less potent"},\
+                {"color":"gray","italic":false,"text":"Paladin's Pylon spell on your"},\
+                {"color":"gray","italic":false,"text":"position when you take damage"},\
+                {"color":"gray","italic":false,"text":"at or below half health."},\
+            ],\
+            item_model:"minecraft:enchanted_book",\
+            "!minecraft:jukebox_playable":{},\
+            "minecraft:stored_enchantments": {"rr_aea:bastion":1},\
+            tooltip_display: {hidden_components:["stored_enchantments"]},\
+            "minecraft:enchantment_glint_override":true,\
+            "minecraft:custom_data":\
+            {\
+                RunicMenuItem:{empty:1b}\
+            }\
+        }\
+    },\
+    {\
+        Slot:4b,\
+        id:"minecraft:music_disc_cat",\
+        "components":\
+        {\
+            "minecraft:item_name":{"text":"Stats:","color":"white"},\
+            lore:[\
+                {"color":"gray","italic":false,"text":"This ability is passive, meaning"},\
+                {"color":"gray","italic":false,"text":"you are not required to block at"},\
+                {"color":"gray","italic":false,"text":"all for it to activate. This can"},\
+                {"color":"gray","italic":false,"text":"only activate once every two minutes."},\
+                {"color":"gray","italic":false,"text":""},\
+                {"color":"gray","italic":false,"text":"The Paladin's Pylon has set stats and"},\
+                {"color":"gray","italic":false,"text":"cannot be changed by any spell-modifying"},\
+                {"color":"gray","italic":false,"text":"equipment you may have. The stats are"},\
+                {"color":"gray","italic":false,"text":"as follows:"},\
+                [{"color":"gray","italic":false,"text":"- "},{"color":"white","text":"Radius: "},{"color":"green","text":"2.5 Blocks"}],\
+                [{"color":"gray","italic":false,"text":"- "},{"color":"white","text":"Health: "},{"color":"green","text":"150"}],\
+                [{"color":"gray","italic":false,"text":"- "},{"color":"white","text":"Lifespan: "},{"color":"green","text":"5 Seconds"}],\
+                {"color":"gray","italic":false,"text":"Applicable on: "},\
+                {"color":"white","italic":false,"text":"  Shields"},\
+                [{"color":"gray","italic":false,"text":"Max Level: "},{"text":"1","color":"white"}],\
+            ],\
+            "minecraft:item_model":"minecraft:paper",\
+            "!minecraft:jukebox_playable":{},\
+            "!minecraft:attribute_modifiers":{},\
+            "!minecraft:tool":{},\
+            "minecraft:custom_data":{RunicMenuItem:{empty:1b}}\
+        }\
+    },\
+    {\
+        Slot:22b,\
+        id:"minecraft:music_disc_cat",\
+        "components":\
+        {\
+            "minecraft:item_name":{"text":"How to Obtain:","color":"white"},\
+            lore:[\
+                {"color":"gray","italic":false,"text":"Blessings may only be obtained"},\
+                {"color":"gray","italic":false,"text":"through the Necrosculker Boss,"},\
+                {"color":"gray","italic":false,"text":"tiers 2 and above. The chance"},\
+                {"color":"gray","italic":false,"text":"to receive one is higher with"},\
+                {"color":"gray","italic":false,"text":"harder tiers, up to 75% for"},\
+                {"color":"gray","italic":false,"text":"Tier 4."},\
+            ],\
+            "minecraft:item_model":"minecraft:enchanting_table",\
+            "!minecraft:jukebox_playable":{},\
+            "!minecraft:attribute_modifiers":{},\
+            "!minecraft:tool":{},\
+            "minecraft:custom_data":{RunicMenuItem:{empty:1b}}\
+        }\
+    },\
+    {\
+        Slot:8b,\
+        id:"minecraft:music_disc_cat",\
+        "components":\
+        {\
+            "minecraft:item_name":{"text":"Back To Home Page","color":"white"},\
+            item_model:"rr_recast:book/runic_compendium",\
+            "!minecraft:jukebox_playable":{},\
+            "minecraft:custom_data":\
+            {\
+                RunicMenuItem:\
+                {\
+                    command:'function rr_recast:menu/gui/compendium/home_with_return/open {"page":"other/enchantments/blessing/bastion/open","model":"aea:book/bastion_blessing"}'\
+                }\
+            }\
+        }\
+    },\
+    {\
+        Slot:0b,\
+        id:"minecraft:barrier",\
+        "components":\
+        {\
+            "minecraft:item_model":"rr_recast:menu/compendium/item_details_2",\
+            tooltip_display:{hide_tooltip:true},\
+            "!minecraft:item_name":{},\
+            "minecraft:custom_data":{RunicMenuItem:{empty:1b}}\
+        }\
+    }\
+]

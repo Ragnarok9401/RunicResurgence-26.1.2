@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:music_disc_blocks",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "rr_recast:block/runic_table/runic_table_inactive"
+        }
+      },
+      "title": "Wild Magic Table",
+      "description": "Obtain a Runic Manipulation Table, the baseline for all of your Runic Resurgence crafting",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "rr_adv:mainline/root",
+    "criteria": {
+      "craft_runic_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "custom_data": {"rr.runic_table":true}
+              }
+            }
+          ]
+        }
+      }
+    }
+}
+  

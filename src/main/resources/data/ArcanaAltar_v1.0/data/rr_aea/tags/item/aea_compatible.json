@@ -1,0 +1,19 @@
+{
+    "values":[
+        "#rr_aea:tools",
+        "minecraft:shield",
+        "minecraft:flint_and_steel",
+        "minecraft:shears",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "#rr_aea:swords",
+        "minecraft:trident",
+        "#rr_aea:armor",
+        "minecraft:brush",
+        "minecraft:fishing_rod",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:mace",
+        "minecraft:music_disc_cat"
+    ]
+}

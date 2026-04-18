@@ -1,0 +1,4 @@
+execute as @a unless score @s aea.ench.bastion_token matches 1.. run tellraw @s [{"text":"[RR: ","color":"gray"},{"color":"#FFDB29","text":"A"},{"color":"#E8DE3C","text":"r"},{"color":"#D1E050","text":"c"},{"color":"#BAE363","text":"a"},{"color":"#A3E577","text":"n"},{"color":"#8CE88A","text":"a "},{"color":"#76EA9E","text":"A"},{"color":"#5FEDB1","text":"l"},{"color":"#48EFC5","text":"t"},{"color":"#31F2D8","text":"a"},{"text":"r","color":"#03F7FF"},{"text":"] ","color":"gray"},{"text":"Bastion ability refreshed!","color":"green"}]
+execute as @a unless score @s aea.ench.bastion_token matches 1.. run scoreboard players set @s aea.ench.bastion_token 1
+
+schedule function rr_aea:technical/2min 120s replace

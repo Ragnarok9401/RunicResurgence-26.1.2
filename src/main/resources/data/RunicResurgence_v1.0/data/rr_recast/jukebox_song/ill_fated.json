@@ -1,0 +1,12 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "jukebox_song.rr_recast.ill_fated",
+    "fallback": "Ill-Fated",
+    "italic": false
+  },
+  "length_in_seconds": 125,
+  "sound_event": {
+    "sound_id": "rr_recast:ill_fated"
+  }
+}

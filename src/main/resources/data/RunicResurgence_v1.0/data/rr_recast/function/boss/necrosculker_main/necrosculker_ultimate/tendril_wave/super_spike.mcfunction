@@ -1,0 +1,7 @@
+$execute rotated 0.0 0.0 positioned ^$(x) ^ ^$(z) run summon item_display ~ ~-1.5 ~ {item_display:"head",Tags:[rr.boss.ns_void.ticking,RunicNSUTendril,"RunicNSUTendrilSuper","RunicNSUTendrilSuperMain",RunicNSUTendrilSuperSetup,"RunicNSUTendrilStand4",RunicNSUTendrilOther],item:{id:"minecraft:pointed_dripstone",count:1,components:{item_model:"rr_recast:boss/necrosculker/attacks/void_sculk_tendril"}},transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.6,0.8,0.6],translation:[0,-3.33,0]},teleport_duration:1,data:{rr_recast:{tendril_wave:{speed:0.2}}},Rotation:[0.0f,0.0f]}
+
+execute as @e[type=marker,tag=RunicNSUTendrilSuperSetup,distance=..40] at @s run tag @s remove RunicNSUTendrilSuperSetup
+
+execute at @s as @a[distance=..40] at @s run playsound minecraft:entity.warden.sonic_charge hostile @s ~ ~ ~ 0.6 0.8 0
+execute at @s as @a[distance=..40] at @s run playsound minecraft:entity.ender_dragon.growl hostile @s ~ ~ ~ 0.6 1.1 0
+execute at @s as @a[distance=..40] at @s run playsound minecraft:block.end_portal.spawn hostile @s ~ ~ ~ 0.6 1.7 0

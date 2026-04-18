@@ -1,0 +1,11 @@
+{
+    "type": "rr_recast:otherworld",
+    "generator": {
+        "settings": "rr_recast:otherworld",
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "rr_recast:otherworld"
+        }
+    }
+}

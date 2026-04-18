@@ -1,0 +1,50 @@
+{
+    "name": "rr_recast:ancient_crypt/hallways",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 5,
+        "element": {
+            "location": "rr_recast:ancient_crypt/hallways/short_a",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "rr_recast:ancient_crypt/hallways/short_b",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "rr_recast:ancient_crypt/hallways/short_end",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "rr_recast:ancient_crypt/hallways/long_a",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "rr_recast:ancient_crypt/hallways/long_t",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

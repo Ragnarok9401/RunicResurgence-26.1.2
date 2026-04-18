@@ -1,0 +1,2 @@
+tellraw @s [{"text":"You have completed a ","color":"aqua"},{"text":"goal! ","color":"dark_green"},{"text":"+20 ♥ Max HP!","underlined":true,"color":"green"}]
+scoreboard players add @s sbhp.HealthMaxBase 2000

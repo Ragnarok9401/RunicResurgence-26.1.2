@@ -1,0 +1,327 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.sculk_essence",
+                  "fallback": "Sculk Essence",
+                  "color": "blue"
+                },
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_model": "rr_recast:generic/sculk_essence",
+                "minecraft:custom_data": "{rr.item.sculk_essence:1b}"
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.knowledge_fragment",
+                  "fallback": "Knowledge Fragment"
+                },
+                "minecraft:item_model": "rr_recast:knowledge_fragment/structure/ancient_city/ancient_city_1",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.desc_1",
+                    "fallback": "Stored Knowledge: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_1",
+                        "fallback": "The Ancient Cities",
+                        "color": "#5387D6",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.chapter_1",
+                    "fallback": "Chapter 1 - ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_2",
+                        "fallback": "Proving Grounds",
+                        "color": "#4672b4",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.knowledge_fragment",
+                  "fallback": "Knowledge Fragment"
+                },
+                "minecraft:item_model": "rr_recast:knowledge_fragment/structure/ancient_city/ancient_city_2",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.desc_1",
+                    "fallback": "Stored Knowledge: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_1",
+                        "fallback": "The Ancient Cities",
+                        "color": "#5387D6",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.chapter_2",
+                    "fallback": "Chapter 2 - ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_3",
+                        "fallback": "Halls of Decay",
+                        "color": "#4672b4",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.knowledge_fragment",
+                  "fallback": "Knowledge Fragment"
+                },
+                "minecraft:item_model": "rr_recast:knowledge_fragment/structure/ancient_city/ancient_city_3",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.desc_1",
+                    "fallback": "Stored Knowledge: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_1",
+                        "fallback": "The Ancient Cities",
+                        "color": "#5387D6",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.chapter_3",
+                    "fallback": "Chapter 3 - ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_4",
+                        "fallback": "The Harrowing Tale",
+                        "color": "#4672b4",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.knowledge_fragment",
+                  "fallback": "Knowledge Fragment"
+                },
+                "minecraft:item_model": "rr_recast:knowledge_fragment/structure/ancient_city/ancient_city_4",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.desc_1",
+                    "fallback": "Stored Knowledge: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_1",
+                        "fallback": "The Ancient Cities",
+                        "color": "#5387D6",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.chapter_4",
+                    "fallback": "Chapter 4 - ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.ancient_city.desc_5",
+                        "fallback": "To Birth Darkness",
+                        "color": "#4672b4",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "rr_recast:ancient_crypt"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:arrow"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

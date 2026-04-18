@@ -1,0 +1,11 @@
+{
+  "parent": "sbhp_adv:duplicate/runicresurgence/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  }
+}

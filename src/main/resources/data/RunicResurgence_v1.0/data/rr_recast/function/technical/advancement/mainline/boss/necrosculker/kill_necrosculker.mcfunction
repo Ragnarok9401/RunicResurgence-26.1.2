@@ -1,0 +1,1 @@
+advancement grant @s only sbhp_adv:duplicate/runicresurgence/boss/necrosculker/kill_necrosculker

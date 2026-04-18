@@ -1,0 +1,39 @@
+{
+  "parent": "sbhp_adv:duplicate/end/find_end_city",
+  "criteria": {
+    "levitated": {
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 50.0
+          }
+        }
+      },
+      "trigger": "minecraft:levitation"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.end.levitate.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "advancements.end.levitate.title"
+    }
+  },
+  "requirements": [
+    [
+      "levitated"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_challenge"
+  },
+  "sends_telemetry_event": false
+}

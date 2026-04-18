@@ -1,0 +1,55 @@
+{
+  "parent": "sbhp_adv:duplicate/adventure/minecraft_trials_edition",
+  "criteria": {
+    "overoverkill": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:mace"
+                }
+              }
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:mace_smash"
+              }
+            ]
+          },
+          "dealt": {
+            "min": 100.0
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.adventure.overoverkill.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "advancements.adventure.overoverkill.title"
+    }
+  },
+  "requirements": [
+    [
+      "overoverkill"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_extreme"
+  },
+  "sends_telemetry_event": false
+}

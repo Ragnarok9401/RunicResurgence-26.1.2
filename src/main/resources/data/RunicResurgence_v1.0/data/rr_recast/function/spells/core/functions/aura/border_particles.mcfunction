@@ -1,0 +1,1 @@
+$execute as @s at @s positioned ^ ^ ^$(radius) run particle $(id) ~$(offset_x) ~$(offset_y) ~$(offset_z) $(distance_x) $(distance_y) $(distance_z) $(speed) $(count) $(force)

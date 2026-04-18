@@ -1,0 +1,4 @@
+execute positioned ~ ~0.4375 ~ as @n[type=item_display,distance=..0.1,tag=rr.runic_table.item.5] run item replace entity @s contents with music_disc_cat[max_stack_size=16,item_name="Havenite Crystal",damage_resistant={"types":"#minecraft:is_fire"},rarity="common",item_model="rr_recast:havenite/havenite_crystal",custom_data={rr.item.havenite_crystal:true},enchantment_glint_override=true,!minecraft:jukebox_playable]
+execute positioned ~ ~0.4375 ~ as @e[type=item_display,distance=0.1..0.5,tag=!rr.runic_table.item.5,tag=rr.runic_table.item] run kill @s
+
+playsound minecraft:block.anvil.land block @a[distance=..20] ~ ~ ~ 0.6 1.25 0

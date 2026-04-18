@@ -1,0 +1,3 @@
+tellraw @a[distance=..200] [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"The meteor has fallen below the world! This is rather unfortunate.","color":"blue"}]
+advancement grant @a[distance=..200] only rr_adv:secret/meteor_below_world
+kill @s

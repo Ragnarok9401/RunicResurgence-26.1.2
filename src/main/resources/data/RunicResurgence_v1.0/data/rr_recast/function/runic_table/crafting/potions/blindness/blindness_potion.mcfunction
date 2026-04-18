@@ -1,0 +1,4 @@
+execute positioned ~ ~0.4375 ~ as @n[type=item_display,distance=..0.1,tag=rr.runic_table.item.5] run item replace entity @s contents with music_disc_cat[potion_contents={custom_color:810555,custom_effects:[{id:"minecraft:blindness",amplifier:0,duration:9600,show_particles:1b,show_icon:1b}]},item_name={"fallback":"Potion of Blindness","italic":false,"translate":"item.rr_recast.potion.effect.blindness"},item_model="rr_recast:potion/blindness",consumable={consume_seconds:1.6,animation:"drink",sound:"entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:blindness",amplifier:0,duration:9600,show_particles:1b,show_icon:1b}]}]},!jukebox_playable,rarity="common"]
+execute positioned ~ ~0.4375 ~ as @e[type=item_display,distance=0.1..0.5,tag=!rr.runic_table.item.5,tag=rr.runic_table.item] run kill @s
+
+playsound minecraft:block.anvil.land block @a[distance=..20] ~ ~ ~ 0.6 1.25 0

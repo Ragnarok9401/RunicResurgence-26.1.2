@@ -1,0 +1,15 @@
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel1] at @s run function rr_aea:ae_altar/core/interface/bow/bow_power
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel2] at @s run function rr_aea:ae_altar/core/interface/bow/bow_punch
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel3] at @s run function rr_aea:ae_altar/core/interface/bow/bow_flame
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel4] at @s run function rr_aea:ae_altar/core/interface/bow/bow_infinity
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel5] at @s run function rr_aea:ae_altar/core/interface/bow/bow_pin
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel6] at @s run function rr_aea:ae_altar/core/interface/bow/bow_multishot
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel7] at @s run function rr_aea:ae_altar/core/interface/bow/bow_piercing
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel8] at @s run function rr_aea:ae_altar/core/interface/bow/bow_gravity
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel9] at @s run function rr_aea:ae_altar/core/interface/bow/bow_tether
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel10] at @s run function rr_aea:ae_altar/core/interface/bow/bow_rebound
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel11] at @s run function rr_aea:ae_altar/core/interface/bow/bow_unbreaking
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel12] at @s run function rr_aea:ae_altar/core/interface/bow/bow_mending
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel13] at @s run function rr_aea:ae_altar/core/interface/bow/bow_sunstruck
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel14] at @s run function rr_aea:ae_altar/core/interface/bow/bow_moonstruck
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABowSel,tag=ArenAEABowSel15] at @s run function rr_aea:ae_altar/core/interface/bow/bow_awakened

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "rr_aea:wanderlust": 1
+        }
+      }
+    },
+    "title": "Wanderlust Tracker",
+    "description": "Every block that is compatible with the Wanderlust Blessing",
+    "background": "minecraft:block/crying_obsidian",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "find_wanderlust": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "rr_aea:wanderlust"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {},
+  "sends_telemetry_event": false
+}

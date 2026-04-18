@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.aea.pin",
+    "fallback": "Pin",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/pin/cancel_motion"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 28,
+    "per_level_above_first": 2
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 3
+}

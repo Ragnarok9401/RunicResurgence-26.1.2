@@ -1,0 +1,1 @@
+give @s music_disc_cat[jukebox_playable="rr_recast:sinking_feeling",item_model="rr_recast:disc/music_disc_sinking_feeling",custom_data={"rr.custom_jukebox_disc":1b,"rr.item":1b},item_name={"text":"Music Disc","color":"aqua"}]

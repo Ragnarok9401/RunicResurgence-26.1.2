@@ -1,0 +1,11 @@
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel1] at @s run function rr_aea:ae_altar/core/interface/boots/boots_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel2] at @s run function rr_aea:ae_altar/core/interface/boots/boots_fire_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel3] at @s run function rr_aea:ae_altar/core/interface/boots/boots_projectile_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel4] at @s run function rr_aea:ae_altar/core/interface/boots/boots_blast_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel5] at @s run function rr_aea:ae_altar/core/interface/boots/boots_feather_falling
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel6] at @s run function rr_aea:ae_altar/core/interface/boots/boots_depth_strider
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel7] at @s run function rr_aea:ae_altar/core/interface/boots/boots_frost_walker
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel8] at @s run function rr_aea:ae_altar/core/interface/boots/boots_soul_speed
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel9] at @s run function rr_aea:ae_altar/core/interface/boots/boots_thorns
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel10] at @s run function rr_aea:ae_altar/core/interface/boots/boots_unbreaking
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEABootsSel,tag=ArenAEABootsSel11] at @s run function rr_aea:ae_altar/core/interface/boots/boots_mending

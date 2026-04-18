@@ -1,0 +1,75 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/bow",
+  "anvil_cost": 10,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.recursion",
+                "fallback": "Recursion",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "rr_aea:technical/enchantments/recursion/apply_recursion"
+            },
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": {
+                "type": "minecraft:lookup",
+                "values": [
+                  0,
+                  1,
+                  2
+                ],
+                "fallback": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}

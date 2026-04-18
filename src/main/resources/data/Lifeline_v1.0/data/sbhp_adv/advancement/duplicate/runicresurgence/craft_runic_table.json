@@ -1,0 +1,21 @@
+{
+    "parent": "sbhp_adv:duplicate/runicresurgence/root",
+    "criteria": {
+      "craft_runic_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "custom_data": {"rr.runic_table":true}
+              }
+            }
+          ]
+        }
+      }
+    },
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  }
+}
+  

@@ -1,0 +1,4 @@
+execute positioned ~ ~0.4375 ~ as @n[type=item_display,distance=..0.1,tag=rr.runic_table.item.5] run item replace entity @s contents with music_disc_cat[item_name={"color":"#4672b4","fallback":"Tenebrium Ingot","italic":false,"translate":"item.rr_recast.tenebrium_ingot"},item_model="rr_recast:generic/tenebrium_ingot",!jukebox_playable,max_stack_size=64,custom_data={rr.item.tenebrium_ingot:1b}]
+execute positioned ~ ~0.4375 ~ as @e[type=item_display,distance=0.1..0.5,tag=!rr.runic_table.item.5,tag=rr.runic_table.item] run kill @s
+
+playsound minecraft:block.anvil.land block @a[distance=..20] ~ ~ ~ 0.6 1.25 0

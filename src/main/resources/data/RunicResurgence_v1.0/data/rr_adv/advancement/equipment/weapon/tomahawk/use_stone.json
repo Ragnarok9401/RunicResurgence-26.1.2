@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "score": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "rr.tomahawk": true,
+              "rr.tomahawk.stone": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:equipment/weapon/tomahawk/stone/use"
+  }
+}

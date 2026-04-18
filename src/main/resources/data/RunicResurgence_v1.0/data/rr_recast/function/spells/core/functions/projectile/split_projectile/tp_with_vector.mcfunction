@@ -1,0 +1,2 @@
+$execute at @s positioned ^$(spawn_offset_x) ^$(spawn_offset_y) ^$(spawn_offset_z) run function rr_recast:spells/core/functions/projectile/general/tp_here
+$execute at @s run tp @s ^ ^ ^ facing ^$(facing_x_final) ^$(facing_y_final) ^$(facing_z_final)

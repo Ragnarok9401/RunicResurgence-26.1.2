@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "activate_knowledge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks",
+            "components": {
+              "minecraft:item_model": "rr_recast:knowledge_fragment/structure/lonely_home"
+            },
+            "predicates": {
+              "minecraft:custom_data": "{rr.knowledge_fragment:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/knowledge_fragment/lonely_home/claim_fragment_1"
+  }
+}

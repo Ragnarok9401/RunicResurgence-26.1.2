@@ -1,0 +1,8 @@
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel1,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_protection
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel2,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_fire_protection
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel3,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_projectile_protection
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel4,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_blast_protection
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel5,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_swift_sneak
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel6,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_thorns
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel7,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEALeggingsSel,tag=ArenAEALeggingsSel8,tag=!ArenAEALeggingsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/leggings/leggings_enchant_selected_mending

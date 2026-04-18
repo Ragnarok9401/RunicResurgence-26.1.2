@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "music_disc_far",
+      "components": {
+        "minecraft:item_model": "rr_recast:boss_item/necrosculker/soul_dark_heart"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "The Crypt's Salvation",
+      "color": "#5387D6",
+      "italic": false
+    },
+    "description": "Destroy the Dark Matter Necrosculker, the Avatar of Corruption",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rr_adv:mainline/boss/necrosculker/kill_necrosculker_ultimate",
+  "criteria": {
+    "killed_ns": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "function": "rr_recast:technical/advancement/mainline/boss/necrosculker/kill_necrosculker_dark_matter"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.aea.maul",
+    "fallback": "Maul",
+    "color": "gray"
+  },
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 3,
+  "max_level": 8,
+  "min_cost": {
+    "base": 6,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 4
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/maul/set_maul_time"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

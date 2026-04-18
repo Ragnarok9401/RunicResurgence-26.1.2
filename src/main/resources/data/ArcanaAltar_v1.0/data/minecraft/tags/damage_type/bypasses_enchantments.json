@@ -1,0 +1,8 @@
+{
+  "replace": false,
+    "values": [
+      "rr_aea:pressure",
+      "rr_aea:unrest",
+      "rr_aea:strain"
+    ]
+  }

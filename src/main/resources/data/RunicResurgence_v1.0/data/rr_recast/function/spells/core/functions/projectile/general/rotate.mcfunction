@@ -1,0 +1,1 @@
+$execute facing ^$(offset_X) ^$(offset_Y) ^$(offset_Z) run function rr_recast:spells/core/functions/projectile/general/tp_here_with_angle

@@ -1,0 +1,77 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.rr.set_nexus_coordinates",
+    "fallback": "Nexus Coordinates",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#rr_recast:spell_passable"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "#rr_recast:spell_passable"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{rr.nexus.coords_set:0b}"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "rr_recast:otherworld"
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_recast:technical/nexus/set_coordinates"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:music_disc_cat",
+  "weight": 1
+}

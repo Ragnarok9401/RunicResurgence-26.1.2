@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "score": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "rr.system.bow_used": {
+                "min": 1
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{rr.bow.arrow_speed_25:1b}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/projectile_speed/modify_speed_25"
+  }
+}

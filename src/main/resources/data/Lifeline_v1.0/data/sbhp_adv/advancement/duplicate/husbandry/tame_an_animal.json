@@ -1,0 +1,31 @@
+{
+  "parent": "sbhp_adv:duplicate/husbandry/root",
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.husbandry.tame_an_animal.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "advancements.husbandry.tame_an_animal.title"
+    }
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,91 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/vices",
+  "anvil_cost": 3,
+  "description": {
+    "text": "",
+    "color": "dark_red",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.vice_icon",
+        "fallback": "↓",
+        "color": "dark_red",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "dark_red",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.exhaustion",
+                "fallback": "Exhaustion",
+                "color": "dark_red"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#rr_aea:boots",
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": false
+                },
+                "periodic_tick": 4
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/exhaustion_vice/no_sprint_tick"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": true
+                },
+                "periodic_tick": 4
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/exhaustion_vice/sprint_tick"
+        }
+      }
+    ]
+  }
+}

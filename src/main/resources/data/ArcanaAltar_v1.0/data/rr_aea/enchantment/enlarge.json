@@ -1,0 +1,109 @@
+{
+  "description": {
+    "translate": "enchantment.aea.enlarge",
+    "fallback": "Enlarge",
+    "color": "gray"
+  },
+  "exclusive_set": [
+    "rr_aea:shrink"
+  ],
+  "supported_items": "#rr_aea:size_change_armor",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 9,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 14,
+    "per_level_above_first": 14
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "rr_aea:enlarge_scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "rr_aea:enlarge_jump",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:max_health",
+        "id": "rr_aea:enlarge_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 2
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "rr_aea:enlarge_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.75,
+          "per_level_above_first": 0.75
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:step_height",
+        "id": "rr_aea:enlarge_step_height",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "rr_aea:enlarge_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.0375,
+          "per_level_above_first": -0.0375
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "rr_aea:enlarge_entity_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.75,
+          "per_level_above_first": 0.75
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "rr_aea:enlarge_block_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.75,
+          "per_level_above_first": 0.75
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

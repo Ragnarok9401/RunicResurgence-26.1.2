@@ -1,0 +1,18 @@
+{
+  "parent": "sbhp_adv:duplicate/runicresurgence/root",
+  "criteria": {
+    "activate_knowledge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "rr_recast:lonely_home"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  }
+}

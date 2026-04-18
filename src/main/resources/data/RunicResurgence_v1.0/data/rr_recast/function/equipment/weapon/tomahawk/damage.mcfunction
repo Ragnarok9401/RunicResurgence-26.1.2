@@ -1,0 +1,6 @@
+
+$execute at @s[scores={rr.math.index=4..}] as @a if score @s rr.system.pid = @n[type=item_display,tag=rr.tomahawk,distance=..1] rr.system.pid at @e[dx=$(dmg_distance),dz=$(dmg_distance),dy=$(speed),type=!#rr_recast:spell_ignore] run damage @n[dx=$(dmg_distance),dz=$(dmg_distance),dy=$(speed),type=!#rr_recast:spell_ignore] $(damage) $(damage_type) by @s
+
+
+$execute at @s[scores={rr.math.index=4..}] as @a if score @s rr.system.pid = @n[type=item_display,tag=rr.tomahawk,distance=..1] rr.system.pid at @e[dx=$(dmg_distance),dz=$(dmg_distance),dy=$(speed),type=!#rr_recast:spell_ignore] anchored eyes positioned ^ ^ ^ if entity @n[type=item_display,distance=..$(dmg_distance),tag=rr.tomahawk,scores={rr.math.index=2..}] run damage @n[dx=$(dmg_distance),dz=$(dmg_distance),dy=$(speed),type=!#rr_recast:spell_ignore] $(crit_damage) rr_recast:tomahawk_headshot by @s
+$execute at @s[scores={rr.math.index=4..}] as @a if score @s rr.system.pid = @n[type=item_display,tag=rr.tomahawk,distance=..1] rr.system.pid at @e[dx=$(dmg_distance),dz=$(dmg_distance),dy=$(speed),type=!#rr_recast:spell_ignore] anchored eyes positioned ^ ^ ^ if entity @n[type=item_display,distance=..$(dmg_distance),tag=rr.tomahawk,scores={rr.math.index=2..}] run particle crit ~ ~ ~ 0.125 0.125 0.125 0.05 40 force

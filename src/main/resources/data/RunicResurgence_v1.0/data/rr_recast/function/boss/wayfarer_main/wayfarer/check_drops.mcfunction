@@ -1,0 +1,22 @@
+# Rare drops include:
+# Sculk Bow, Sculk Falchion, Deep Dark Core, Vitality Essence, Knowledge Fragment
+
+# Sculk Falchion
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:equipment/weapon/falchion/sculk_falchion"} run tellraw @p [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You have received a ","color":"light_purple"},{"text":"Sculk Falchion","color":"aqua","italic":false,"bold":true}]
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:equipment/weapon/falchion/sculk_falchion"} run tag @s add rr.item.rare
+
+# Sculk Bow
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:equipment/weapon/bow/deep_dark_bow"} run tellraw @p [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You have received a ","color":"light_purple"},{"text":"Sculk Bow","color":"aqua","italic":false,"bold":true}]
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:equipment/weapon/bow/deep_dark_bow"} run tag @s add rr.item.rare
+
+# Vitality Essence
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:generic/vitality_essence"} run tellraw @p [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You have received a ","color":"light_purple"},{"text":"Vitality Essence","color":"aqua","italic":false,"bold":true}]
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:generic/vitality_essence"} run tag @s add rr.item.rare
+
+# Deep Dark Core
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:mob_drop/deep_dark_core"} run tellraw @p [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You have received a ","color":"light_purple"},{"text":"Deep Dark Core","color":"yellow","italic":false,"bold":false}]
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:mob_drop/deep_dark_core"} run tag @s add rr.item.uncommon
+
+# Knowledge Fragment
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:knowledge_fragment/necrosculker/fragment_1"} run tellraw @p [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You have received a ","color":"light_purple"},{"text":"Knowledge Fragment","color":"yellow","italic":false,"bold":false}]
+execute as @e[type=item,distance=..40,tag=!rr.item.drop_checked] unless data entity @s Thrower if data entity @s Item.components{"minecraft:item_model":"rr_recast:knowledge_fragment/necrosculker/fragment_1"} run tag @s add rr.item.uncommon

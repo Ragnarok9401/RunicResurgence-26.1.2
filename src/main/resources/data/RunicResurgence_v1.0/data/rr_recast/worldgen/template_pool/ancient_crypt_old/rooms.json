@@ -1,0 +1,62 @@
+{
+    "name": "rr_recast:ancient_crypt/rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/lab",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      },{
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/tombstone_room",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      },{
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/ender_chest_room",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      },{
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/forge",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      },{
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/prison",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      },{
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/banner_room",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      }
+    ]
+  }
+  

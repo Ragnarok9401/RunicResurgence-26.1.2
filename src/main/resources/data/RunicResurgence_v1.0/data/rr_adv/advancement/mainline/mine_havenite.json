@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat",
+      "components": {
+        "minecraft:item_model": "rr_recast:havenite/havenite_shard"
+      }
+    },
+    "title": "Pennies From Heaven",
+    "description": "Mine a Havenite Meteor and obtain some Shards",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rr_adv:mainline/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards":{
+    "function": "rr_recast:technical/advancement/mainline/mine_havenite"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "damaged": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/shielding"
+  }
+}

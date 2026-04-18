@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.aea.fervor",
+    "fallback": "Fervor",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/fervor_effects"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 10
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1
+}

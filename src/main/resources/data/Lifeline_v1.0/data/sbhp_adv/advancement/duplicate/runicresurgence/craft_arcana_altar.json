@@ -1,0 +1,21 @@
+{
+    "parent": "sbhp_adv:duplicate/runicresurgence/craft_runic_table",
+    "criteria": {
+      "craft_runic_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "custom_data": {"aea.altar":true}
+              }
+            }
+          ]
+        }
+      }
+    },
+  "rewards": {
+    "function": "sbhp:advancement/reward_medium"
+  }
+}
+  

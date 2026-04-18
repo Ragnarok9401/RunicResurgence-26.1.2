@@ -1,0 +1,17 @@
+{
+    "name": "rr_recast:ancient_crypt/rare_rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/hallways/short_end_rare",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      }
+    ]
+  }
+  

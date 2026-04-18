@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "eat_food": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_rabbit"
+          }
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "text": "You probably shouldn't see this."
+      },
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:cooked_rabbit"
+      },
+      "title": {
+        "text": "sbhp.eat_cooked_rabbit"
+      },
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "sbhp:technical/health/food/eat_cooked_rabbit"
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,3 @@
+execute as @s[scores={rr.system.BossTick=1}] if entity @n[type=marker,tag=rr.boss,distance=..20] run summon item_display ~ ~ ~ {item_display:"head",Tags:[rr.boss.ns_nightmare.ticking,"RunicNSNTendrilStand3",RunicNSNTendrilOther],item:{id:"minecraft:pointed_dripstone",count:1,components:{item_model:"rr_recast:boss/necrosculker/attacks/massive_sculk_tendril"}},transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],translation:[0,-1.0,0]},teleport_duration:1}
+execute as @s[scores={rr.system.BossTick=4..}] at @s run scoreboard players set @s rr.system.BossTick 0
+$tp @s ^ ^ ^$(speed)

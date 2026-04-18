@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:cobweb",
+        "minecraft:slime_block",
+        "minecraft:honey_block",
+        "minecraft:weeping_vines",
+        "minecraft:weeping_vines_plant",
+        "minecraft:twisting_vines",
+        "minecraft:twisting_vines_plant",
+        "minecraft:ladder",
+        "minecraft:vine",
+        "minecraft:sweet_berry_bush"
+    ]
+}

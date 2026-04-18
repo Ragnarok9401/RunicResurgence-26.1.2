@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.offhand": {
+          "items": "minecraft:bow",
+          "predicates": {
+            "minecraft:custom_data": "{ArenTetherEnch:1}"
+          }
+        }
+      }
+    }
+  }
+  

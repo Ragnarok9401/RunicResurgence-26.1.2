@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "remove_boots": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/wanderlust_blessing/remove_attributes"
+  },
+  "sends_telemetry_event": false
+}

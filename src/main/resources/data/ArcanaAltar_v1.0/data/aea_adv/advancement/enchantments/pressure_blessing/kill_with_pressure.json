@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "rr_aea:pressure": 1
+        }
+      }
+    },
+    "title": "Pushing Down On You",
+    "description": "Kill an entity by using a shield enchanted with Pressure",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "aea_adv:enchantments/found_blessing_book",
+  "criteria": {
+    "kill_with_pressure": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "rr_aea:is_pressure",
+              "expected": true
+            }
+          ],
+          "is_direct": true
+        }
+      }
+    }
+  }
+}

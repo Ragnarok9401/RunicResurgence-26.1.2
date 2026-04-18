@@ -1,0 +1,1 @@
+give @p music_disc_relic[max_stack_size=64,item_name="Concusshroom"',rarity="uncommon",!minecraft:jukebox_playable,item_model="rr_recast:generic/concusshroom"] 1

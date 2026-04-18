@@ -1,0 +1,14 @@
+advancement revoke @s only aea_adv:enchantments/hit_with_echo_3
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run summon marker ~ ~ ~ {Tags:["ArenEchoCloud3","ArenEchoCloud","aea.ench.echo_init"]}
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run scoreboard players set @e[type=marker,distance=..1,tag=aea.ench.echo_init] aea.system.MatchUUID1 0
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run scoreboard players set @e[type=marker,distance=..1,tag=aea.ench.echo_init] aea.system.MatchUUID2 0
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run scoreboard players set @e[type=marker,distance=..1,tag=aea.ench.echo_init] aea.system.MatchUUID3 0
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run scoreboard players set @e[type=marker,distance=..1,tag=aea.ench.echo_init] aea.system.MatchUUID4 0
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run tag @e[type=marker,distance=..1,tag=aea.ench.echo_init] remove aea.ench.echo_init
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 store result score @e[type=marker,tag=ArenEchoCloud3,distance=..1,scores={aea.system.MatchUUID1=0}] aea.system.MatchUUID1 run scoreboard players get @s aea.system.PlayerUUID1
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 store result score @e[type=marker,tag=ArenEchoCloud3,distance=..1,scores={aea.system.MatchUUID2=0}] aea.system.MatchUUID2 run scoreboard players get @s aea.system.PlayerUUID2
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 store result score @e[type=marker,tag=ArenEchoCloud3,distance=..1,scores={aea.system.MatchUUID3=0}] aea.system.MatchUUID3 run scoreboard players get @s aea.system.PlayerUUID3
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 store result score @e[type=marker,tag=ArenEchoCloud3,distance=..1,scores={aea.system.MatchUUID4=0}] aea.system.MatchUUID4 run scoreboard players get @s aea.system.PlayerUUID4
+
+execute as @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] at @s anchored eyes positioned ^ ^ ^3.5 run scoreboard players set @e[type=marker,tag=ArenEchoCloud3,distance=..1] aea.math.E 42
+scoreboard players set @s[scores={aea.ench.echo_cooldown=..0,aea.system.SwordUsed=1..}] aea.ench.echo_cooldown 2

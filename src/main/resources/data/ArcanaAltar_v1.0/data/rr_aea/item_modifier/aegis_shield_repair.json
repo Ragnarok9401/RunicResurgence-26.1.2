@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:context",
+        "target": "this"
+      },
+      "score": "aea.ench.aegis_repair",
+      "scale": 0.01
+    },
+    "add": true,
+    "conditions": []
+  }
+]

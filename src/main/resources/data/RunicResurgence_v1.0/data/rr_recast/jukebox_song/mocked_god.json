@@ -1,0 +1,12 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "jukebox_song.rr_recast.mocked_god",
+    "fallback": "REANIMATED: The Mocked God",
+    "italic": false
+  },
+  "length_in_seconds": 96,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.reanimated.mocked_god"
+  }
+}

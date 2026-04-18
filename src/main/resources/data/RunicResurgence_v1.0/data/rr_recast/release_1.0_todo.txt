@@ -1,0 +1,57 @@
+For Release v1.0 of RUNIC RESURGENCE:
+
+-- General --
+> Compendium must include all current materials, tools, armor, recipes, and enchantments.
+    <Done> > Enchantments
+    <Done> > Materials
+    <Done> > Tools
+    <Done> > Armor
+    <Done> > Recipes
+<Done> > Add Blessing/Vice books to Necrosculker loot tables.
+<Done> > Alter Necrosculker loot tables so the Enchanted Books it drops can give AA Enchantments too.
+<Done> > Fix AA's Resource Pack icon, and fix all Data Pack icons.
+> Make Arcana Altar craftable with the Runic Manipulation Table, include an entry for the Compendium.
+    > New placement for Altar using this dropped item
+    > Removal of table using a Stick
+> Implement more Advancements.
+    > One for obtaining a full Tenebrium equipment set. [Tenebrium Titan]
+    > One for holding an Arcana Altar. [Expanding The Enchanting]
+    > One for killing something using Pressure. [Pushing Down On You]
+    > One for mining a Havenite Meteor. [Pennies From Heaven]
+    > One for
+(Optional)> Comprehensive Feature List, not necessary as this can be replaced with a description on Modrinth/Curseforge pages
+> Take some screenshots of the features! WITH AND WITHOUT SHADERS
+
+>> [LAST ITEM] > Clean the entirety of all data packs and resource packs, only keep what is necessary on release.
+
+
+-- Runic Resurgence --
+<Done> > Fix current implementation of the Ancient Crypt arena so it is placed in the Deep Dark like before.
+    <Done> > Make Loot Tables for the Pots inside of the arena.
+    <Done> > Re-enable music for the Ancient Crypt (playing Sinking Feeling instead of Cryptic)
+<Done> > Modify Havenite Meteors to fall at (slightly) random downward angles and add some particle effects to them. It's a METEOR, not a cube.
+<Done> > Recipes must be created and completed for all Dark Hearts, Tenebrium set, and other items.
+    <Done> > Tenebrium Weapons must carry over their original weapon's Enchantments, Custom Name, and stuff like that.
+> Fix music for low and mid-tier Necrosculkers
+> Optimize boss functions for mid-tier Necrosculkers
+> Implement Knowledge Fragments and Dust of Knowledge
+> Make Music Discs for Sinking Feeling [Sculk Essence], Deep Trouble [Warden Flesh], DT Hard [Deep Dark Core], and DT Void [Deep Dark Crest]
+(Optional)> A Crypt Gateway structure to be completed (a cross-shaped set of hallways with the Gateway in the center) to be placed in the Deep Dark for the Crypt.
+
+
+-- Arcana Altar --
+<Done> > Add Pin enchantment to the Arcana Altar
+<Done> > Remove Recursion form the Arcana Altar, as it is now a Blessing.
+<Done> > Implement one or more Vice(s) for the Bow, so that Recursion may be implemented as a Blessing.
+> Rename/refactor Gift of Gravity to Weightless
+> Include new functionality for Arcana Altar that makes it work properly with Bookshelf amount.
+    > Pick between:
+        - Reduced XP Costs for higher bookshelf amount (for above 64 bookshelves)
+        - Limit enchantment selections depending on bookshelf amount (second best option)
+        - Limit enchantment max levels depending on bookshelf amount (best option)
+        - Outright disable table until max bookshelf amount (temporary emergency solution)
+
+
+-- Lifeline --
+<Done> > Add Mount Health and Armor values to SBHP if riding a mount (horse, donkey, mule, camel, happy ghast, etc.)
+<Done> > Make Health Potions work with new Health system

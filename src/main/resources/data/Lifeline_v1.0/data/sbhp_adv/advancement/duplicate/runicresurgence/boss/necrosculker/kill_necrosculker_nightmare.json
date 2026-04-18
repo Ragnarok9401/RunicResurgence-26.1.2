@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "music_disc_far",
+      "components": {
+        "minecraft:item_model": "rr_recast:boss_item/necrosculker/wrathful_dark_heart"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Not-So-Sweet Dreams",
+      "color": "#5387D6",
+      "italic": false
+    },
+    "description": "Destroy the Nightmare Necrosculker",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "sbhp_adv:duplicate/runicresurgence/boss/necrosculker/kill_necrosculker_elite",
+  "criteria": {
+    "killed_ns": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_challenge"
+  }
+}

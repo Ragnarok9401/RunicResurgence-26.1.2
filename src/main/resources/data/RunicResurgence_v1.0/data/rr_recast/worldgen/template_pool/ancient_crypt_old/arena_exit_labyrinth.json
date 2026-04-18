@@ -1,0 +1,14 @@
+{
+    "name": "rr_recast:ancient_crypt/arena_exit_labyrinth",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "rr_recast:ancient_crypt/arena_exits/arena_exit_labyrinth",
+            "processors": "rr_recast:ancient_crypt_degradation",
+            "projection": "rigid",
+            "override_liquid_settings": "ignore_waterlogging",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

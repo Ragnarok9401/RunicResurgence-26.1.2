@@ -1,0 +1,1 @@
+$clear @s *[custom_data=$(custom_data)] 1

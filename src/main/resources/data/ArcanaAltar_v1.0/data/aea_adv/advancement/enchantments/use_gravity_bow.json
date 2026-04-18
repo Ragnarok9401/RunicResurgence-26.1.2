@@ -1,0 +1,20 @@
+{
+    "parent": "aea_adv:enchantments/enchantments_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{ArenGravityEnch:1}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rr_aea:technical/enchantments/gravity_effect"
+    }
+  }
+  

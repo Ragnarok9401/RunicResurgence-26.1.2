@@ -1,0 +1,1 @@
+$damage @s $(opening_dmg) rr_aea:opening

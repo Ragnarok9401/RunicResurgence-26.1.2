@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple",
+      "count": 1
+    },
+    "title": {
+      "translate": "sbhp.advancemet.dmg_healed_title",
+      "fallback": "Heal Damage",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "translate": "sbhp.advancement.dmg_healed_description",
+      "fallback": "Heal damage with SBHP active",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "score_check": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sbhp.HealthCurr": {
+                "min": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:context",
+                    "target": "this"
+                  },
+                  "score": "sbhp.HPUp1"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:technical/health/dmg_healed"
+  }
+}

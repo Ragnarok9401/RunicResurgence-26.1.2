@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:multishot",
+        "rr_aea:rebound",
+        "rr_aea:tether"
+    ],
+    "replace":false
+}

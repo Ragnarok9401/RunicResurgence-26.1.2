@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "music_disc_far",
+      "components": {
+        "minecraft:item_model": "rr_recast:boss_item/necrosculker/suspicious_dark_heart"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Sculk Scourge",
+      "color": "#5387D6",
+      "italic": false
+    },
+    "description": "Destroy the Necrosculker",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rr_adv:mainline/location/find_ancient_crypt",
+  "criteria": {
+    "killed_ns": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "rr_recast:technical/advancement/mainline/boss/necrosculker/kill_necrosculker"
+  }
+}

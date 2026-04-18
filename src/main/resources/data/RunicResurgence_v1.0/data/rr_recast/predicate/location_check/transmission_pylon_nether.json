@@ -1,0 +1,72 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "contents": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:gilded_blackstone"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:gilded_blackstone"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:gilded_blackstone"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:gilded_blackstone"
+          ]
+        }
+      }
+    }
+  ]
+}

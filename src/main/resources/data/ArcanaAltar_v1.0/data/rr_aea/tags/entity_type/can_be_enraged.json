@@ -1,0 +1,11 @@
+{
+    "values":[
+        "#rr_aea:hostiles",
+        "#rr_aea:neutrals",
+        "minecraft:axolotl",
+        "minecraft:fox",
+        "minecraft:goat",
+        "minecraft:rabbit",
+        "minecraft:strider"
+    ]
+}

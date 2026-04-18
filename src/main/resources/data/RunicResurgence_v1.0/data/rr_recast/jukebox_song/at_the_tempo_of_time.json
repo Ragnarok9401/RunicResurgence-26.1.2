@@ -1,0 +1,12 @@
+{
+  "comparator_output": 6,
+  "description": {
+    "translate": "jukebox_song.rr_recast.at_the_tempo_of_time",
+    "fallback": "At the Tempo of Time",
+    "italic": false
+  },
+  "length_in_seconds": 164,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.deageria"
+  }
+}

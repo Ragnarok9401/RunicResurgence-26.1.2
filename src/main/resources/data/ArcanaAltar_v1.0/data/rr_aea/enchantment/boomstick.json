@@ -1,0 +1,112 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/boomstick_blessing",
+  "anvil_cost": 10,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.boomstick",
+                "fallback": "Boomstick",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "rr_aea:technical/enchantments/boomstick_blessing/apply_random_motion"
+            },
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": {
+                "type": "minecraft:lookup",
+                "values": [
+                  0,
+                  1,
+                  2
+                ],
+                "fallback": 2
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type":"add",
+          "value": {
+            "type": "lookup",
+            "values": [
+              4,
+              5,
+              6
+            ],
+            "fallback": 7
+          }
+        }
+      }
+    ],
+    "minecraft:crossbow_charge_time": {
+      "type": "add",
+      "value": 1.5
+    },
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type":"run_function",
+          "function": "rr_aea:technical/enchantments/boomstick_blessing/kill_arrow"
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "rr_aea:technical/enchantments/boomstick_blessing/reset_damage_cooldown"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": [
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}

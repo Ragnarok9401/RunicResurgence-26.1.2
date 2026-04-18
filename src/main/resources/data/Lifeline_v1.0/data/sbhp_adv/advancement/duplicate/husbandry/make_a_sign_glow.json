@@ -1,0 +1,49 @@
+{
+  "parent": "sbhp_adv:duplicate/husbandry/root",
+  "criteria": {
+    "make_a_sign_glow": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:glow_ink_sac"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.husbandry.make_a_sign_glow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "advancements.husbandry.make_a_sign_glow.title"
+    }
+  },
+  "requirements": [
+    [
+      "make_a_sign_glow"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

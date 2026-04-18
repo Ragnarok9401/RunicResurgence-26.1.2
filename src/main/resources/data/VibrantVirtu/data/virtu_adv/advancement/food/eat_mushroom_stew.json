@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "eat_food": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:mushroom_stew"
+          }
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "text": "You probably shouldn't see this."
+      },
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:mushroom_stew"
+      },
+      "title": {
+        "text": "sbhp.eat_mushroom_stew"
+      },
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "sbhp:technical/health/food/eat_mushroom_stew"
+    },
+    "sends_telemetry_event": true
+  }

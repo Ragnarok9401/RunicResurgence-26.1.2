@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple",
+      "count": 1
+    },
+    "title": {
+      "translate": "sbhp.advancement.take_damage_title",
+      "fallback": "Taken Any Damage",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "translate": "sbhp.advancement.take_damage_description",
+      "fallback": "Take vanilla damage with SBHP active",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "score_check": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "sbhp:technical/health/take_damage"
+  }
+}

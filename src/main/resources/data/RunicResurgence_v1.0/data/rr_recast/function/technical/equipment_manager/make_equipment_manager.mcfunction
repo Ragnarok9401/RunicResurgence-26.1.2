@@ -1,0 +1,9 @@
+# First, check if there is already an existing Equipment Box for the player running the function. If so, move the existing box and return 2
+execute as @s at @s run execute as @e[type=item_display,tag=rr.equipment_manager] if score @s rr.equipment.id = @p rr.equipment.id run function rr_recast:technical/equipment_manager/move_equipment_manager
+execute as @s at @s run execute as @e[type=item_display,tag=rr.equipment_manager] if score @s rr.equipment.id = @p rr.equipment.id run return 2
+
+# If no box exists for this player, check if the block below the player is a Barrel. If so, check if there is already an Equipment Manager Item Display here. If so, return -2 and send a message.
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ barrel[facing=up] unless entity @e[type=item_display,tag=rr.equipment_manager,distance=..0.1] run summon item_display ~ ~ ~ {item:{id:"minecraft:barrier",count:1,components:{item_model:"rr_recast:equipment_manager/equipment_block",item_name:'{"text":"You Shouldn\'t Have This"}'}},item_display:"head",Tags:["rr.equipment_manager","rr.equipment_manager_block"]}
+
+# If no box exists for this player, check if the block below the player is a Barrel. If so, check if there is already an Equipment Manager Item Display here. If not, make a new one and set its data.
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ barrel[facing=up] unless entity @e[type=item_display,tag=rr.equipment_manager,distance=..0.1] run summon item_display ~ ~ ~ {item:{id:"minecraft:barrier",count:1,components:{item_model:"rr_recast:equipment_manager/equipment_block",item_name:'{"text":"You Shouldn\'t Have This"}'}},item_display:"head",Tags:["rr.equipment_manager","rr.equipment_manager_block","RunicUI"],Passengers:[{id:"minecraft:marker",Tags:["RunicUI","RunicUISetup"]}]}

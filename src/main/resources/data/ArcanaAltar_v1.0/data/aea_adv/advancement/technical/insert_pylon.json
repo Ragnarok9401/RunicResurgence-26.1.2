@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "score": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {}
+        },
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:decorated_pot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/nexus/create_pylon"
+  }
+}

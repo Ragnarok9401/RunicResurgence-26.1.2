@@ -1,0 +1,96 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/downpour_blessing",
+  "anvil_cost": 10,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.downpour",
+                "fallback": "Downpour",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "rr_aea:technical/enchantments/downpour_blessing/apply_downpour"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": {
+                "type": "minecraft:lookup",
+                "values": [
+                  0,
+                  1,
+                  2
+                ],
+                "fallback": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}

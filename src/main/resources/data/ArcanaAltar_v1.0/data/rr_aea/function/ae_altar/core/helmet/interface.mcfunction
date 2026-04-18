@@ -1,0 +1,9 @@
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel1] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel2] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_fire_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel3] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_projectile_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel4] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_blast_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel5] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_respiration
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel6] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_aqua_affinity
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel7] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_thorns
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel8] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_unbreaking
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel9] at @s run function rr_aea:ae_altar/core/interface/helmet/helmet_mending

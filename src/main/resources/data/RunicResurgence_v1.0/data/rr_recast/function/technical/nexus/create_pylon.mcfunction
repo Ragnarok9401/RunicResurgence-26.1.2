@@ -1,0 +1,1 @@
+advancement revoke @s only rr_adv:technical/insert_pylon

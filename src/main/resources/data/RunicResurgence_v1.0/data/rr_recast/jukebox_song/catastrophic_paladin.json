@@ -1,0 +1,12 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "jukebox_song.rr_recast.catastrophic_paladin",
+    "fallback": "Catastrophic Paladin",
+    "italic": false
+  },
+  "length_in_seconds": 257,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.paladin"
+  }
+}

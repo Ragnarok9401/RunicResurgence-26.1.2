@@ -1,0 +1,511 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 78
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.deep_dark_bow",
+                  "fallback": "Sculk Bow",
+                  "color": "#3367B6",
+                  "italic": false
+                },
+                "minecraft:item_model": "rr_recast:equipment/weapon/bow/deep_dark_bow",
+                "minecraft:custom_data": {
+                  "rr.custom_bow": true
+                },
+                "minecraft:lore": [
+                  " ",
+                  {
+                    "translate": "text.rr_recast.bow.when_shot",
+                    "fallback": "When Shot:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "text.rr_recast.deep_dark_bow.arrow_speed",
+                    "fallback": "+25%% Arrow Speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "max_damage": 480
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{rr.sharpness_checked:0,rr.sharpness:0,rr.sculk_falchion:1b}",
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.sculk_falchion",
+                  "fallback": "Sculk Falchion",
+                  "color": "#5387D6",
+                  "italic": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "rr_recast:sculk_falction.attack_damage_base",
+                    "amount": 12,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "default"
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "rr_recast:sculk_falction.attack_speed_base",
+                    "amount": -2.6,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " ",
+                        "extra": [
+                          {
+                            "text": "1.4",
+                            "extra": [
+                              {
+                                "text": " ",
+                                "extra": [
+                                  {
+                                    "translate": "attribute.name.attack_speed",
+                                    "fallback": "Attack Speed",
+                                    "italic": false
+                                  }
+                                ],
+                                "italic": false
+                              }
+                            ],
+                            "italic": false
+                          }
+                        ],
+                        "color": "blue",
+                        "italic": false
+                      }
+                    }
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:equipment/weapon/falchion/sculk_falchion",
+                "max_damage": 2643
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 14,
+        "max": 18
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:sculk_catalyst",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sculk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sculk_sensor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:custom_data": "{rr.custom_item:1b,rr.warden_flesh:true}",
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.warden_flesh",
+                  "fallback": "Warden Flesh",
+                  "italic": false
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "rr_recast:mob_drop/warden_flesh",
+                "minecraft:max_stack_size": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.disc_fragment_ancient_crypt",
+                  "fallback": "Ancient Disc Fragment",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.disc_fragment_ancient_crypt.desc",
+                    "fallback": "Music Disc - Cryptic / Deep Trouble",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": "{rr.disc_fragment:1b,rr.disc_fragment.ac:1b}",
+                "minecraft:item_model": "rr_recast:generic/disc_fragment_ancient_crypt",
+                "!minecraft:jukebox_playable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 30
+              },
+              "options": "#rr_recast:ns_enchantment_options"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:custom_data": "{rr.deep_dark_core:1b}",
+                "minecraft:item_model": "rr_recast:mob_drop/deep_dark_core",
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.deep_dark_core",
+                  "fallback": "Deep Dark Core",
+                  "color": "#5387D6",
+                  
+                  "italic": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_model": "rr_recast:knowledge_fragment/necrosculker/fragment_1",
+                "minecraft:custom_data": "{rr.knowledge_fragment:1b,rr.knowledge.necrosculker:1b}",
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.knowledge_fragment",
+                  "fallback": "Knowledge Fragment",
+                  "italic": false
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.desc_1",
+                    "fallback": "Stored Knowledge: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.necrosculker.desc_1",
+                        "fallback": "The Necrosculker",
+                        "color": "#5387D6",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.rr_recast.knowledge_fragment.chapter_1",
+                    "fallback": "Chapter 1 - ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.knowledge_fragment.necrosculker.desc_2",
+                        "fallback": "Intro to Darkness",
+                        "color": "#4672b4",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.vitality_essence",
+                  "fallback": "Vitality Essence",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:item_model": "rr_recast:generic/vitality_essence",
+                "minecraft:custom_data": "{rr.vitality_essence:1b}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

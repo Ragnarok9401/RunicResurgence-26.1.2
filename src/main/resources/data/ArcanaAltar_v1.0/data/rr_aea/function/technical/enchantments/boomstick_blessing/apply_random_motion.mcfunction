@@ -1,0 +1,2 @@
+execute as @n[type=arrow,distance=..4,tag=!ArenBoomstickChecked,nbt=!{inGround:true}] at @s run function rr_aea:technical/enchantments/boomstick_blessing/random_motion
+execute as @n[type=arrow,distance=..4,tag=!ArenBoomstickChecked,nbt=!{inGround:true}] at @s run tag @s add ArenBoomstickChecked

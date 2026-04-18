@@ -1,0 +1,12 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "translate": "jukebox_song.rr_recast.universe",
+    "fallback": "U N I V E R S E",
+    "italic": false
+  },
+  "length_in_seconds": 251,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.universe"
+  }
+}

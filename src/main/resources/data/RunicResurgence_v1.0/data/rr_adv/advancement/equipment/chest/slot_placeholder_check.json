@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "chest_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat",
+            "predicates": {
+              "minecraft:custom_data": {
+                "rr.equipment.placeholder": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:equipment/chest/set_all_slot_placeholders"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "sbhp_adv:duplicate/nether/summon_wither",
+  "criteria": {
+    "beacon": {
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.nether.create_beacon.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.nether.create_beacon.title"
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_hard"
+  },
+  "sends_telemetry_event": false
+}

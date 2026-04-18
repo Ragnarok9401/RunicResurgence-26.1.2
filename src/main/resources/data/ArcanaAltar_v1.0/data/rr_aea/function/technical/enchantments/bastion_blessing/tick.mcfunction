@@ -1,0 +1,4 @@
+execute if score @s aea.ench.bastion_token matches 1.. at @e[distance=..40,tag=rr.aura.paladin_pylon,type=item_display] unless score @n[distance=..0.1,tag=rr.aura.paladin_pylon,type=item_display] rr.system.pid = @s rr.system.pid at @s run function rr_aea:technical/enchantments/bastion_blessing/summon with storage rr_recast:global spells.paladin_pylon.aura.display
+execute if score @s aea.ench.bastion_token matches 1.. unless entity @e[distance=..40,tag=rr.aura.paladin_pylon,type=item_display] run function rr_aea:technical/enchantments/bastion_blessing/summon with storage rr_recast:global spells.paladin_pylon.aura.display
+
+advancement revoke @s only aea_adv:enchantments/bastion_blessing/use

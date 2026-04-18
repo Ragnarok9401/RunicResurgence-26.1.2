@@ -1,0 +1,48 @@
+{
+  "description": {
+    "translate": "enchantment.aea.extension",
+    "fallback": "Extension",
+    "color": "gray"
+  },
+  "exclusive_set": [
+  ],
+  "supported_items": "#rr_aea:chestplates",
+  "weight": 2,
+  "max_level": 4,
+  "min_cost": {
+    "base": 6,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "rr_aea:extension_block_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "rr_aea:extension_entity_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

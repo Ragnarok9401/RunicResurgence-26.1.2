@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "activate_knowledge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks",
+            "components": {
+              "minecraft:item_model": "rr_recast:knowledge_fragment/necrosculker/fragment_3"
+            },
+            "predicates": {
+              "minecraft:custom_data": "{rr.knowledge_fragment:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/knowledge_fragment/necrosculker/claim_fragment_3"
+  }
+}

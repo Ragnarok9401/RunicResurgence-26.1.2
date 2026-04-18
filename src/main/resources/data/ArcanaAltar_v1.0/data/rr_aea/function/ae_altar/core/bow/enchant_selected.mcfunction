@@ -1,0 +1,15 @@
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel1,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_power
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel2,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_punch
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel3,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_flame
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel4,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_infinity
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel5,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_pin
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel6,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_multishot
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel7,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_piercing
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel8,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_gravity
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel9,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_tether
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel10,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_rebound
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel11,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel12,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_mending
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel13,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/enchantment_not_enabled
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel14,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/enchantment_not_enabled
+execute as @n[type=marker,tag=ArenAEABowSel,tag=ArenAEABowSel15,tag=!ArenAEABowSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/bow/bow_enchant_selected_awakened

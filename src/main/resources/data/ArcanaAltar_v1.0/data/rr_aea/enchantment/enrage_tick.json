@@ -1,0 +1,65 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "text": "",
+    "color": "green",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.technical_icon",
+        "fallback": "✔",
+        "color": "green",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "green",
+            "strikethrough": false,
+            "extra": [
+              {
+                "text": "Enraged",
+                "color": "green"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "minecraft:command_block",
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "periodic_tick": 10
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/enraging_vice/enraged_tick"
+        }
+      }
+    ]
+  }
+}

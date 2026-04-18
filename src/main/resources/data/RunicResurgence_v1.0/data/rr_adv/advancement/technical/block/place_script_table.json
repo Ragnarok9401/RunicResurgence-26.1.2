@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "place_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:silverfish_spawn_egg",
+            "predicates": {
+              "minecraft:custom_data": {
+                "rr.block": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/block/scriptscrying_table/test_valid_placement"
+  },
+  "sends_telemetry_event": false
+}

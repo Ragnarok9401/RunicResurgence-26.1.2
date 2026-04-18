@@ -1,0 +1,9 @@
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel1,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_protection
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel2,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_fire_protection
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel3,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_projectile_protection
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel4,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_blast_protection
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel5,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_thorns
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel6,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel7,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_mending
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel8,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_enlarge
+execute as @n[type=marker,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel9,tag=!ArenAEAChestplateSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/chestplate/chestplate_enchant_selected_shrink

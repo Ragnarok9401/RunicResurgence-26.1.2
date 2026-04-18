@@ -1,0 +1,2 @@
+execute as @s[tag=rr.cutscene.initialized,scores={rr.system.cutscene_index=..1}] at @s run tellraw @s [{"text":"You feel the pointed hands of fate turn to you...","color":"dark_purple","italic":true}]
+scoreboard players set @s[scores={rr.system.cutscene_index=..1}] rr.system.cutscene_index 2

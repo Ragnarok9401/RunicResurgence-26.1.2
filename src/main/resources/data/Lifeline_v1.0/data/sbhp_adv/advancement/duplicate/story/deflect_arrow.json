@@ -1,0 +1,44 @@
+{
+  "parent": "sbhp_adv:duplicate/story/obtain_armor",
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          },
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.story.deflect_arrow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "advancements.story.deflect_arrow.title"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

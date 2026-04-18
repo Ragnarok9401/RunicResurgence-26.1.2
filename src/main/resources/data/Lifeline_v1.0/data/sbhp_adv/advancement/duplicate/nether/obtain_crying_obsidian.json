@@ -1,0 +1,38 @@
+{
+  "parent": "sbhp_adv:duplicate/nether/root",
+  "criteria": {
+    "crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.nether.obtain_crying_obsidian.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "advancements.nether.obtain_crying_obsidian.title"
+    }
+  },
+  "requirements": [
+    [
+      "crying_obsidian"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

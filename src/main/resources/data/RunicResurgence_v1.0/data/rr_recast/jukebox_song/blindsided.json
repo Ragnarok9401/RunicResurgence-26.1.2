@@ -1,0 +1,12 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.rr_recast.blindsided",
+    "fallback": "Blindsided",
+    "italic": false
+  },
+  "length_in_seconds": 232,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.blindsided"
+  }
+}

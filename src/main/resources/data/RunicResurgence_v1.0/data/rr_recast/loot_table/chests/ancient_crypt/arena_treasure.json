@@ -1,0 +1,130 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 8,
+          "max": 14
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:echo_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:disc_fragment_5"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "min": 15,
+                  "max": 45
+                },
+                "options": "#rr_recast:ns_enchantment_options"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:long_night_vision"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 12,
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 12,
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_healing"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 10
+                }
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:custom_data": "{rr.custom_item:1b,rr.warden_flesh:true}",
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.warden_flesh",
+                  "fallback": "Warden Flesh",
+                  "italic": false
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "rr_recast:mob_drop/warden_flesh",
+                "minecraft:max_stack_size": 64
+              }
+            }
+          ]
+        }
+        ]
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 45
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ward_armor_trim_smithing_template",
+            "weight": 11
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:silence_armor_trim_smithing_template",
+            "weight": 4
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+}

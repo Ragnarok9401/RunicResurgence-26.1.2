@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:enchanted_item",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "stored_enchantments": {
+                  "rr_aea:titanism": 1,
+                  "rr_aea:enraging": 1
+                },
+                "custom_data": {
+                  "aea.blessing_book": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "stored_enchantments": {
+                  "rr_aea:reverberation": 1,
+                  "rr_aea:enraging": 1
+                },
+                "custom_data": {
+                  "aea.blessing_book": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "rr_aea:reverberation_level_increase"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "stored_enchantments": {
+                  "rr_aea:reverberation": 1,
+                  "rr_aea:windbroken": 1
+                },
+                "custom_data": {
+                  "aea.blessing_book": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "rr_aea:reverberation_level_increase"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "rr_aea:reverberation": 1
+                },
+                "custom_data": {
+                  "aea.blessing_book": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "rr_aea:reverberation_level_increase"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "rr_aea:titanism": 1
+                },
+                "custom_data": {
+                  "aea.blessing_book": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function":"set_components",
+      "components": {
+        "item_name": {"text":"Blessed Book","color":"dark_purple","italic":false}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @s[scores={rr.system.cutscene_index=1}] at @s run function rr_recast:cutscene/world_intro/day_1

@@ -1,0 +1,45 @@
+{
+  "parent": "sbhp_adv:duplicate/husbandry/tame_an_animal",
+  "criteria": {
+    "remove_wolf_armor": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor"
+        }
+      },
+      "trigger": "minecraft:player_sheared_equipment"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.husbandry.remove_wolf_armor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "advancements.husbandry.remove_wolf_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "remove_wolf_armor"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

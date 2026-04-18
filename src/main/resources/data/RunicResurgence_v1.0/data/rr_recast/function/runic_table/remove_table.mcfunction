@@ -1,0 +1,12 @@
+execute as @n[type=item_display,tag=rr.runic_table.main,distance=..0.5] at @s run summon item ~ ~0.35 ~ {Item:{"id": "minecraft:music_disc_blocks","components": {"!minecraft:jukebox_playable": {},"minecraft:item_name": {"translate": "block.rr_recast.runic_table","fallback": "Runic Crafting Table","italic": false},"minecraft:lore":[{"translate": "block.rr_recast.runic_table.desc_1","fallback": "Must be powered by Havenite Meteor","color": "gray","italic": false},{"translate": "block.rr_recast.runic_table.desc_2","fallback": "Chunks to work. Throw item on","color": "gray","italic": false},{"translate": "block.rr_recast.runic_table.desc_3","fallback": "the ground to place. Fuel slot is","color": "gray","italic": false},{"translate": "block.rr_recast.runic_table.desc_4","fallback": "on the front of the block","color": "gray","italic": false}],"minecraft:custom_data": "{rr.runic_table:true,rr.runic_table.inactive:true}","minecraft:item_model": "rr_recast:block/runic_table/runic_table_inactive","minecraft:max_stack_size": 64},"count": 1},Tags:["rr.runic_table.item"]}
+execute as @n[type=item_display,tag=rr.runic_table.main,distance=..0.5] at @s align xyz positioned ~0.5 ~1 ~0.5 run execute as @e[type=interaction,distance=..0.5,tag=rr.runic_table.slot,limit=9] at @s if entity @n[type=item_display,distance=..0.1,tag=rr.runic_table.item] run function rr_recast:runic_table/clear_slots
+execute as @n[type=item_display,tag=rr.runic_table.main,distance=..0.5] at @s align xyz positioned ~0.5 ~1 ~0.5 run execute as @e[type=interaction,distance=..0.5,tag=rr.runic_table.slot,limit=9] at @s run kill @s
+execute as @n[type=item_display,tag=rr.runic_table.main,distance=..0.5] at @s align xyz positioned ~0.5 ~1.9375 ~0.5 run execute as @e[distance=..0.5,tag=rr.runic_table.preview] at @s run kill @s
+execute as @n[type=item_display,tag=rr.runic_table.main,distance=..0.5] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run kill @n[type=item_display,distance=..0.5,tag=rr.runic_table.main]
+setblock ~ ~ ~ air
+
+playsound minecraft:block.stone.break block @a[distance=..20] ~ ~ ~ 0.8 0.9 0
+playsound minecraft:block.amethyst_block.break block @a[distance=..20] ~ ~ ~ 0.8 0.9 0
+playsound minecraft:block.trial_spawner.close_shutter block @a[distance=..20] ~ ~ ~ 0.8 0.75 0
+
+kill @s

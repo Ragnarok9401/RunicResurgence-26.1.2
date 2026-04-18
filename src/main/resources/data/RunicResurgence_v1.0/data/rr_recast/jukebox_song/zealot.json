@@ -1,0 +1,12 @@
+{
+  "comparator_output": 7,
+  "description": {
+    "translate": "jukebox_song.rr_recast.zealot",
+    "fallback": "Zealot of the Night Sky",
+    "italic": false
+  },
+  "length_in_seconds": 140,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.zealot"
+  }
+}

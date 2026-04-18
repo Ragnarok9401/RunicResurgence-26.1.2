@@ -1,0 +1,12 @@
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel1,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_sharp
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel2,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_smite
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel3,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_boa
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel4,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_knock
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel5,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_fire
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel6,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_looting
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel7,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_sweeping
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel8,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_echo
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel9,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_fervor
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel10,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel11,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_mending
+execute as @n[type=marker,tag=ArenAEASwordSel,tag=ArenAEASwordSel12,tag=!ArenAEASwordSelComplete,distance=..10] at @s run function rr_aea:ae_altar/core/ench_select/sword/sword_enchant_selected_maul

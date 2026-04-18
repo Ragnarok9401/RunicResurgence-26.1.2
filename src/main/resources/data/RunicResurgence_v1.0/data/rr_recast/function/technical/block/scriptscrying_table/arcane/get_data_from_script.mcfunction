@@ -1,0 +1,2 @@
+$data modify entity @s data.minigame set value $(minigame)
+$data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text set value $(display_text)

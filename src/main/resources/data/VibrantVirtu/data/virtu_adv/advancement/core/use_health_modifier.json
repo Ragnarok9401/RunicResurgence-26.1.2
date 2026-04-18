@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gold_nugget",
+        "components": {
+          "minecraft:item_model": "sbhp:health_modifier"
+        },
+        "count": 1
+      },
+      "title": {
+        "text": "Use Health Modifier",
+        "bold": false,
+        "italic": false
+      },
+      "description": {
+        "text": "You probably shouldn't see this. Use /trigger sbhp:reset_core_advancements to fix this!",
+        "bold": false,
+        "italic": false
+      },
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:gold_nugget",
+            "predicates": {
+              "minecraft:custom_data": {"sbhp.debug_item":true,"sbhp.health_modifier":true}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sbhp:debug/health_modifier"
+    }
+  }

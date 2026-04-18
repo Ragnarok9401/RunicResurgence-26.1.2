@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_iron": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:iron_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_recast:item/equipment/weapon/tomahawk/iron_tomahawk"
+      ]
+    }
+  }
+  

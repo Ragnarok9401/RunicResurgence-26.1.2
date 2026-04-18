@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.reverberation",
+                "fallback": "Reverberation",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 34,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1
+}

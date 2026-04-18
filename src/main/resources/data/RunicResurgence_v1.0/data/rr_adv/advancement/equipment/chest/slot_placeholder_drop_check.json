@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "chest_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:equipment/chest/set_all_slot_placeholders"
+  }
+}

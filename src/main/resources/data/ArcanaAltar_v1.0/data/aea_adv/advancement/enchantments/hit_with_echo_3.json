@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone"
+    },
+    "title": {
+      "text": "Echo III",
+      "color": "white",
+      "italic": false
+    },
+    "description": {
+      "text": "Unless you used a command to get advancements, you shouldn't see this. But it won't affect anything if you do! Just let me know, please :)",
+      "italic": false
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "hurt_with_echo_3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "items": "#minecraft:swords",
+                  "predicates": {
+                    "minecraft:custom_data": "{ArenEchoEnch:3}"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.12
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/echo/echo3"
+  }
+}

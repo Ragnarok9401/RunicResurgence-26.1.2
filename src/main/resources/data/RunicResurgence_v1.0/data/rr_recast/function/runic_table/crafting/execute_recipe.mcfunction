@@ -1,0 +1,1 @@
+$execute positioned ~ ~-0.5 ~ as @n[type=item_display,tag=rr.runic_table.main,distance=..1.5] at @s run function $(path)

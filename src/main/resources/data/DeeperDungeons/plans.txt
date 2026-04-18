@@ -1,0 +1,32 @@
+Deeper Dungeons:
+    Overall:
+        Use dds as the namespace
+        Use dds.tag_name.tag_extension as tagging convention
+        Use dds.category.score_name as scoreboard naming convention
+        Structure Templates always place at the base of the northwest corner of the total volume
+            (That's furthest -x and furthest -z)
+        Rotation applies to structure placement axes as follows:
+            clockwise_90 = northeast corner
+            180 = southeast corner
+            counterclockwise_90 = southwest
+        Remember how "^" works with placement:
+            First = left/right, positive/negative
+            Second = up/down, positive/negative (duh)
+            Third = forward/backward, positive/negative (duh)
+
+    Structure Prodding feature:
+        Create a convention so that future packs or structures can work with this feature
+            Use dds.marker.prod to denote a marker is meant for prodding ONLY, and will be cleared later
+            Use dds.marker.prod_location to denote relative prodding location in the structure
+    
+    Dynamic Structures feature:
+        Create a convention so that future packs or structures can work with this feature
+            Use dds.marker to denote that this marker is part of the structure, used to prevent other structure pieces from generating here if prodding finds this
+            Use dds.marker.location to denote relative position in the structure, also for calling later structure placements and checking for others around
+        Create a Structures data list that encodes different data about a structure set
+
+    For Ancient Crypt Testing:
+    place template dds:crypt_test/arena_exits/arena_exit_labyrinth ^3 ^-1 ^1 none none 1 0 strict for all hallways facing North
+    place template dds:crypt_test/arena_exits/arena_exit_labyrinth ^3 ^-1 ^1 clockwise_90 none 1 0 strict for all hallways facing East
+    place template dds:crypt_test/arena_exits/arena_exit_labyrinth ^3 ^-1 ^1 180 none 1 0 strict for all hallways facing South
+    place template dds:crypt_test/arena_exits/arena_exit_labyrinth ^3 ^-1 ^1 counterclockwise_90 none 1 0 strict for all hallways facing West

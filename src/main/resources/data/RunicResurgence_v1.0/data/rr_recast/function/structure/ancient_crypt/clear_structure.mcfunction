@@ -1,0 +1,2 @@
+execute in rr_recast:otherworld as @e[type=marker,tag=rr.structure_marker.ancient_crypt,distance=..2000000] at @s run fill ^-20 ^-1 ^-20 ^20 ^20 ^20 air
+execute in rr_recast:otherworld as @e[type=marker,tag=rr.structure_marker.ancient_crypt,distance=..2000000] at @s run kill @s

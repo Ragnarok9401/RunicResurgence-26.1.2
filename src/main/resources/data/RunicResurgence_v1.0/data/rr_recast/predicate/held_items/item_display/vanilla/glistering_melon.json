@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "slots": {
+        "contents": {
+          "items": "minecraft:glistering_melon_slice",
+          "count": 1
+        }
+      }
+    }
+  }
+  

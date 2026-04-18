@@ -1,0 +1,9 @@
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel1,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_protection
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel2,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_fire_protection
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel3,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_projectile_protection
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel4,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_blast_protection
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel5,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_respiration
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel6,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_aqua_affinity
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel7,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_thorns
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel8,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEAHelmetSel,tag=ArenAEAHelmetSel9,tag=!ArenAEAHelmetSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/helmet/helmet_enchant_selected_mending

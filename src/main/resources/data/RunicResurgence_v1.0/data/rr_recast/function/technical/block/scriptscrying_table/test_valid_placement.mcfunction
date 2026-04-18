@@ -1,0 +1,9 @@
+# Catch invalid block placement, return block
+execute as @n[distance=..30,tag=rr.block.scriptscrying_table.init,type=silverfish] at @s align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #rr_recast:spell_passable run function rr_recast:technical/block/scriptscrying_table/fail_placement {"text":"The Scriptscrying Table cannot be placed in this position. Please make sure the area you are trying to place the block in is clear."}
+execute as @n[distance=..30,tag=rr.block.scriptscrying_table.init,type=silverfish] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #rr_recast:spell_passable if entity @n[distance=..6,tag=rr.block.scriptscrying_table.main,type=item_display] run function rr_recast:technical/block/scriptscrying_table/fail_placement {"text":"The Scriptscrying Table cannot be placed in this position. This position is too close to another Scriptscrying Table."}
+execute as @n[distance=..30,tag=rr.block.scriptscrying_table.init,type=silverfish] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #rr_recast:spell_passable if entity @n[distance=0.51..6,tag=rr.block.scriptscrying_table.init,type=silverfish] run function rr_recast:technical/block/scriptscrying_table/fail_placement {"text":"The Scriptscrying Table cannot be placed in this position. This position is too close to another Scriptscrying Table."}
+
+# If block placement valid, place Scriptscrying Table and Interactions
+execute as @n[distance=..30,tag=rr.block.scriptscrying_table.init,type=silverfish] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #rr_recast:spell_passable unless entity @n[distance=..6,tag=rr.block.scriptscrying_table.main,type=item_display] unless entity @n[distance=0.51..6,tag=rr.block.scriptscrying_table.init,type=silverfish] run function rr_recast:technical/block/scriptscrying_table/succeed_placement
+
+advancement revoke @s only rr_adv:technical/block/place_script_table

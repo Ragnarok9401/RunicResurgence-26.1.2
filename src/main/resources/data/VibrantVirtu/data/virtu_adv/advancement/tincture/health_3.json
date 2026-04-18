@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "score": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{sbhp.tincture:1b,sbhp.tincture.healing:3}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:technical/tincture/health_3"
+  }
+}

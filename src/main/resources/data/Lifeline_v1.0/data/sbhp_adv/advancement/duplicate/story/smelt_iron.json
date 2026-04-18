@@ -1,0 +1,38 @@
+{
+  "parent": "sbhp_adv:duplicate/story/upgrade_tools",
+  "criteria": {
+    "iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.story.smelt_iron.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.smelt_iron.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  },
+  "sends_telemetry_event": false
+}

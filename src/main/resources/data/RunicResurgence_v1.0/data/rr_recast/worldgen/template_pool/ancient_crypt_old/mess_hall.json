@@ -1,0 +1,17 @@
+{
+    "name": "rr_recast:ancient_crypt/mess_hall",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "rr_recast:ancient_crypt/rooms/mess_hall",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "rr_recast:ancient_crypt_degradation"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,247 @@
+Make Vices/Blessings, random chance to negate/boost stats on items/enchanted items
+Make Phantom Tablets that are one-off upgraded versions of current tablet (higher level spells, faster cast times, less cooldown, etc.) (for Runic Resurgence)
+Make Altercation Altar, remove Curses and/or add Blessings (possibly as an upgrade to the Arcane Altar, Arcane Alter Altar?)
+
+
+- Shield:
+>> Enchantments:
+  ✔ Aegis [III]
+        When blocking any instance of damage, repair the shield
+        by a small, fixed amount. This allows weak hits to steadily
+        repair the shield without Mending, and reduces the brutal
+        durability loss with stronger attacks.
+    Backburner [V]
+        Blocking an instance of damage causes a % of that damage to
+        be dealt to creatures behind the blocker, at a rate of 25% of
+        blocked damage per level (up to 125%)
+
+>>  Blessings:
+  ✔ Blessing of Pressure
+        When blocking, steadily damage EVERYTHING in a small
+        range around the blocker, including the user.
+        Damage accelerates over time while blocking,
+        resets when the user stops. User takes reduced damage.
+    Blessing of Wisdom
+        When blocking, gain a small amount of XP when an instance
+        of damage is negated.
+  ✔ Blessing of Foresight
+        When blocking, gain a tiny window of time that causes
+        the user to gain a small burst of Haste and Speed if
+        damage is blocked.
+    Blessing of Reflection
+        When blocking an arrow, take a small amount of damage
+        and send the arrow back in the opposite direction at
+        twice its velocity.
+    Blessing of the Chakram [III]
+        When sneaking, block to throw the shield a certain
+        distance away, damaging and slowing entities in its
+        path. Also damages and slows on its return path, but
+        slightly less. Places shields on a small cooldown.
+    Blessing of the Paladin
+        On blocking a hit that deals above a certain threshold of
+        damage, instantly summon a Paladin Pylon spell at the user's
+        location. The Pylon is capable of absorbing damage equal to
+        half of a normal Pylon, including the user's Spellcasting
+        modifiers. On summon, the shield takes a considerable amount
+        of Durability damage. Or, if Unbreakable, the Pylon's health
+        is reduced further to 25% of normal.
+  ✔ Blessing of the Bastion
+        When taking damage below half health (not blocked),
+        summon a much smaller Paladin's Pylon spell with less
+        health and lifespan. The ability only functions once
+        every two minutes. When activated, the held shield takes
+        considerable durability damage, or, if unbreakable, the
+        Paladin's Pylon itself can absorb less damage before
+        expiring. The Pylon itself cannot be modified by
+        Spellcrafting modifications (i.e. armor buffs, enchantments
+        or the like)
+
+>>  Vices:
+  ✔ Vice of Lead
+        When blocking, become unable to move.
+    Vice of Mishandling
+        When blocking, shield slowly takes durability damage.
+    Vice of Consuming
+        When blocking, become inflicted with Hunger.
+  ✔ Vice of Opening
+        When blocking an instance of damage, half of the
+        blocked damage punctures through the shield.
+  ✔ Vice of Distraction
+        When blocking, all damage dealt to the user (that isn't
+        from Pressure, Reflection, or outright blocked) is
+        increased by 33%.
+    Vice of Crumbling
+        Shield loses a % of its protectiveness on block,
+        refreshes when put down. Adds a forced 1 second
+        cooldown minimum.
+
+
+- Armor:
+>> Enchantments: 
+  ✔ Extension [IV] (Chestplates)
+        Extends Block and Entity Reach by 0.5
+        Blocks per level.
+
+>>  Blessings: 
+  ✔ Blessing of Wanderlust (boots)
+        Allows the user to track all blocks stepped on.
+        More items under this list grant bonuses to
+        various stats.
+    Blessing of the Launch (elytra)
+        Jumping in midair for the first time will cause
+        a Wind Charge explosion beneath the user's feet and
+        a little bit behind them to push them up and forward.
+    Blessing of Acceleration (boots)
+        While sprinting, increase movement speed steadily. The
+        acceleration is stopped instantly when running is
+        halted for any reason.
+    Blessing of Glide (chestplate, NOT elytra)
+        Allows the item to function as an Elytra
+    Blessing of Clarity (helmet)
+        All negative status effects last half as long
+    Blessing of Second Wind (leggings)
+        Gain a second jump that can be used in midair. The
+        strength of the jump is relative to how long the
+        Jump key is held during the first jump.
+
+>>  Vices:
+    Vice of Encumbering (any)
+        Having enough types of items in the player's
+        inventory will cause them to become slow. Having
+        more instances of this Vice amplifies the
+        effects' strength, or how early they apply.
+    Vice of Heaviness (any)
+        Increases user's gravity, lowers their fall
+        damage tolerance, and increases fall damage.
+    Vice of Stiffness (any) [III]
+        Chance to receive Mining Fatigue when damaged. A higher
+        level of Stiffness translates to a *LOWER* chance of
+        receiving the debuff.
+  ✔ Vice of Exhaustion (boots)
+        Running for extended periods of time causes a
+        moderate slowing effect and hunger. Effect stacks
+        over time, eventually leading to a complete
+        standstill. While not running, the effect dissipates
+        at a moderate rate.
+            Note: May NOT apply with Acceleration Blessing
+
+
+- Bows:
+>>  Enchantments:
+    Tether (reworked) [VI]
+        Low levels of Tether reduce the speed of
+        arrows fired, but level 6 (max level) brings
+        the arrow back up to normal speed.
+
+>>  Blessings:
+    Blessing of Multitude [II]
+        Fires four additional arrows at slightly
+        shallower/wider angles than Multishot.
+    Blessing of the Spellslinger
+        Instead of arrows, fires a Magic Bolt, which
+        is affected by all current spell-modifying
+        equipment. The bolt also has slightly higher
+        damage and speed than normal by default.
+    Blessing of Pulse
+        When arrows land, deal a small amount of damage
+        and create a Wind Charge explosion.
+  ✔ Blessing of Recursion [III]
+        Firing an arrow creates X exact duplicates of
+        that arrow, offset by a small amount of time.
+    Blessing of Drillshot
+        Turns arrows into burrowing machines, breaking
+        several blocks before finally expiring. Hitting
+        an entity deals heightened damage over time, but
+        immediately removes the arrow. Piercing and Rebound
+        change to increase the number of blocks broken or
+        the damage dealt to entities. Each block broken
+        takes away from the amount of damage dealt to an
+        entity.
+    Blessing of Toxin
+        Entities hit begin taking severe damage over time,
+        but cannot die from the DOT (with some exceptions).
+    Blessing of the Machine
+        Charging the bow or crossbow for long enough causes
+        a steady stream of arrows to fire. The arrows may not
+        be Crit arrows, nor may they apply Rebound, Multishot,
+        Pin, or Piercing enchantments from the bow they fired
+        from. The arrows disappear on landing.
+    Blessing of Dialation
+        Arrows fired begin their arc slowly, but gradually
+        gain speed. Maximum speed is ridiculous but requires
+        a very large travel distance. As a tradeoff, arrows
+        fired lose the effects of Pin and deal vastly higher
+        knockback. Firing an arrow while Sneaking disables
+        Dialation.
+    Blessing of Wavemaker [III]
+        Arrows fired under water or that travel into
+        water move much more rapidly than normal.
+        These arrows also accelerate up to a max
+        speed determined by the level of the enchantment.
+
+>>  Vices:
+    Vice of Backfire
+        Small chance to reverse arrow velocity when
+        firing.
+    Vice of the Deadeye
+        If an arrow lands on the ground and has not
+        hit an entity, damage the owner a small amount.
+    Vice of the Loose
+        Arrows shot have their velocity changed slightly,
+        decreasing accuracy over long distances.
+  ✔ Vice of Unrest
+        Firing the bow rapidly without enough of a break
+        between shots causes the user to grow nauseous
+        and hungry. This also damages the bow more if it
+        isn't already unbreakable.
+  ✔ Vice of Straining
+        Drawing the bow for too long causes nausea and damages
+        the user an increasing amount.
+    
+
+
+- Sharp Weapons:
+>>  Blessings:
+    Blessing of Unsheath
+        When swapping to this weapon, deal a mild amount
+        of damage to nearby entities relative to the weapon's
+        damage. Also briefly stun entities nearby.
+    Blessing of the Armada
+        Having more entities/players nearby causes the
+        weapon to deal more damage. For each nearby entity
+        or player, not including the user, the damage dealt
+        increases by 5%.
+  ✔ Blessing of Titanism
+        Weilding this weapon encumbers the user greatly but
+        grants a powerful damage buff. The user can only
+        move at 20% of their total ability and outright
+        loses the ability to jump while active. Additionally,
+        a forced attack delay is applied after each attack.
+  ✔ Blessing of Reverberation [III]
+        A modifier for Echo which causes the summoned cloud
+        to deal a % of weapon damage instead of a flat number.
+        Percentage is equal to 8 * Reverberation level. If the
+        stored damage is less than what would be dealt without
+        Reverberation, the default damage is used instead.
+        Finally, Echo clouds summoned using Reverberation are
+        stationary.
+
+>>  Vices:
+    Vice of the Clumsy
+        Occasionally damage the user by a small
+        amount relative to the weapon's damage when
+        attacking.
+    Vice of Dullness
+        Lower durability causes the weapon to deal
+        less damage, unless the tool is Unbreakable.
+        If so, the user receives a small Weakness
+        effect after a number of consecutive attacks.
+    Vice of Enraging
+        Enemies hit by this weapon grow a little faster
+        and stronger permanently, additively stacking
+        with each hit received.
+  ✔ Vice of Windbroken
+        Echo clouds summoned lose strength as they travel
+        or damage entities. For each tick of movement, the
+        cloud loses 2.5% of movement speed. For every tick
+        of damage, the cloud loses 10% of damage next attack.

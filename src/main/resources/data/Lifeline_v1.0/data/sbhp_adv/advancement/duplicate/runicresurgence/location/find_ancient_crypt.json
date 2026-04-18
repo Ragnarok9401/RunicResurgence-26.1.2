@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "white",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:half_horizontal"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:skull"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:flower"
+          },
+          {
+            "color": "blue",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:straight_cross"
+          }
+        ]
+      }
+    },
+    "title": "Blight and Fright",
+    "description": "Locate an Ancient Crypt, where death looms and Sculk blooms.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "sbhp_adv:duplicate/runicresurgence/root",
+  "criteria": {
+    "locate_ancient_crypt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "rr_recast:ancient_crypt"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_hard"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_paper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:glowstone_dust"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "sbhp:item/moderate_healing_tincture"
+      ]
+    }
+  }
+  

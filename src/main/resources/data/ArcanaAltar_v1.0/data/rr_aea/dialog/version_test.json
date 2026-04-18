@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "text": "[Old] ",
+    "extra": [
+      {
+        "text": "Version 0.1",
+        "color": "white"
+      }
+    ],
+    "color": "gray"
+  },
+  "title": {
+    "text": "[Old] ",
+    "extra": [
+      {
+        "text": "Version 0.1: ",
+        "extra": [
+          {
+            "text": "The Arcane Enchanting Altar",
+            "color": "light_purple"
+          }
+        ],
+        "color": "white"
+      }
+    ],
+    "color": "gray"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Major Changes",
+        "color": "aqua",
+        "bold": false
+      },
+      "width": 500
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "  • Split the Arcane Enchanting Altar from Runic Resurgence to streamline development while updating to new versions",
+        "color": "green"
+      },
+      "width": 400
+    }
+  ],
+  "pause": false
+}

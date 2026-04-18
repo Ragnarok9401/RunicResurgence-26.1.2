@@ -1,0 +1,1 @@
+execute as @s at @s run execute as @n[type=item_display,tag=rr.equipment_manager] if score @s rr.equipment.id = @p rr.equipment.id at @s run kill @e[tag=rr.equipment_manager,distance=..0.1]

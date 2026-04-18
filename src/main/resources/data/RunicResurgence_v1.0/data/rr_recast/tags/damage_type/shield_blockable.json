@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:wither_skull",
+    "minecraft:wind_charge",
+    "minecraft:unattributed_fireball",
+    "minecraft:trident",
+    "minecraft:thrown",
+    "minecraft:sting",
+    "minecraft:spit",
+    "minecraft:player_explosion",
+    "minecraft:player_attack",
+    "minecraft:mob_projectile",
+    "minecraft:mob_attack_no_aggro",
+    "minecraft:mob_attack",
+    "minecraft:mace_smash",
+    "minecraft:fireworks",
+    "minecraft:fireball",
+    "minecraft:explosion",
+    "minecraft:arrow",
+    "rr_recast:tomahawk",
+    "rr_recast:tomahawk_headshot"
+  ]
+}

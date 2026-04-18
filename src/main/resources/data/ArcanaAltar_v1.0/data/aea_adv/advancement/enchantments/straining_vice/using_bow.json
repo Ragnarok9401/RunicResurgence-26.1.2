@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "damaged": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bow",
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": [
+                  "rr_aea:straining"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/straining_vice/tick"
+  }
+}

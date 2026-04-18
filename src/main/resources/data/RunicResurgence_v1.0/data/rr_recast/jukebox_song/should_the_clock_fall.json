@@ -1,0 +1,12 @@
+{
+  "comparator_output": 10,
+  "description": {
+    "translate": "jukebox_song.rr_recast.should_the_clock_fall",
+    "fallback": "Should the Clock Fall",
+    "italic": false
+  },
+  "length_in_seconds": 241,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.clocktower"
+  }
+}

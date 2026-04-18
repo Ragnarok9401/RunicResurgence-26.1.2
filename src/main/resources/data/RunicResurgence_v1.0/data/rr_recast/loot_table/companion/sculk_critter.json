@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:companion/sculk_critter_shiny",
+          "weight": 1,
+          "quality": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:companion/sculk_critter_plain",
+          "weight": 49,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

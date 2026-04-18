@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:bow"
+        ],
+        "count": 1,
+        "nbt": "{CustomModelData:12346,ArenCustomBow:1b}"
+      }
+    }
+  }
+}

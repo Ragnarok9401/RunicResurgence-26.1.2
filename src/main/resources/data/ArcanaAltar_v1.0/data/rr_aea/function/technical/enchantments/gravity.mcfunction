@@ -1,0 +1,2 @@
+execute as @a[predicate=rr_aea:held_items/offhand/bow/gravity_bow,scores={aea.system.bow_used=1..}] at @s run data merge entity @e[type=arrow,limit=1,sort=nearest,tag=!ArenGravArrow,nbt={inGround:false}] {NoGravity:true}
+execute as @a[predicate=rr_aea:held_items/offhand/bow/gravity_bow,scores={aea.system.bow_used=1..}] at @s run tag @e[type=arrow,limit=1,sort=nearest,tag=!ArenGravArrow,nbt={inGround:false}] add ArenGravArrow

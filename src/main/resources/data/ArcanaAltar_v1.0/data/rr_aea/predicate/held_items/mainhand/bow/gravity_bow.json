@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:bow",
+        "predicates": {
+          "minecraft:custom_data": "{ArenGravityEnch:1}"
+        }
+      }
+    }
+  }
+}

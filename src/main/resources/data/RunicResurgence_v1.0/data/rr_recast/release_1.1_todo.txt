@@ -1,0 +1,153 @@
+For Release v1.1 of RUNIC RESURGENCE:
+
+-- General --
+<Done> > Make Arcana Altar craftable with the Crafting Table, include an entry for the Compendium.
+    <Done> > New placement for Altar using this dropped item
+    <Done> > Removal of table using a Pickaxe while Sneaking
+    <Done> > Runic Compendium entry
+> Implement more Advancements.
+    <Done> > One for killing something using Pressure. [Pushing Down On You]
+    <Done> > One for entering a Lonely Home. [What Once Was...]
+    <Done> > One for mining a Havenite Meteor. [Pennies From Heaven]
+    > One for obtaining a full Tenebrium equipment set. [Tenebrium Titan]
+    <Done> > One for holding an Arcana Altar. [Expanding The Enchanting]
+(Optional)> Comprehensive Feature List, not necessary as this can be replaced with a description on Modrinth/Curseforge pages
+> Take some screenshots of the features! WITH AND WITHOUT SHADERS
+
+>> [LAST ITEM] > Clean the entirety of all data packs and resource packs, only keep what is necessary on release.
+
+
+-- Runic Resurgence --
+<Done> > Make Ancient Crypts less frequent (way way way overtuned on how often they generate)
+<Done> > Make Music Discs for Sinking Feeling [Sculk Essence], Deep Trouble [Warden Flesh], DT Hard [Deep Dark Core], and DT Void [Deep Dark Crest]
+<Done> > Make Tenebrium tools, give them extra block reach
+<Done> > Lost in Loss Song for first time entering Lonely Home
+<Done> > Fix music for low and mid-tier Necrosculkers
+<Done> > Optimize boss functions for mid-tier Necrosculkers
+> Implement Knowledge Fragments and Dust of Knowledge
+    <Done> > Knowledge Fragments
+    > Dust of Knowledge
+(Optional)> A Crypt Gateway structure to be completed (a cross-shaped set of hallways with the Gateway in the center) to be placed in the Deep Dark for the Crypt.
+<Done> > Meteor sounds need a major nerf, and make Meteors spawn with a 1/8 chance instead of 1/5
+> The first [PROJECTILE] Spell: Magic Bolt
+    > Make malleable with armor and tool modifiers, using enchantments to start
+> First Tablet Enchantments, Infusion (spell cooldowns), Arcane Attuned, Flame Attuned, and Frost Attuned
+    > As a stretch goal, include Chaos Attuned, Electric Attuned, Wind Attuned, and Darkness Attuned
+> Re-implement Tablets of Memory
+> Create new enchantments
+    > Propelling for Runic Tablets/Memory Tablets that increases Projectile Speed or Aura Launch Power
+    > Thrust for Runic Tablets/Memory Tablets that increases Projectile Acceleration or Aura Launch Power further
+> Make Tomahawks for the love of god
+    > When hitting pierce limit, a block (unless there is Rebound or Loyalty), or upon breaking (whatever condition would cause that), drop tomahawk as an item
+    <Done> > Make throwing and velocity functions
+    > Include Rebound for tomahawks
+    > Boomerang for tomahawks
+    > Piercing for tomahawks
+    > Sharpness for tomahawks
+
+> Improve All Necrosculker Tiers
+    <Done> > Improve Necrosculker
+        <Done> > Remove second Laser phase
+        <Done> > Modify Skeleton spawns to be randomized with different loadouts
+        <Done> > Keep summoned Sculk Tendrils from damaging the boss's Skeletons
+        <Done> > Randomize Tendril Pod summon locations
+        <Done> > Create persistent Weakpoints that only transfer 1/8 of damage received to boss
+        <Done> > When Weakpoints are depleted, create Tendril Clusters that emanate from the Weakpoint's position
+        <Done> > Replace all Armor Stands with Item Displays
+    <Done> > Improve Elite Necrosculker
+        <Done> > Improve base code to match structure of Base and Void Necrosculkers
+        <Done> > Remove second Laser phase
+        <Done> > Add Dark Heart drop
+        <Done> > Add Tendril Wave phase as replacement for second Laser phase
+        <Done> > Modify Skeleton spawns to be randomized with different loadouts
+        <Done> > Keep summoned Sculk Tendrils from damaging the boss's Skeletons
+        <Done> > Randomize Tendril Pod summon locations
+        <Done> > Create persistent Weakpoints that only transfer 1/8 of damage received to boss
+        <Done> > When Weakpoints are depleted, create Tendril Lines that emanate from the Weakpoint's position
+        <Done> > Replace all Armor Stands with Item Displays
+    <Done> > Improve Nightmare Necrosculker
+        <Done> > Improve base code to match structure of Base and Void Necrosculkers
+        <Done> > Add Dark Heart drop
+        <Done> > Add Tendril Wave phase before second Laser phase
+        Optional > Add second Weakened phase after second Laser phase
+        <Done> > Modify Skeleton spawns to be randomized with different loadouts
+        <Done> > Keep summoned Sculk Tendrils from damaging the boss's Skeletons
+        <Done> > Randomize Tendril Pod summon locations
+        <Done> > Add Soul Siphon Aura
+        <Done> > Create persistent Weakpoints that only transfer 1/8 of damage received to boss
+        <Done> > When Weakpoints are depleted, create Tendril Spirals that emanate from the Weakpoint's position
+        <Done> > Replace all Armor Stands with Item Displays
+    <Done> > Improve Void Necrosculker
+        <Done> > Add Dark Heart drop
+        <Done> > Add Tendril Wave phase after second Laser phase
+        Optional > Add second Weakened phase after second Laser phase
+        <Done> > Modify Skeleton spawns to be randomized with different loadouts
+        <Done> > Keep summoned Sculk Tendrils from damaging the boss's Skeletons
+        <Done> > Randomize Tendril Pod summon locations
+        <Done> > Add Soul Siphon Auras
+        <Done> > Create persistent Weakpoints that only transfer 1/8 of damage received to boss
+        <Done> > When Weakpoints are depleted, create Recursive Tendril Clusters that emanate from the Weakpoint's position
+        <Done> > Replace all Armor Stands with Item Displays
+    > Add all Necrosculker Tiers to Runic Compendium
+        <Done> > Base
+        <Done> > Elite
+        > Nightmare
+        > Void
+    <Done> > Make Loot Table drop from Loot Bags instead, each boss drops one Loot Bag per player (reduce regular item drops)
+
+> Make Sunsong Sycophant Boss
+
+
+-- Arcana Altar --
+> Rename/refactor Gift of Gravity to Weightless
+> Include new functionality for Arcana Altar that makes it work properly with Bookshelf amount.
+    > Pick between:
+        - Reduced XP Costs for higher bookshelf amount (for above 64 bookshelves)
+        - Limit enchantment selections depending on bookshelf amount (second best option)
+        - Limit enchantment max levels depending on bookshelf amount (best option)
+        - Outright disable table until max bookshelf amount (temporary emergency solution)
+> Include new Enchantments for Altar
+    > Meteoric
+    > Slipstream
+    > Bolster
+    > Recovery
+    > Propelling
+    > Thrust
+> Create new enchantments
+    <Done> > Slipstream for Happy Ghast Harnesses
+    > Blessing of Patience for Axes (longer time between attacks = more damage)
+    > Blessing of Interchange (Shears have a chance to give other blocks of the same color from Sheep)
+> Modify existing enchantments
+    <Done> > Nerf Echo slightly
+    <Done> > Swap speed change for Shrink and Enlarge
+    > Maul should be lessened, make max level 5 instead to cut invulnerability time down to half
+    <Done> > Tether should cost String for players to use
+    <Done> > MEGA buff necessary for Pressure to be considered a Blessing (maybe add held weapon damage?)
+        - Just increased damage amount, added another damage tier, and reduced damage dealt to user
+    > Potential buff for Echo, if so make it a Blessing (or an addon-blessing for enhancing Echo) that also adds weapon damage to Echo clouds
+        > Blessing of Feedback - One downside*, but adds X% of Weapon Damage to TOTAL Echo Cloud damage (divided up for each hit). Also acts as Echo IV if Echo III is on weapon.
+            *Adds a Cooldown to Echo clouds
+            *Lowers the chance of Echo clouds
+
+
+-- Lifeline --
+<Done> > Make config options for healing sounds, such as changing the sound or disabling it entirely (likely make "off" the default)
+<Done> > Revert Bad Food items to not give extra health, and only Unique and above do. Start Max Health at a different value, remove all Bad Food tags
+<Done> > Set default Damage Modifier to 100 instead of 115, so that base damage is still normal.
+> Create Tinctures that act as unique or different potions, meant to be stackable and have effects exclusive to the new Health system
+    <Done> > Tincture of Healing should heal an amount over a set time. 5 tiers.
+        <Done> > Recipes
+        <Done> > Function
+    > Tincture of Toughness should reduce the amount of damage received from the next X hits, up to 50% reduction at tier 5
+        > Recipes
+        > Function
+> Make items to extend the "maximum health" amount that players can have, start with the max at 300, then up to 400 and 500
+    > Call them something cool, like Soulvials or something
+(Impossible for now) > Change Tag system for food to a per-player global Storage, using UUIDs as keys to each foodmap
+> Add Difficulty config that (maybe????) makes certain enemies drop additional items
+    > MAYBE: Killing certain bosses in Runic Resurgence
+      (or also in Minecraft) increments difficulty by a little bit, giving Pre-Dragon,
+      Post-Dragon, Post-Zer, Post-Domain, Post-Benevolence, and Endgame content categories
+<Done> > Create new enchantments
+    <Done> > Bolster for Chestplates, increases Max HP
+    <Done> > Recovery for Chestplates, increases HP Regeneration rate

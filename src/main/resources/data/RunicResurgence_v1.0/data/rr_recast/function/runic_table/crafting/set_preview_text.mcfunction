@@ -1,0 +1,1 @@
+data modify entity @s text set from entity @n[type=item_display,distance=..0.1,tag=rr.runic_table.preview.display] item.components."minecraft:item_name"

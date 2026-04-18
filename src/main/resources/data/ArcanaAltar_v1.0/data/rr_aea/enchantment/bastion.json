@@ -1,0 +1,45 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/blessings",
+  "anvil_cost": 30,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.bastion",
+                "fallback": "Bastion",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:shield",
+  "weight": 1
+}

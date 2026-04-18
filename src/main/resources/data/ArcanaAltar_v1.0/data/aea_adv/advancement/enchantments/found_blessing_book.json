@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat",
+      "components": {
+        "minecraft:item_model": "aea:book/pressure_blessing"
+      }
+    },
+    "title": {
+      "translate": "advancement.aea.blessing_book",
+      "fallback": "Beyond the Altar"
+    },
+    "description": {
+      "text": "Find a ",
+      "extra": [
+        {
+          "translate": "enchantment.aea.blessing_icon",
+          "fallback": "*",
+          "color": "light_purple",
+          "strikethrough": true
+        },
+        " ",
+        {
+          "translate": "enchantment.aea.blessing_text",
+          "fallback": "Blessing",
+          "color": "light_purple",
+          "strikethrough": false
+        },
+        {
+          "text": " Enchantment",
+          "color": "green"
+        }
+      ],
+      "color": "green"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rr_adv:mainline/root",
+  "criteria": {
+    "blessed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "aea.blessing_book": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/found_blessing"
+  }
+}

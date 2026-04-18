@@ -1,0 +1,58 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "rr_aea:enrage_tick": 1
+    },
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "body": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "rr_aea:enrage_tick"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "aea.custom_body": true,
+      "aea.item_set_by_aea": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "body": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "aea.item_set_by_aea": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

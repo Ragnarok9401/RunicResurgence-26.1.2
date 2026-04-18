@@ -1,0 +1,31 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "minecraft:player",
+        "input": {
+          "sneak": true
+        }
+      },
+      "stepping_on": {
+        "block": {
+          "blocks": "minecraft:barrel",
+          "nbt": "{Items:[]}",
+          "state": {
+            "facing": "up"
+          }
+        }
+      },
+      "slots": {
+        "weapon.mainhand": {
+          "items": "minecraft:music_disc_relic",
+          "count": 1,
+          "components": {
+            "minecraft:item_model": "rr_recast:generic/equipment_key"
+          }
+        }
+      }
+    }
+  }
+  

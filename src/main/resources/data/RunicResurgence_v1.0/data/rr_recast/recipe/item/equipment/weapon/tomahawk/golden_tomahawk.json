@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "gg ",
+      "gsr"
+    ],
+    "key": {
+      "g": "minecraft:gold_ingot",
+      "s": "minecraft:stick",
+      "r": "minecraft:feather"
+    },
+    "result": {
+      "id": "minecraft:music_disc_cat",
+      "count": 1,
+      "components": {
+        "!jukebox_playable": {},
+        "consumable": {"consume_seconds":9999999,"animation":"spear","has_consume_particles":false},
+        "custom_data": {"rr.item":true,"rr.tomahawk":true,"rr.tomahawk.golden":true,"rr.tomahawk_dmg":4.5,"rr.tomahawk_speed":1.5,"rr.tomahawk_weight":3.4,"rr.count":4},
+        "item_name": "Golden Tomahawk",
+        "lore":
+        [
+            [{"text":"Base Thrown Damage: ","color":"dark_green","italic":false},
+            {"text":"4.5","color":"green"}],
+            [{"text":"Base Speed: ","color":"dark_green","italic":false},
+            {"text":"1.5","color":"green"}],
+            [{"text":"Base Weight: ","color":"dark_green","italic":false},
+            {"text":"3.4","color":"green"}]
+        ],
+        "max_stack_size": 1,
+        "tool":
+        {
+            "default_mining_speed":1,
+            "damage_per_block":0,
+            "rules":
+            [
+                {"speed":4.5,"correct_for_drops":true,"blocks":"#mineable/axe"}
+            ]
+        },
+        "weapon": {"disable_blocking_for_seconds":0.25,"item_damage_per_attack":0},
+        "attribute_modifiers":
+        [
+            {"id":"attack_damage","type":"attack_damage","amount":4,"operation":"add_value","slot":"mainhand","display":{"type":"default"}}
+        ],
+        "item_model": "rr_recast:equipment/weapon/tomahawk/golden_tomahawk"
+      }
+    },
+    "show_notification": true
+  }
+  

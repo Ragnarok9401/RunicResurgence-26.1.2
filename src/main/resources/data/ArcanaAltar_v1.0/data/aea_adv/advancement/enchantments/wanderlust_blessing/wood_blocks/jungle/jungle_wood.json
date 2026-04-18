@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "jungle_wood"
+    },
+    "title": "Jungle Wood",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "aea_adv:enchantments/wanderlust_blessing/wood_root",
+  "criteria": {
+    "step_on_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "rr_aea:wanderlust"
+                  }
+                ]
+              }
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:jungle_wood"
+            }
+          },
+          "periodic_tick": 5
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/wanderlust_blessing/new_block_seen_common"
+  },
+  "sends_telemetry_event": false
+}

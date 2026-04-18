@@ -1,0 +1,60 @@
+SBHP:
+    Done:
+    - Scoreboard-based health system, damage dealt to player is instead taken from this new system.
+    - Natural regeneration based on a timer, heal faster based on how long ago the player was hurt.
+    - Sprinting reduces healing amount by 30%
+    - Nausea increases reduction to healing while sprinting (30% -> 50%)
+    - Regeneration (effect) gives flat health regeneration regardless of other conditions (+3.33% of max HP healed per tick per level)
+    - Strength hastens natural regeneration by 2 seconds per level after being hurt
+    - Weakness delays natural regeneration by 1 second per level after being hurt
+    - Some config options:
+        - Natural health regeneration delay (default 5, meaning players will have to wait 5 seconds to begin regeneration after being hurt)
+        - Maximum health regeneration rate time (default 20, meaning players will have to wait 20 seconds for natural regeneration to reach its peak rate)
+        - Base Damage Modification (default 115, meaning all damage dealt to players will be applied with a 1.15x multiplier)
+        - Respawn Health Percentage (default 80, meaning players who die will respawn with 80% of their Max Health as Current Health)
+    - System Improvements:
+        - A visual Damage Indicator that appears above a damaged entity
+    - Survival Features:
+        - Feature that allows increasing max health through consuming unique food items (bad ones included)
+            > Each food item is put into its own category (Bad, Unique, Exotic, Supernatural), with each category giving specific amounts of max health (5, 10, 20, and 50 respectively)
+
+    Need to do:
+    - Survival Features
+            > New Food items to be added to the game through this pack and others as well, also fitting into the above categories
+        - Effect Vials which act as temporary buffs (like reducing/blocking the next instance of damage), or small permanent stat increases (+0.5 Max HP for example)
+            > Should be crafted through vanilla-only items, unless certain effects are only available through other packs
+        - Allow Instant Health Potions to work, each level increases the amount of health healed by +15% of max health.
+    - System Improvements
+    - More config options
+        - Regeneration (effect) strength (default 3333 for 3.333% of max health healed per tick per level)
+        - Strength applies past regeneration start time (off by default)
+        - Strength decreses wait time for regeneration to begin (on by default)
+        - Weakness increases wait time for regeneration to begin (on by default)
+        - Sprinting modifies regeneration rate (on by default)
+        - Sprinting regeneration rate (default 7000, or 70.00% of normal regeneration)
+        - Nausea modifies sprinting regeneration rate (on by default)
+        - Nausea-sprint regeneration rate (default 5000, or 50.00% of normal regeneration)
+    - More Stats
+        - Add effective Regeneration Delta stat into regeneration calculations (from equipment and weapons only)
+        - Add effective Defense Delta stat into damage calculations (from equipment and weapons only)
+        - Add effective Resistances into damage calculations (from armor only)
+        - Add effective Weaknesses into damage calculations (from armor only)
+    - Enable Armor/Weapons/Shields to change max health and other stats
+        * Use sbhp.item.health_delta data for this
+        Other Stat Tags:
+        - sbhp.item.regeneration_delta for regeneration amount changes
+        - sbhp.item.regeneration_rate_delta for regeneration rate changes
+        - sbhp.item.defense_delta for defense changes
+        - sbhp.item.grant_resistance for inducing a Damage Type resistance (for armor)
+        - sbhp.item.grant_weakness for inducing a Damage Type weakness (for armor)
+
+    - Test the above features with dummy items, damage sources, and contradicting equipment stats
+
+Life Link mode (do after base health stuff is all done):
+    All players within the world (or maybe only certain players, like a team-based setting) receive damage when any player is hurt at all.
+    Configurable settings could be:
+    - Enabling/disabling the mode entirely (of course)
+    - Percentage of damage transferred to other players (default 100%)
+    - Enabling/disabling Health Boost items to be shared between players (off by default)
+    - If previous option is ON, then enable the setting to change how much of the Health Boost is shared between players (default 50%)
+    - If Life Link is ON, allow bonus drops (probably just trophy items) for when a boss is defeated by 2+ players (on by default)

@@ -1,0 +1,1 @@
+advancement grant @s only sbhp_adv:duplicate/runicresurgence/secret/meteor_below_world

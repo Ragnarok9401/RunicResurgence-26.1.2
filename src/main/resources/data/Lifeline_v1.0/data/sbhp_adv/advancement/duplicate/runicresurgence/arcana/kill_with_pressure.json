@@ -1,0 +1,22 @@
+{
+  "parent": "sbhp_adv:duplicate/runicresurgence/root",
+  "criteria": {
+    "kill_with_pressure": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "rr_aea:is_pressure",
+              "expected": true
+            }
+          ],
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_easy"
+  }
+}

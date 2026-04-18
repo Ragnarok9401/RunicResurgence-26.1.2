@@ -1,0 +1,1 @@
+summon item_display ~ ~0.125 ~ {Tags:["rr.boss.ns.ticking","rr.test.NSAura"],item:{id:"minecraft:sculk",count:1,components:{"minecraft:item_model":"rr_recast:boss/necrosculker/attacks/siphon_aura"}},item_display:"head",transformation:{scale:[4.0,4.0,4.0],left_rotation:[0.8,0.0,0.0,1.0],right_rotation:[0.0,0.0,0.0,1.0],translation:[0.0,0.125,0.0]}}

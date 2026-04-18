@@ -1,0 +1,1 @@
+execute at @s align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Rotation:[0.0,0.0],Tags:["rr.structure_marker","rr.entity","rr.structure_marker.ancient_crypt","rr.structure_marker.ancient_crypt.arena"]}

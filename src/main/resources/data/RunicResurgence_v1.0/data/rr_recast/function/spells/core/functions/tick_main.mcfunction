@@ -1,0 +1,3 @@
+execute as @s[tag=rr.projectile.magic_bolt] at @s run function rr_recast:spells/execution/magic_bolt/projectile_tick with entity @s data.projectile
+
+execute as @s[tag=rr.aura.paladin_pylon] at @s run function rr_recast:spells/execution/paladin_pylon/aura_tick with entity @s data.aura

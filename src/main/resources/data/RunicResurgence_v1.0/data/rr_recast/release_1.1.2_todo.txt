@@ -1,0 +1,95 @@
+For Release v1.1.2 of RUNIC RESURGENCE: A Kick in the Arsenal, Part 3 - The Final Spelling Test
+
+-- General --
+> Implement more Advancements.
+    > One for obtaining a full Tenebrium equipment set. [Tenebrium Titan]
+(Optional)> Comprehensive Feature List, not necessary as this can be replaced with a description on Modrinth/Curseforge pages
+> Take some screenshots of the features! WITH AND WITHOUT SHADERS
+
+>> [LAST ITEM] > Clean the entirety of all data packs and resource packs, only keep what is necessary on release.
+
+
+-- Runic Resurgence --
+> Implement Knowledge Fragments and Dust of Knowledge
+    <Done> > Knowledge Fragments
+    > Dust of Knowledge
+(Optional)> A Crypt Gateway structure to be completed (a cross-shaped set of hallways with the Gateway in the center) to be placed in the Deep Dark for the Crypt.
+> The first [PROJECTILE] Spell: Magic Bolt
+    > Make malleable with armor and tool modifiers, using enchantments to start
+> First Tablet Enchantments, Infusion (spell cooldowns), Arcane Attuned, Flame Attuned, and Frost Attuned
+    > As a stretch goal, include Chaos Attuned, Electric Attuned, Wind Attuned, and Darkness Attuned
+> Re-implement Tablets of Memory
+> Create new enchantments
+    > Propelling for Runic Tablets/Memory Tablets that increases Projectile Speed or Aura Launch Power
+    > Thrust for Runic Tablets/Memory Tablets that increases Projectile Acceleration or Aura Launch Power further
+> Update Tomahawks
+    > When hitting pierce limit, a block (unless there is Rebound or Loyalty), or upon breaking (whatever condition would cause that), drop tomahawk as an item
+    > Include Rebound for tomahawks
+    > Boomerang for tomahawks
+    > Piercing for tomahawks
+    > Sharpness for tomahawks
+
+> Add Necrosculker to Compendium
+    > Nightmare
+    > Void
+
+> Make Wayfarer Boss
+
+
+-- Arcana Altar --
+> Rename/refactor Gift of Gravity to Weightless
+> Include new functionality for Arcana Altar that makes it work properly with Bookshelf amount.
+    > Pick between:
+        - Reduced XP Costs for higher bookshelf amount (for above 64 bookshelves)
+        - Limit enchantment selections depending on bookshelf amount (second best option)
+        - Limit enchantment max levels depending on bookshelf amount (best option)
+        - Outright disable table until max bookshelf amount (temporary emergency solution)
+> Include new Enchantments for Altar
+    > Meteoric
+    > Slipstream
+    > Bolster
+    > Recovery
+    > Propelling
+    > Thrust
+> Create new enchantments
+    > Blessing of Patience for Axes (longer time between attacks = more damage)
+    > Blessing of Interchange (Shears have a chance to give other blocks of the same color from Sheep)
+    > Blessing of Windfall - Steady running increases speed over time
+    > Blessing of Regen/Perseverance - Somewhat higher regen rate at low health, slightly lower rate at high health
+    > Blessing of Regen/Ramping - Moderately higher regen rate at high health, slightly lower rate at low health
+> Modify existing enchantments
+    > Maul should be lessened, make max level 5 instead to cut invulnerability time down to half
+    > Potential buff for Echo, if so make it a Blessing (or an addon-blessing for enhancing Echo) that also adds weapon damage to Echo clouds
+        > Blessing of Feedback - One downside*, but adds X% of Weapon Damage to TOTAL Echo Cloud damage (divided up for each hit). Also acts as Echo IV if Echo III is on weapon.
+            *Adds a Cooldown to Echo clouds
+            *Lowers the chance of Echo clouds
+
+
+-- Lifeline --
+> Create Tinctures that act as unique or different potions, meant to be stackable and have effects exclusive to the new Health system
+    > Tincture of Healthiness should increase a player's max health by an amount for a time
+      5 tiers, each tier increases either the length of time or the amount of health granted
+        > Recipes
+        > Function
+    > Tincture of Toughness reduces the amount of damage received for the next few seconds, up to 50% reduction at tier 5 for 8 seconds
+        > Recipes
+        > Function
+    > Tincture of Potency increases the remaining time for any current positive effects by 20 seconds per tier, and increase their level by 1 at tier 3.
+      Cooldown should be 2:00, so that effects do not become infinitely long and infinitely powerful.
+        > Recipes
+        > Function
+> Make items to extend the "maximum health" amount that players can have permanently, start with the max at 300, then up by 25 per unique item
+    > Duplicate item uses just heal by 200 instantly, 20 second cooldown
+    > Call them something cool, like Soulvials or something
+        > Sculk Soulvial - Necrosculker Tier 3+
+        > Golden Soulvial - Enchanted Golden Apple
+        > Soaked Soulvial - Elder Guardian kill
+        > Illager Soulvial - Raid Tier 5
+        > Draconic Soulvial - Ender Dragon kill
+        > Withered Soulvial - Wither kill
+(Impossible for now) > Change Tag system for food to a per-player global Storage, using UUIDs as keys to each foodmap
+> Add Difficulty config that (maybe????) makes certain enemies drop additional items
+    > MAYBE: Killing certain bosses in Runic Resurgence
+      (or also in Minecraft) increments difficulty by a little bit, giving Pre-Dragon,
+      Post-Dragon, Post-Zer, Post-Domain, Post-Benevolence, and Endgame content categories
+> Create new enchantments

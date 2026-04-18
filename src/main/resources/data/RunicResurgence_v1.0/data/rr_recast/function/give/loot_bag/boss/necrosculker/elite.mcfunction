@@ -1,0 +1,1 @@
+give @p music_disc_cat[item_model="rr_recast:loot_bag/boss/necrosculker/elite",item_name={"color":"aqua","text":"Loot Bag"},!jukebox_playable,consumable={consume_seconds:100000,animation:"block",has_consume_particles:false},custom_data={rr.loot_bag:true,rr.loot_bag.ns_elite:true},lore=[{"color":"blue","italic":false,"text":"Elite Necrosculker"}],max_stack_size=16] 1

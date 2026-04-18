@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat",
+      "components": {
+        "minecraft:item_model": "rr_recast:spell/icon/arcane_bolt"
+      }
+    },
+    "title": "Arcane Bolt",
+    "description": "",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "script_scry": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

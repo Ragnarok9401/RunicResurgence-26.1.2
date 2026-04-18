@@ -1,0 +1,1 @@
+$damage @s $(amount) sbhp:scoreboard_$(type) at $(location)

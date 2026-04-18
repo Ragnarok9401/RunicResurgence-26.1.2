@@ -1,0 +1,31 @@
+Necromancy Island:
+>   Maintain life, so tending to the soil, removing pests, etc.
+>   Flowers wilt over time, but can reproduce if conditions are positive for long enough.
+>   Soil dries out or becomes corrupted over time, resources and effort required to maintain it.
+>   Pests infect and speed up wilting of flowers, by removing them the conditions are temporarily improved.
+>   Dying or using a totem (or totem-like effects) give boons to the player and cause damage to the crops planted.
+
+Conjuration Island:
+>   Protect and maintain livestock.
+>   Tame "dark" or hostile livestock to turn them into "light" variants over time.
+>   Need resources from both "light" and "dark" variants to create bigger and better things.
+>   Resources from one or the other can still create stuff, but not as potent.
+>   Can farm both variants reliably, but mixing the two together proves disastrous.
+>   Mistreatment or neglect of "light" livestock will turn them back to "dark" variants over time.
+    > Dark variants can only be "harvested" every so often but are infinite. Light variants can be "harvested" infinitely fast, but can transform back into "dark" variants if done too often
+>   
+
+Abjuration Island:
+>   Flowers planted here need to be upgraded and occasionally maintained.
+>   Maintaining the flowers involves defending them from invasions
+>   A total health pool is shared among the flowers, upgrades provide more health
+>   Leftover health after an invasion determines the damage that the flowers undertake that must be tended to
+>   Leftover health after an invasion also determines what benefits the player will receive until the next raid begins
+
+Transmutation Island:
+>   Custom flowers can be bred to create various materials, almost like Infinite Craft on neal.fun
+>   Different types of seeds are combined in a Gateway Incubator and take time to breed together, most of the time making something new
+>   Begin with an infinite supply of Base Element seeds, those being Fire, Water, Earth and Air seeds
+>   A special set of Base Element seeds can be found later that can be given to the island to allow for new crops
+>   Plants generate "X Petals", X being replaced with the material the plant represents, for instance, Iron Petals
+>   Petals can be combined in Gateway Composters to turn them into the material they represent, in varying amounts depending on the rarity of the material and how difficult it is to generate the base seed.

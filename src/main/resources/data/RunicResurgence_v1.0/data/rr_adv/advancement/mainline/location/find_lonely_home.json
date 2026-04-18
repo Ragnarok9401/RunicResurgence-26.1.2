@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_door"
+    },
+    "title": "What Once Was...",
+    "description": "Locate a Lonely Home, where, perhaps once before, the world seemed right",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rr_adv:mainline/root",
+  "criteria": {
+    "activate_knowledge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "rr_recast:lonely_home"
+          }
+        }
+      }
+    }
+  }
+}

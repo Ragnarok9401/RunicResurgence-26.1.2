@@ -1,0 +1,51 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.aea.echo",
+    "fallback": "Echo",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": {
+              "type": "minecraft:enchantment_level",
+              "amount": {
+                "type": "minecraft:lookup",
+                "values": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "fallback": 0.2
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/echo/summon_echo_cloud"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 2
+}

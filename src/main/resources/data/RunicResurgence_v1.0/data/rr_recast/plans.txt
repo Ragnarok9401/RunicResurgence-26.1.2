@@ -1,0 +1,560 @@
+Done:
+
+Fix bugs with the Musical Tablet - done
+
+Return Spell - Teleport to wherever you last set your Spawn to, set by using the spell once on a bed or respawn anchor. Unset spawn by removing the bed or anchor, then allows you to set it again. Has a rather long warmup and you cannot move for it to activate. - Done
+
+ --- Alter current Spell Startup particles for teleporting to a Return Point. Make 'em cool.
+
+Magnetize - Teleport nearby items to user (in about a 10-12 block radius) - Done
+
+Add a way to just play notes on the Runic Circle like an instrument - Done
+
+Darkvision should have usable items that extend the duration - Done
+
+Tiered Runic Tablets [done] / Tablets of Memory [done]
+
+Arcane Enchanting: Higher levels of current enchantments and -Custom Enchantments-  [Done!]
+    Current Tools: Sword, Bow
+    Current Enchantments: Echo, Fervor, Recursion, Sunstruck, Moonstruck, Gift of Gravity, Tether, Rebound
+    Planned Enchantments: Satchel, Engine, Aiming, Combo (Maybe cosmetic?), Datamine (Cosmetic, show dmg dealt / blocks broken), Awakened Ammo
+
+Necrosculker Boss
+
+Tiered Runic Tablets / Memory Tablets - Done
+Either improved Cast Time, improved Cooldown Time, or access to more spells. Could also be a combination of the three.
+Ideas:
+    [Runic Tablet] Cobalt (basic) -> Enriched (enhanced) -> Soulbound (advanced) -> Master (perfected)
+    [Tablet of Memory] Electrum (basic) -> Enhanced (enhanced) -> Superior (advanced) -> Immaculate (perfected)
+
+
+To Work On Next:
+
+Dark Matter Necrosculker (use the following skeleton summon)
+summon skeleton ~ ~ ~ {PortalCooldown:-1,DeathLootTable:"rr_recast:entities/empty",CanPickUpLoot:0b,Health:80f,Tags:["rr.necrosculker.summoned_skeleton","rr.boss.summon","RunicNSDMSkel"],CustomName:{"color":"#4774B8","italic":false,"text":"Dark Matter Visage"},equipment:{chest:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:crying_obsidian",pattern:"minecraft:silence"},"minecraft:item_name":{"color":"dark_purple","italic":false,"text":"Dark Matter Breastplate"},"minecraft:unbreakable":{},"minecraft:custom_data":{RunicAncientChestplate:1b},"minecraft:enchantments":{"minecraft:blast_protection":1,"minecraft:fire_protection":3,"minecraft:projectile_protection":1,"minecraft:protection":2},"minecraft:enchantment_glint_override":false}},head:{id:"minecraft:netherite_helmet",count:1,components:{"minecraft:trim":{material:"minecraft:crying_obsidian",pattern:"minecraft:silence"},"minecraft:item_name":{"color":"dark_purple","italic":false,"text":"Dark Matter Helmet"},"minecraft:unbreakable":{},"minecraft:custom_data":{RunicAncientHelmet:1b}}},mainhand:{id:"minecraft:golden_sword",count:1,components:{"minecraft:custom_data":{rr.sharpness_checked:0,rr.sharpness:0,RunicAncientSword:1b},"minecraft:item_name":{"color":"dark_purple","italic":false,"text":"Dark Matter Falchion"},"minecraft:unbreakable":{},"minecraft:enchantments":{"minecraft:knockback":1,"minecraft:sharpness":2,"minecraft:vanishing_curse":1},"minecraft:attribute_modifiers":[{id:"knockback_resistance",type:"knockback_resistance",amount:0.25,operation:"add_multiplied_base",slot:"mainhand",display:{type:"default"}},{id:"attack_damage",type:"attack_damage",amount:14,operation:"add_value",slot:"mainhand",display:{type:"default"}},{id:"movement_speed",type:"movement_speed",amount:0.08,operation:"add_multiplied_base",slot:"mainhand",display:{type:"default"}}],"minecraft:item_model":"rr_recast:equipment/weapon/falchion/dark_matter_falchion"}}},drop_chances:{chest:0.000,head:0.000,mainhand:0.000},active_effects:[{id:"minecraft:strength",amplifier:3,duration:-1,show_particles:0b,show_icon:0b},{id:"minecraft:resistance",amplifier:2,duration:-1,show_particles:0b,show_icon:0b},{id:"minecraft:instant_damage",amplifier:15,duration:8,show_particles:0b,show_icon:0b}],attributes:[{id:"minecraft:max_health",base:80},{id:"minecraft:movement_efficiency",base:0.9},{id:"minecraft:scale",base:1.125}]}
+
+Vitality Essence from Companion decanting
+
+Maybe some of the old magic bows?
+
+Maybe an Amethyst Shield that grows as you're hit?
+
+something that uses Dragon's Breath, gonna have to be pretty powerful
+
+Paxel-like tools for Diamond, Netherite, Tenebrium and above
+Thaumaturgic enchantment for shears that gives random colors of wool or random types of leaves, costing mana or XP
+Volume enchant for buckets
+Double Jump boots enchant
+Rocket Jump spell (wind charges)
+Anvil Bazooka
+Civil Engineering Enchantment for big path making
+
+
+
+The Paladins of Zthendol
+
+
+
+
+
+The Paladin of Catastrophe and the Fortress of Eldryx
+    The player comes across a small tent near an oasis in the desert. Inside this tent is a woman named Dianne Anasudra (codename Zerzuret).
+    She's an archaeologist on the hunt for something her father once tried to find.
+    It's an ancient desert fortress that houses a powerful gemstone thought to have been brought to this dimension during a great cataclysm.
+    Unfortunately, that gemstone was taken and well guarded by a city that was toppled long ago.
+    Rumor has it that the gemstone was left where it was first found, and for a reason that nobody knows.
+    Its secrets were lost with the civilization that kept it, but somehow Dianne's father had some insight that few others had.
+    After his old age and a life-threatening disease kept him from continuing his investigation, Dianne took up the chase herself, striving to find the treasure in hopes that it may wipe the disease from her father.
+    When the player comes across her, she is desperate for help, as she seems to have not found anyone in her entire months-long journey who can give her aid.
+    And the player seems like the perfect help!
+
+    Fortunately for the player, Dianne knows the relative location of the fortress, and tells the player its exact distance from the point they stand.
+    The player's job is to seek out the fortress and attempt to get in somehow. It won't be easy, and traps will impede the player's progress as much as they can.
+    When the player manages to get into a central chamber, Dianne will reach the player and come inside as well. She'll inform the player that her father's efforts could only ever barely scratch the surface of what was inside, but that the player must still try to find clues as to what to do next. There will be something rather obvious to do, but the things required to move on will have to be somewhat challenging.
+
+    Eventually, after these trials are completed, the player and Dianne will gain access to the final chamber, where an ancient mummy will act as a "final" challenge to Dianne and the player. The mummy will constantly whisper to the player and to Dianne about the dangers presented in the power of the gemstone, but Dianne will be headstrong in her resolve to get the stone and save her father. The mummy will speak about how the gemstone is actually capable of its own thoughts and emotions, and will be even stronger than the mummy itself. It won't fight with blades or bows, but with the mind. It has the power to take over a host body, infuse it with chaotic energy, and command it as its pawn. This is exactly what happens after the player and Dianne beat the mummy. Dianne, not thinking for a moment, tries to grab the gemstone to take it with her, but is immediately taken over by a strong magical force--the gemstone. Dianne turns to the player and, in a completely different voice, booms out that the player is just as much of a threat to the gemstone as Dianne was, and thus must be eliminated. This is where the true final fight of this questline takes place.
+
+    The gemstone will sense the player's powers over the course of the fight, and will come to an understanding that the player isn't just any old threat--they're the very force the gemstone was designed to help overcome. Eldryx, an ancient entity bent on destruction and ruin, is the one who created the gemstone and the fortress. The ancient civilization that found the gemstone was actually a cult of followers of Eldryx, who frequently sacrificed their own people to the gemstone to help grow Eldryx's power. Eventually, the city that these cultists lived in fell to another power, and thus Eldryx was put into a deep slumber without regular sacrifices. Dianne woke this entity up, and now is under the control of Eldryx. Fortunately, since this is the only soul Eldryx has access to, his strength is heavily stunted. This gives the player ample opportunity to destroy this evil force once and for all.
+
+Satchel Enchantment: Each tool can carry an amount of specific items that it is efficient for
+Redstone Engine enchantment: Use redstone (or another item idk) to power up your tool, granting haste while held
+
+Randomized stat changes for Companions (data modify stuff)
+Companions can be converted into Life Essence so duplicates don't become an issue (use this essence to create other companions)
+
+The Halundfell Dimension - Where Magic Once Flowed
+ - Contains a questline that allows players to renew the magic in the world (per player, only those who have completed the questline can use spells in the dimension)
+ - Contains a boss that must be summoned using magic, and a boss that acts as the final climax for the quest
+
+[previously Harpsong Sycophant]
+Sunsong Sycophant should be next boss, maybe consider a drop that allows for Multicasting (but only for like 2 or 3 spells at a time) "Thousandth Strand?"
+
+Change reduced Cooldown Time on each upgraded Runic Tablet to apply its cooldown change to when RunicSpellStart tag is on players, will make it so that it won't update until after the spell's altered cooldown time is applied
+
+Necrosculker Boss Fight:
+    Rather than being a beat-down on a damage sponge, it could be a survival challenge where the boss tries to weaken your mind so that it can use the Takeover spell on you and make you into one of its minions. It uses some bullet-hell aspects of showing an area of attack, and then attacking there, mixed with some aspects of a normal boss like summoning its own minions to fight you and try to push you toward where the boss will hit. Can use boss bars to show time remaining until the boss is out of steam and for the amount of mental fortitude you have remaining before Takeover works on you.
+    The Takeover, Tendril Wave, and Blind Spells should be some of the rewards for successfully surviving and beating this boss!
+
+Solidify (?) Spell - Turn Lava / Water to Obsidian / Stone depending on what item is in offhand
+Liquidate (?) Spell - Turn Ice / Stone or Obsidian to Water / Lava depending on what item is in offhand
+
+
+Jukebox automation - dropper drops stick, disc is ejected
+Necrosculker fixes - more obvious indicators of lasers, changing directions, slower/faster - done
+                     fix where players can jump up on pillars to avoid the lasers or the tendrils when enraged (maybe another laser higher up, or teleporting the player downward) - done
+                     Fix for the Sculk Catalyst triggering with the Tendrils
+                     Make Totem of Undying give resistance so lasers don't hit through them - done
+
+
+Siphon Enchant - Take an enchantment off of an item in the user's offhand (not a book) and apply it to a single book in a glow item frame nearby (unless the book already has an enchantment)
+
+Finish Chain Mine Spell
+
+
+Add more Soul Foci to Soul Steal Spell
+
+Implement more Advancements
+
+Time Flux Spell (grows more powerful the longer you wait between casts)
+
+Armor Trim / Material Abilities (?)
+
+
+
+NEW Plans List:
+> Structure System that allows LARGER structures to be placed (beyond the limit of 116 blocks from the center for data pack structures)
+> Ancient Crypt Portal structure, to spawn in Ancient Cities in Overworld
+> Relic Slots for random Spell Bonuses or Spell Modifications, will be found in random loot tables
+    Slots should be either unlocked/upgraded through Milestones (killing bosses, completing certain tasks, etc.) or through manual tasks (such as a crafting recipe)
+> Equipment Terminal (arcade machine-esque block that allows players to view and change equipment, like Relics, Companions/Upgrades, and Tablets/Attunements)
+> The Necrosculker Boss Rewrite
+    (See below for details on what the rewrite will do)
+    Also implement a new loot table with Relics and Companion(s?)
+    Also implement a set of sounds to use for the boss itself, and potentially some camera work for introduction?
+> Complete the rest of the Ancient Crypt rooms (Rare/Treasure Rooms, more secrets, Trial Spawners and Vaults, Loot Tables, Continuous Random Spawns)
+> Create at least 10 total Spells for initial release, each able to be manipulated in some way
+> Runes of Knowledge for unlocking Spells
+    Maybe a Runeguiding System to actually unlock the spells? (Guidance to be similar to Thaumcraft Research minigame)
+> Tablet Specialties and/or Rare Tablet Boosts
+    Tablets can have random stat boosts or nerfs based on specific Elements, to add to exisiting variety and rarity
+> Incubation Chamber and Companions
+    Chamber on release should be used only to create Companions, but later functionality for upgrading/merging, deconstructing, and transmogrifying Companions should also be made
+> The Runic Instructor to act as a tutorial
+    Can be made into simpler boss fight!
+> Flesh out Runic Compendium
+    Include ALL aspects of game, including features listed above and below
+> The Sentient Sapling Boss Fight
+    Early-Game Bossfight to act as introduction to the pack's difficulty
+> Overworld Structure to serve as lore hook (have some sort of actual loot too, of course)
+> Protection Enchantments for each Magic Damage Type as well as one for a lesser amount against all types
+    Runic Ward Enchantment? And then a Ward Enchantment for each Element (Arcane Ward, Fire Ward, Cold Ward, Wind Ward, etc.)
+> Enchantments for Runic Tablets and Tablets of Memory
+> A Spellcasting Mode where you can use directional inputs to select Runic Ring nodes instead of having to click on them (Alt-Casting: Dance Mode)
+    Another Mode where you simply look at nodes you want to select (with optional changes for where Node 9 appears (up, down, left, right, or in-ring)) (Alt-Casting: Stare Mode)
+    Make it so these modes can be set per-tablet or as the player's default!
+> An intro cutscene that introduces 3 main characters: Xil, Glavier, and Alkhin
+    Names will not be known to the player, but their fonts will match their personalities as they talk and will be reused as they progress
+> Elemental Interactions (like spells hitting each other that are of different elements)
+> Bonus paintings! Maybe an Easel to craft/collect them?
+> Dungeon Stats so that the Overworld can remain at a consistent difficulty level, while upper-level Dungeons and bosses can have extremely varied toughness
+    For example, Dungeon Health (maybe using SBHP), Dungeon Mana/Mana Regen, Dungeon Strength, etc.
+    Maybe have a way to test Dungeon Stats in the overworld? Like a Potion that temporarily activates all Dungeon Stats instead of Overworld stats
+
+    • Added Infusion enchantments for Tablets. These enchantments come in the form of various elements. Infusions modify some Arcane spells to become a different elemental type, modifying their behavior and what stats they pull from. Only one Infusion may be on a tablet at a time.
+
+> The Gateway Gardens:
+    A Mausoleum structure that must be built in the world which links to a Garden Dimension, where you must plant, tend to, and nurture crops and flowers. These flowers give you boons that help you in death (or the protection thereof), in survival (and the elongating thereof), in magic (and the creation thereof), and in resource production
+    > The idea is that there are 4 floating islands in a separate dimension, one of which may be chosen at the start. The others two are locked until keys for them are found through progression. Each island takes unique approach to materials, flowers and resources required to generate various benefits for the gardener.
+        - Abjuration island
+        - Conjuration island - Cows for milks/liquids, Bees for combs and liquids, Sheep for wools, Shulkers for "goo?"
+        - Necromancy island - Death-related boons (duh).
+        - Transmutation island - 
+        - Profundomancy island - Storage
+
+
+
+Casting System issues:
+- Main Tablets become useless after gathering Memory Tablets for a few spells
+>   To fix, let main tablets cast spells normally, but have Memory Tablets, wands and/or staves cast weaker versions of the spells or require additional material cost/fuel.
+
+- Memory tablets are an almost vital part of spellcasting system due to almost infinite flexibility and utility
+>   To fix, make them single-use for whatever spell is stored, but stackable (16 for blank, 4 for inscribed), so that each time a spell is stored, it must be re-set to use again, simply skipping the casting process while also not requiring intense inventory loss.
+
+
+> Spell Scripts are used to discover spells, using minigame
+    Pages found throughout the world that are used to unlock spells.
+    > Unlocking the spell on the script requires playing a minigame relative to the element of the contained spell.
+        - Arcane -> Wordle-like game of guessing the Casting Order of the spell
+        - Fire -> Aim-training sort of game with three rounds
+        - Water -> A rapid-clicking game
+        - Lightning -> Guitar Hero sort of game where WASD is used
+        - Air -> A Flappy Bird / Jetpack Joyride sort of game
+        - Earth -> A dodging minigame that uses undertale-battle-system-esque movement
+        - Darkness -> A maze game with fog of war
+        - Chaos -> A simon says memory game
+        - Explosion -> A timing game where you have to hit a key on proper timings
+
+
+
+
+Other people's ideas/contributions:
+Incubation Chamber to work with companions? Make new ones, boost existing ones, evolve, upgradeable table (boyd!)
+Custom Biome (maybe implemented and generated using a Spell?)
+Bonus Paintings (noah!)
+
+
+
+
+
+|=============VVVVVVV===============|
+|>>>>>>>>>>>> Balance <<<<<<<<<<<<<<|
+|=============^^^^^^^===============|
+
+
+
+
+
+To Do:
+
+All current planned spells
+
+
+
+Maybe:
+Spell Rewards:
+Track stats and other things to give access to spells upon reaching a milestone. For instance, jumping 20 times gives Leap (maybe not exactly like this, but that's just the idea)
+
+BOSSES!
+Note that Bosses marked as (Sin) will only be able to be fought after defeating The Deserving Self, and serve as a collection of penultimate challenges behind the Sinful Soul (which serves as the final boss)
+
+⭐
+
+- Introduction (0+)
+
+Runic Instructor (0)			[Rune of Questions]
+    Pestered Runic Instructor		[Rune of Many Questions]
+    Peeved Runic Instructor		[Rune of Uncanny Questions]
+    Angry Runic Instructor		[Rune of Ridiculous Questions]
+    *Avatar of the Bookkeeper (Sin)	[Forbidden Rune of Questions]
+
+The Sentient Sapling (0.1)		[Suspicious Writhing Seed]
+    Fruitful Sentient Sapling		[Promising Writhing Seed]
+    Autumnal Sentient Sapling		[Golden Writhing Seed]
+    Elder Sentient Sapling		[Wizened Writhing Seed]
+    *Chaotic Sentient Sapling (Sin)	[Chaosfruit Seed]
+    
+
+⭐
+
+- The Inciting (1+)
+
+ Necrosculker (1)               [Suspicious Dark Heart]
+    Elite Necrosculker                  [Angered Dark Heart]
+    Nightmare Necrosculker              [Wrathful Dark Heart]
+    Void Necrosculker                   [Evil Dark Heart]
+    *Dark Matter Necrosculker (Sin)       [Dark Matter Heart]
+
+-- Base Necrosculker Attacks:
+> Tendril Nest - Shoots several homing bursts of Sculk energy toward random players. These bursts summon Sculk tendrils from below to jab at things above them.
+> Undead Calling - Calls several Sculk Vessels from below to attack and distract players. Move with varying speeds and deal varying damage. (Faster will be weaker)
+> Absorption Beam - Creates 6 arena-spanning lasers that must be jumped over or ducked beneath. Being damaged by the laser heals the Necrosculker by some amount. Varies depending on the level of the boss. Varies in speed over time. All lasers move at the same speed.
+> Grip With Fear - The Necrosculker applies blindness to all players and forces them to be unable to move. By looking at the Necrosculker, players will avoid constant Darkness damage. A number of Sculk Vessels, if left alive during the attack, will be absorbed into the boss to heal it. The boss will glow during this period.
+> Exhaustion - The Necrosculker will be exhausted after the above attacks, and will be able to be damaged. Several Sculk Root Pods will appear around the arena. These are the weak points. One will be marked as a Very Weak Point and will allow players to deal additional damage (Roughly 1.5x).
+> Mortal Phase - At roughly 20% of its total health, the Necrosculker itself will become vulnerable, allowing players to damage it outside of just the Exhaustion phase. The boss itself takes only 20% of any damage dealt to it, and any healing it receives is doubled. This phase is permanent once reached.
+-- Elite+ Attacks:
+> Regeneration Pulse - After completing the Exhaustion phase, the Necrosculker will create a pulse of Sculk energy that will move from the edge of the arena in toward itself. Players must jump over this pulse or be damaged and stunned temporarily.
+> Rage Attack - If the boss has taken a certain amount of damage during Exhaustion, it will end this phase early and nullify any further damage. It will then carry out the Regeneration Pulse (if it has not already done so) and then randomly spawn many Tendril Nests around the arena. It will then reset its entire cycle.
+> Reinforced Undead - Skeletons summoned by Undead Calling are slightly stronger, and some have bows instead of swords.
+-- Nightmare+ Attacks:
+> Soul Steal Zone - After completing the Exhaustion phase, a projectile will be lobbed in a random direction. On landing, it spawns an Aura with hands reaching up from underground to swipe at players that step on them. The Aura will also slow down players and speed up Vessels that walk through them. This Aura lasts until another one is thrown out in another direction.
+> Heroic Undead - Skeletons summoned by Undead Calling are much stronger, and one becomes a Heroic Crypt Keeper (Stray Skeleton).
+-- Void+ Attacks:
+> Unyielding Onslaught - A slow but continuous burst of three Tendril Nest projectiles will be sent toward random players during all phases.
+> Mindwipe - When hit by a Soul Steal Zone, the player will lose the ability to cast spells for a set time. All Potion Effects will also be cleared.
+> Exhaustion II - Only three Pods will appear from the ground, and all of them will be normal Weak Points (as in no Very Weak Points).
+> Grip with Fear II - Added Darkness effect on top of Blindness. Boss will no longer glow.
+> Legendary Undead - Heroic Crypt Keeper is equipped with a bow by default, but swaps to a sword if a player is nearby. All other Skeletons become Wither Skeletons.
+-- Dark Matter Attacks:
+> Soul Steal Zone II - Zone becomes larger, and a second Zone is created opposite the first. Weakness is applied as well as Slowness to players. Poison (which regenerates since they are Undead) is applied as well as Speed to Vessels.
+> Rage Attack II - Random Tendril Nests will spawn for longer, continuing into the next two phases.
+> Unyielding Onslaught II - Burst becomes four projectiles instead of three. A Regeneration Pulse takes effect every three bursts, outside of the Absorption Beam phase.
+
+
+
+ Sunsong Sycophant (2) - Auva - Next    [Suspicious Harp]
+    Sunstruck Sycophant                 [Chaotic Harp]
+    Sunfire Sycophant                   [Dreadful Harp]
+    Sunsoul Sycophant                   [Catastrophic Harp]
+    *Black Sun Sycophant (Sin)          [Voidstrand Harp]
+
+ The Wayfarer (3) - Pailynn Sochal          [Suspicious Sunstone]
+    Tireless Wayfarer                   [Envigored Sunstone]
+    Soulsearching Wayfarer              [Sacred Sunstone]
+    Enlightened Wayfarer                [Unfathomed Sunstone]
+
+ Champion of Tides (4) - Zerzuret   [Suspicious Moon Banner]
+    Champion of Torrents            [Aqueous Moon Banner]
+    Champion of Maelstroms          [Maelstrom Moon Banner]
+    Champion of the Moonguided      [Blue Moon Banner]
+    *Champion of Cadence (Sin)      [Wayfaring Moon Banner]
+
+ Mad Chef (5) - Delilah     [Suspicious Pepper]
+    Enraged Chef            [Heated Pepper]
+    Fury-Fueled Chef        [Blaze Pepper]
+    Chef of Wrath           [Wraith Pepper]
+    *The Temper (Sin)       [Soul-Reaper Pepper]
+
+ They Who Silence (6) - Slevun and Solrum   [Suspicious Twin Crystals]
+    They Who Decide                         [Synchronized Twin Crystals]
+    They Who Conquer                        [Inseparable Twin Crystals]
+    They Who Reconcile                      [Gleaming Twin Crystals]
+    *They Who Remember (Sin)                [Unforgettable Twin Crystals]
+
+ The Visionkeeper (7)                                           [Suspicious Mechanical Box]
+   V.C.A.S. (Vital Continuity Assurance System)
+      Steel-Forged V.C.A.S.                                     [Steel Mechanical Box]
+      Obsidian-Skin V.C.A.S.                                    [Obsidian Mechanical Box]
+      A.T.O.S. (Absolute Timeline Observation System)           [Netherite Mechanical Box]
+      *Domain's G.T.P.A. (Grand Timeline Purging Array) (Sin)   [Soulsteel Mechanical Box]
+
+ The Stoneshifter (8) - Geth' Renn          [Suspicious Shifting Mold]
+    The Stonemaker                          [Infused Shifting Mold]
+    The Stonestayer                         [Volcanic Shifting Mold]
+    The Stonelord                           [Bejeweled Shifting Mold]
+    *Author of the Solemn Stone (Sin)       [Sentient Shifting Mold]
+
+⭐
+
+- Domain's Devout (9-12) and Storyshapers (13+)
+
+ - The Casting King - (9)               [Suspicious Crown]
+    Incanacni
+        Spellborn King                  [Imbued Crown]
+        Arcane Emperor                  [Arcanist's Crown]
+        Element Overlord                [Overlord's Crown]
+        *Casting Catalyst (Sin)         [The Catalyst's Crown]
+
+ - The Heretic of the Elements - (10)   [Suspicious Sigil]
+    Cairom
+        Spellborn Heretic               [Imbued Sigil]
+        Arcane Outlaw                   [Arcanist's Sigil]
+        The Blaspheme                   [Blaspheme's Sigil]
+        *Heretic Catalyst (Sin)         [The Catalyst's Sigil]
+
+ - The Flowsmith - (11)                     [Suspicious Ethereal Anvil]
+    Thyrnellia
+        Adept Flowsmith                     [Refined Ethereal Anvil]
+        Masterwork Flowsmith                [Master's Ethereal Anvil]
+        God-Sent Flowsmith                  [Heavenly Ethereal Anvil]
+        *Flow-Molding Catalyst (Sin)        [The Catalyst's Ethereal Anvil]
+
+ - The Solemn Stone - (12)              [Suspicious Runic Gemstone]
+    Stone of Eternity
+        The Sacred Stone                [Sacred Runic Gemstone]
+        The Siphoning Stone             [Siphoning Runic Gemstone]
+        The Sovereign Stone             [Sovereign Runic Gemstone]
+        *Eternity Catalyst (Sin)        [Eternal Runic Gemstone]
+
+
+ - The Denounced - (13)                         [Suspicious Bottle of Disdain]
+    Ser Aphim
+        The Reviled                             [Potent Bottle of Disdain]
+        The Unspeakable                         [Pungent Bottle of Disdain]
+        The Abhorred                            [Unstable Bottle of Disdain]
+        Miazked                                 [Supercritical Bottle of Disdain]
+        *Miazked, the Vengeful Mockery (Sin)  [Plasmatic Bottle of Disdain]
+
+⭐
+
+- Worldshapers (14+)
+
+ -- Master of Chaos -- (14)        [Suspicious Chaos Fractal]
+    Domain
+        Domain II                  [Engulfing Chaos Fractal]
+        Domain III                 [Accelerated Chaos Fractal]
+        Domain, the Resurger       [Carnal Chaos Fractal]
+        *Domain, God of Runes (Sin)[The Forever Fractal]
+
+ -- Witness -- (15)        [Suspicious Oracle's Eye]
+        Witness II         [Observant Oracle's Eye]
+        Witness III        [Understanding Oracle's Eye]
+        The Truthseeker    [Foreseeing Oracle's Eye]
+        *The Ensurer (Sin) [Reflective Oracle's Eye]
+
+ -- The Unyielding God -- (16)              [Suspicious Bloodstone]
+    Bloodlust
+        Bloodlust II                        [Bloodbenders' Bloodstone]
+        Bloodlust III                       [Vile Bloodstone]
+        Bloodlust, The Carnage Incarnate    [Abyssal Bloodstone]
+        *Bloodshed (Sin)                    [All-Consuming Bloodstone]
+
+ -- Wayfarer II -- (17)         [Suspicious Wayfarer's Calling]
+        Dimensional Wayfarer    [Phased Wayfarer's Calling]
+        Multiversal Wayfarer    [Transcendent Wayfarer's Calling]
+        Prophetic Wayfarer      [Absolute Wayfarer's Calling]
+        *Cadence (Sin)          [Purified Wayfarer's Calling]
+
+ -- The Unwilling Goddess -- (18)               [Suspicious Holy Symbol]
+    Benevolence
+        Benevolence, The Willing Goddess        [Glowing Holy Symbol]
+        Benevolence, The Vigilant Goddess       [Illuminant Holy Symbol]
+        Benevolence, The Unstoppable Goddess    [Perseverant Holy Symbol]
+        *Benevolence, Goddess of Grace (Sin)    [Absolvent Holy Symbol]
+
+ -- The Wager -- (19)              [Suspicious Helmet]
+        Wager of Battles           [Helmet of Centuries]
+        Wager of Wars              [Helmet of Millenia]
+        Wager of The Exikrath      [Helmet of Aeons]
+        *The Legionnaire  (Sin)    [Helmet of Purgatory]
+
+⭐
+
+- The Finale (20+)
+
+ -- The Cornerstone Clock -- (20)            [Suspicious Ethereal Gear]
+         Calibrated Cornerstone Clock        [Integral Ethereal Gear]
+         World-Synced Cornerstone Clock      [Fine-Tuned Ethereal Gear]
+         Imminent Cornerstone Clock          [Overclocked Ethereal Gear]
+         *Crumbling Cornerstone Clock (Sin)  [Overworked Ethereal Gear]
+
+ -- War-Worn Mirror -- (21)            [Suspicious Infernal Glass]
+    The Corrupted Memory
+        The Nightmare                  [Wretched Infernal Glass]
+        The Recognition                [Demonic Infernal Glass]
+        The Vivid Memory               [Brutal Infernal Glass]
+        *The Understanding (Sin)       [Perfect Infernal Glass]
+
+– Glavier, the Child of Wrath – (22)		[Suspicious Engraved Locket]
+    Regretful Child of Wrath			      [Dented Engraved Locket]
+    Unrelenting Child of Wrath     		   [Broken Engraved Locket]
+    Inconsolable Child of Wrath		      [Reforged Engraved Locket]
+    *THE PERFECT WRATH (Sin)		         [The Pinnacle Locket]
+    
+– XIL, the Paladin of Catastrophe – (23)     [Suspicious Memory Orb]
+    Begrudging Paladin of Catastrophe			[Forsaken Memory Orb]
+    Unrepenting Paladin of Catastrophe       [Undesirable Memory Orb]
+    Inconsolable Paladin of Catastrophe		[Sorrowful Memory Orb]
+    *THE FINAL RESOLVE (Sin)		            [Rebirthing Memory Orb]
+    
+– Alkhin Sinclaire, Queen of the Dragonkin – (24)  [Suspicious Draconic Arrow]
+    Insatiable Queen of the Dragonkin			      [Corronated Draconic Arrow]
+    Uncompromising Queen of the Dragonkin          [Decorated Draconic Arrow]
+    Inconsolable Queen of the Dragonkin		      [Incinerating Draconic Arrow]
+    *THE AVATAR OF DRAGONS (Sin)		               [The Arrow of a Thousand Generations]
+
+ -- The Unnamed God -- (25) [Suspicious Soul Cage]
+    Yourself
+        Putrid self                 [Putrid Soul Cage]
+        Unworthy self               [Unworthy Soul Cage]
+        Deserving self              [Deserving Soul Cage]
+            (Defeating unlocks Sin Bosses)
+        *Sinful Soul (Sin (FINAL))  [Sinful Soul Cage]
+            (Each post-sin boss represents a specific negative emotion, like Anger, Frustration, Guilt, Shame, Sadness)
+            (Sinful Soul's name should constantly change between several different names to represent a culmination of the journey thus far)
+        **Soul                      [Ascension]
+            (Can be summoned after all Post-Sin Bosses are defeated, not a fight, a reward)
+            (Grants total control over the Spellcrafting Table, with an optional toggle on limits and spell cost increases)
+
+
+BONUS???? (Megabosses, entirely optional and probably addons, meant to be GRUELING fights)
+
+— Kel’ Vaaz, Lord of the Otherworlds —
+
+— The Fated Reunion — Glavier, Xil and Alkhin
+
+— Supreme King Kalekad —
+
+
+
+Gods of Runic Resurgence:
+
+??? - a secret!
+
+Benevolence - a goddess focused on beauty, life, and prosperity
+    Extraordinarily strong, though is reluctant to use her powers for anything but creation and maintaining her "works"
+
+Domain - a god that designs Runes and gives Chaos energy to the world
+    Not crazy powerful, but wickedly intelligent and cunning
+
+Bloodshed/Bloodlust - Two twin gods that deal with death, love, and fire
+    Powerful, but unfocused. Also not evil!
+
+Cadence - The god that creates planets and stars, as well as the god of wind and water
+    After creating the world the story takes place in (primarily), this god had amnesia. Encountered early, when weak and unassuming.
+        Later comes to regain powers, and becomes equal in strength to Benevolence.
+
+Legionnaire - The god of valor, honor, intelligence, and earth
+    Is among the strongest of the gods. He is often seen as the gods' protector, even though he is one of them
+
+Draminidulo - The god of dreams, visions, and nightmares
+    Rather weak, but only in actual reality. In any dream or vision, he becomes the literal strongest being.
+
+Rosinoll - The goddess of prophecy
+    Not a fighter. But is still very powerful if she is granted the ability to use her powers.
+
+Kel' Vaaz*
+    * Not really a god, but still becomes equal in strength to them. Pretty much a self-made god that commands his own dimension.
+
+Kalekad* - The "god" of Seder
+    * Also not really a god, but is widely seen as a "heavenly figure" by Seder's people.
+
+Tempo - The goddess of time, mother of Legionnaire, Cadence, and Rosinoll
+    Gives time-altering abilities to XIL, upon completion of his arc.
+        Among the strongest of the gods
+
+Ser Aphim/Miazked - The god of darkness
+    Creates the Sculk infection. Not very powerful since he infused much of his power into the Sculk.
+        After not being able to contain the infection, which he believed would be a boon to the universe, Seder began to mock him and renamed him to Miazked, or Mockery.
+
+
+
+
+
+Paramount Spells?
+AND / OR
+Tier-Up Spells?
+Like upgradeable versions of current spells or new and unique tiered spells that are, themselves, upgraded over time with materials
+
+Spell Towers?
+Can be placed and modified to run a single spell facing certain directions / at nearby entities / at nearby player(s) / at the tower itself
+Spell would be set by placing a Tablet of Memory in the tower set to the desired Spell, with additional options and things available depending on the Spell selected
+
+
+Runic Remoulade (food-focused)
+Runic Raviolli
+Runic Ripening
+Runic Roasting
+Runic Renaissance
+
+Runic Rodeos/Runic Riders
+
+Runic Rememberance/Runic Revivals (gravestones)
+
+Runic Runways (elytra stuff?)
+
+Runic Railways (minecart stuff)
+
+Runic Resonance (sculk/noteblock-based stuff?)
+
+Runic Resistance (tower defense?)
+
+Runic Refinement (Armor Upgrades)
+
+Runic Reology (slimes?)
+
+Runic Radiation (Nuclear Reactors of course)
+
+Runic Randomizer/Runic Roulette
+
+Runic Rivals (pvp-focused)
+
+Runic Realms (dimensions)
+
+Runic Radiesthesia (dowsing rods?)
+
+Runic Reflection
+
+Runic Restoration
+
+Runic Rebellion
+

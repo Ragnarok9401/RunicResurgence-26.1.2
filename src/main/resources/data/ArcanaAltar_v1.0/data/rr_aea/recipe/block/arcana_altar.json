@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "lel",
+    "ata",
+    "dnd"
+  ],
+  "key": {
+    "l": [
+      "minecraft:lapis_block"
+    ],
+    "e": [
+      "minecraft:experience_bottle"
+    ],
+    "a": [
+      "minecraft:amethyst_cluster"
+    ],
+    "t": [
+      "minecraft:enchanting_table"
+    ],
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "n": [
+      "minecraft:netherite_scrap"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_blocks",
+    "components": {
+      "!minecraft:jukebox_playable": {},
+      "minecraft:item_name": {
+        "translate": "block.rr_aea.arcana_altar",
+        "fallback": "Arcana Altar",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "block.rr_aea.arcana_altar.desc_1",
+          "fallback": "Must be placed on Glowstone",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": "{aea.altar:true,aea.altar.item:true}",
+      "minecraft:item_model": "aea:block/enchanting_altar",
+      "minecraft:max_stack_size": 64
+    },
+    "count": 1
+  }
+}

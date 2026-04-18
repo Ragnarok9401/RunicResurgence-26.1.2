@@ -1,0 +1,1 @@
+execute unless score @s aea.ench.maul_timer matches 0..9 store result score @s aea.ench.maul_timer run data get entity @p[predicate=rr_aea:held_items/mainhand/maul_any] SelectedItem.components."minecraft:enchantments"."rr_aea:maul"

@@ -1,0 +1,20 @@
+Knowledge Fragments and Tags:
+
+All Knowledge Fragments have the rr.knowledge_fragment tag as well as their respective tags listed below
+
+Ancient City - ACityFragment1 / ACityFragment2 / ACityFragment3
+Ancient Crypt - CryptFragment
+Necrosculker - rr.knowledge.necrosculker
+
+Temporarily Removed Features:
+Companions
+Discombobulator
+Memory Tablets
+Musical Tablet
+
+Key points from server:
+- Early-game with Lifeline is *brutal*, change this to be a little less punishing (but still hard)
+- Accessing Runic Tablets at earlygame is nigh impossible due to diamond cost, consider lessening it
+- Meteors last way too long and their drops are practically useless after the first minute of being at one
+- Not enough genuine interaction between any data pack and early-midgame,
+  feels like just a more difficult mode with slightly more inventory clutter. Make early-game stuff!

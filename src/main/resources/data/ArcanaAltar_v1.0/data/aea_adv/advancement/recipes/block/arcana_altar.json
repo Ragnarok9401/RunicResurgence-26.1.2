@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_enchanting_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:enchanting_table"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_aea:block/enchanting_altar"
+      ]
+    }
+  }
+  

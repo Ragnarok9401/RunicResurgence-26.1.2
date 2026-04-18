@@ -1,0 +1,12 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.rr_recast.bowmaster",
+    "fallback": "The Bowmaster",
+    "italic": false
+  },
+  "length_in_seconds": 529,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.bowmaster"
+  }
+}

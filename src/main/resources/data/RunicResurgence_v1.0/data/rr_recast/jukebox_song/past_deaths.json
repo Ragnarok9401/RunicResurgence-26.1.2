@@ -1,0 +1,12 @@
+{
+  "comparator_output": 7,
+  "description": {
+    "translate": "jukebox_song.rr_recast.past_deaths",
+    "fallback": "REANIMATED: Past Deaths",
+    "italic": false
+  },
+  "length_in_seconds": 271,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.reanimated.past_deaths"
+  }
+}

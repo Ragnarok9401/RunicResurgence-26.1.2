@@ -1,0 +1,14 @@
+# First, check if there is already an existing Equipment Box for the player running the function. If so, move the existing box and return 2
+execute as @s at @s run execute as @e[type=item_display,tag=rr.equipment_manager] if score @s rr.equipment.id = @p rr.equipment.id run function rr_recast:technical/equipment_manager/move_equipment_manager
+execute as @s at @s run execute as @e[type=item_display,tag=rr.equipment_manager] if score @s rr.equipment.id = @p rr.equipment.id run return 2
+
+# If no box exists for this player, check if the block below the player is a Barrel. If not, return -1.
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 unless block ~ ~ ~ barrel[facing=up] run tellraw @s [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"You must have an ","color":"red","italic":false,"bold":false},{"text":"empty Barrel facing up beneath you","color":"red","italic":false,"bold":true},{"text":" to make an Equipment Box.","color":"red","italic":false,"bold":false}]
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 unless block ~ ~ ~ barrel[facing=up] run return -1
+
+# If no box exists for this player, check if the block below the player is a Barrel. If so, check if there is already an Equipment Manager Item Display here. If so, return -2.
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if entity @e[type=item_display,tag=rr.equipment_manager,distance=..0.1] run tellraw @s [{"text":"[RR: ","color":"gray"},{"color":"#A341A3","text":"R"},{"color":"#945EAF","text":"e"},{"color":"#867ABC","text":"c"},{"color":"#7797C8","text":"a"},{"color":"#68B4D4","text":"s"},{"color":"#4BEDED","text":"t"},{"text":"] ","color":"gray"},{"text":"There is already an Equipment Box here!","color":"red","italic":false,"bold":false}]
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if entity @e[type=item_display,tag=rr.equipment_manager,distance=..0.1] run return -3
+
+# If no box exists for this player, check if the block below the player is a Barrel. If so, check if there is already an Equipment Manager Item Display here. If not, make a new one and set its data.
+execute as @s at @s align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ barrel[facing=up] unless entity @e[type=item_display,tag=rr.equipment_manager,distance=..0.1] run summon item_display ~ ~ ~ {item:{id:"minecraft:barrier",count:1,components:{item_model:"rr_recast:equipment_manager/equipment_block",item_name:'{"text":"You Shouldn\'t Have This"}'}},item_display:"head",Tags:["rr.equipment_manager","rr.equipment_manager_block"]}

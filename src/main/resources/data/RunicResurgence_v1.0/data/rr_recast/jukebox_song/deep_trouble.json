@@ -1,0 +1,12 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "jukebox_song.rr_recast.deep_trouble",
+    "fallback": "Deep Trouble",
+    "italic": false
+  },
+  "length_in_seconds": 223,
+  "sound_event": {
+    "sound_id": "rr_recast:boss_tracks.deep_trouble"
+  }
+}

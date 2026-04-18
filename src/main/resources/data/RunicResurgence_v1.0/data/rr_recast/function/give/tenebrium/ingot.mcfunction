@@ -1,0 +1,1 @@
+give @p music_disc_cat[item_name={"color":"#4672b4","fallback":"Tenebrium Ingot","italic":false,"translate":"item.rr_recast.tenebrium_ingot"},item_model="rr_recast:generic/tenebrium_ingot",!jukebox_playable,max_stack_size=64,custom_data={rr.item.tenebrium_ingot:1b}] 1

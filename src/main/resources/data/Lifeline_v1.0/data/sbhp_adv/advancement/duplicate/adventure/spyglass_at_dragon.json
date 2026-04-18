@@ -1,0 +1,50 @@
+{
+  "parent": "sbhp_adv:duplicate/adventure/spyglass_at_ghast",
+  "criteria": {
+    "spyglass_at_dragon": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:ender_dragon"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_dragon.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_dragon"
+    ]
+  ],
+  "rewards": {
+    "function": "sbhp:advancement/reward_hard"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+# Projectile Lifespan
+execute store result score @s rr.math.X run data get entity @s data.projectile.lifespan 1
+
+## Held Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p SelectedItem.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+## Offhand Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p equipment.offhand.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+## Helmet Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p equipment.head.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+## Chestplate Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p equipment.chest.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+## Leggings Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p equipment.legs.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+## Boots Item Spell-Specific Lifespan Boost
+scoreboard players set @s rr.math.Y 0
+$execute store result score @s rr.math.Y run data get entity @p equipment.feet.components."minecraft:custom_data"."rr.spell.$(reference).lifespan_boost"."amount" 1
+scoreboard players operation @s rr.math.X += @s rr.math.Y
+
+scoreboard players set @s[scores={rr.math.X=..5}] rr.math.X 6
+execute store result entity @s data.projectile.lifespan int 1 run scoreboard players get @s rr.math.X

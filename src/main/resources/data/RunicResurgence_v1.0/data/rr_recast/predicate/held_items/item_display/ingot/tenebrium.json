@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "slots": {
+        "contents": {
+          "items": "minecraft:music_disc_cat",
+          "count": 1,
+          "components": {
+            "minecraft:item_model": "rr_recast:generic/tenebrium_ingot"
+          }
+        }
+      }
+    }
+  }
+  

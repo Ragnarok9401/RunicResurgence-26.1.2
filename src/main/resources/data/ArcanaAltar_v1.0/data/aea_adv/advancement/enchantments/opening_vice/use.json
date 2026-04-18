@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "damaged": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "rr_aea:opening"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/opening_vice/tick"
+  }
+}

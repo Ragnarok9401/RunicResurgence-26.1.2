@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "activate_knowledge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks",
+            "components": {
+              "minecraft:item_model": "rr_recast:knowledge_fragment/structure/ancient_city/ancient_city_1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/knowledge_fragment/ancient_city/claim_fragment_1"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "max_stack_size": 64,
+                "minecraft:custom_data": {
+                  "spell_script": {
+                    "id": 92347,
+                    "spell": "⸘ Arcane Bolt",
+                    "attempts": 6,
+                    "difficulty": 1,
+                    "destroy_on_fail": true,
+                    "reference": "magic_bolt"
+                  }
+                },
+                "minecraft:item_model": "rr_recast:spell_script/generic_arcane",
+                "minecraft:item_name": [
+                  {
+                    "color": "#FFF9A8",
+                    "italic": false,
+                    "text": "S"
+                  },
+                  {
+                    "color": "#FFF7A3",
+                    "text": "p"
+                  },
+                  {
+                    "color": "#FFF49E",
+                    "text": "e"
+                  },
+                  {
+                    "color": "#FFF299",
+                    "text": "l"
+                  },
+                  {
+                    "color": "#FFEF94",
+                    "text": "l "
+                  },
+                  {
+                    "color": "#FFED8F",
+                    "text": "S"
+                  },
+                  {
+                    "color": "#FFEA89",
+                    "text": "c"
+                  },
+                  {
+                    "color": "#FFE884",
+                    "text": "r"
+                  },
+                  {
+                    "color": "#FFE57F",
+                    "text": "i"
+                  },
+                  {
+                    "color": "#FFE37A",
+                    "text": "p"
+                  },
+                  {
+                    "color": "#FFDE70",
+                    "text": "t"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "color": "dark_aqua",
+                    "italic": false,
+                    "text": "Spell:"
+                  },
+                  {
+                    "color": "light_purple",
+                    "italic": false,
+                    "text": "  ⸘ Arcane Bolt"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "max_stack_size": 64,
+                "minecraft:custom_data": {
+                  "spell_script": {
+                    "id": 54286,
+                    "spell": "⸘ Paladin's Pylon",
+                    "attempts": 6,
+                    "difficulty": 1,
+                    "destroy_on_fail": true,
+                    "reference": "paladin_pylon"
+                  }
+                },
+                "minecraft:item_model": "rr_recast:spell_script/generic_arcane",
+                "minecraft:item_name": [
+                  {
+                    "color": "#FFF9A8",
+                    "italic": false,
+                    "text": "S"
+                  },
+                  {
+                    "color": "#FFF7A3",
+                    "text": "p"
+                  },
+                  {
+                    "color": "#FFF49E",
+                    "text": "e"
+                  },
+                  {
+                    "color": "#FFF299",
+                    "text": "l"
+                  },
+                  {
+                    "color": "#FFEF94",
+                    "text": "l "
+                  },
+                  {
+                    "color": "#FFED8F",
+                    "text": "S"
+                  },
+                  {
+                    "color": "#FFEA89",
+                    "text": "c"
+                  },
+                  {
+                    "color": "#FFE884",
+                    "text": "r"
+                  },
+                  {
+                    "color": "#FFE57F",
+                    "text": "i"
+                  },
+                  {
+                    "color": "#FFE37A",
+                    "text": "p"
+                  },
+                  {
+                    "color": "#FFDE70",
+                    "text": "t"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "color": "dark_aqua",
+                    "italic": false,
+                    "text": "Spell:"
+                  },
+                  {
+                    "color": "light_purple",
+                    "italic": false,
+                    "text": "  ⸘ Paladin's Pylon"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

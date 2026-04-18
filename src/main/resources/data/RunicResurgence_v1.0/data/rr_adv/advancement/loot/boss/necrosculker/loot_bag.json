@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "score": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "rr.loot_bag": true,
+              "rr.loot_bag.ns": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_recast:technical/loot_bag/necrosculker"
+  }
+}

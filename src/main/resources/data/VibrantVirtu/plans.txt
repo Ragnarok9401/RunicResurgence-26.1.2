@@ -1,0 +1,17 @@
+Vibrant Virtu:
+    Need to do:
+    - Equipment System using a Player Storage Marker at X0, Y0, Z0
+        > 3 slots for Relics, general or unique abilities
+        > 1 slot for Necklace, mostly defensive abilities
+        > 1 slot for Focus, mostly offensive or magic-related abilities
+        > 1 slot for Idol, rarer and more powerful specializations and an optional equippable Totem slot
+        > 1 slot for Companion, as little buddies are important (kinda just a stronger Relic slot)
+        > 1 slot for Attunement, stronger spell-specific buffs or changes
+    - When the player requests item change (equipping, swapping, or unequipping), run checks:
+        1 If ONLY unequipping, drop stored item to player, remove data from player storage, and return
+        2 If item being equipped in empty slot, set item data to player data, clear item from player, and return
+        3 If item replaced with equipment item, give replaced item to player, clear replacing item from player, activate that equipment's effects, and return
+
+
+Order of Operations:
+    If no Marker exists that has data associated with querying player, ensure the marker has player's data initialized

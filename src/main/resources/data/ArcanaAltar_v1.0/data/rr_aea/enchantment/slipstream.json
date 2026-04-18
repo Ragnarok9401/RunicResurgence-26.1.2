@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.aea.slipstream",
+    "fallback": "Slipstream",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "periodic_tick": 40
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rr_aea:technical/enchantments/slipstream/check_height"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "body"
+  ],
+  "supported_items": "#minecraft:harnesses",
+  "weight": 2
+}

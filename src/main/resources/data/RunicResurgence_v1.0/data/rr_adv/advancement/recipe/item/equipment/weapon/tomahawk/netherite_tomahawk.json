@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_netherite_ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:netherite_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_recast:item/equipment/weapon/tomahawk/netherite_tomahawk"
+      ]
+    }
+  }
+  

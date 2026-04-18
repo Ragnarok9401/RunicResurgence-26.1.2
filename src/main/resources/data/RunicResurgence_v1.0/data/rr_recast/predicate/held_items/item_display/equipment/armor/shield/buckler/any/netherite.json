@@ -1,0 +1,196 @@
+{
+    "condition": "any_of",
+    "terms": [{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/oak/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/spruce/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/birch/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/jungle/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/acacia/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/dark_oak/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/mangrove/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/cherry/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/bamboo/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/pale_oak/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/crimson/netherite"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/warped/netherite"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

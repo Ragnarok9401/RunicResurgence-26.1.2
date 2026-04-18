@@ -1,0 +1,196 @@
+{
+    "condition": "any_of",
+    "terms": [{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/oak/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/spruce/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/birch/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/jungle/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/acacia/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/dark_oak/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/mangrove/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/cherry/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/bamboo/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/pale_oak/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/crimson/wooden"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item_display",
+        "slots": {
+          "contents": {
+            "items": "minecraft:shield",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "rr_recast:equipment/armor/shield/buckler/warped/wooden"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

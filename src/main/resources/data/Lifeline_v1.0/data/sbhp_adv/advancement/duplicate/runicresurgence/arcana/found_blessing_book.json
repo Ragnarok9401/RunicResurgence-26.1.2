@@ -1,0 +1,22 @@
+{
+  "parent": "sbhp_adv:duplicate/runicresurgence/root",
+  "criteria": {
+    "blessed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "aea.blessing_book": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sbhp:advancement/reward_challenge"
+  }
+}

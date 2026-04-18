@@ -1,0 +1,10 @@
+# Guesses
+$execute if data entity @s data.minigame.output_6 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[10] set from entity @s data.minigame.output_$(used).text
+$execute if data entity @s data.minigame.output_5 unless data entity @s data.minigame.output_6 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[8] set from entity @s data.minigame.output_$(used).text
+$execute if data entity @s data.minigame.output_4 unless data entity @s data.minigame.output_5 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[6] set from entity @s data.minigame.output_$(used).text
+$execute if data entity @s data.minigame.output_3 unless data entity @s data.minigame.output_4 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[4] set from entity @s data.minigame.output_$(used).text
+$execute if data entity @s data.minigame.output_2 unless data entity @s data.minigame.output_3 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[2] set from entity @s data.minigame.output_$(used).text
+$execute if data entity @s data.minigame.output_1 unless data entity @s data.minigame.output_2 run data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[0] set from entity @s data.minigame.output_$(used).text
+
+# Attempts
+$data modify entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text.extra[13].text set value '$(attempts)'

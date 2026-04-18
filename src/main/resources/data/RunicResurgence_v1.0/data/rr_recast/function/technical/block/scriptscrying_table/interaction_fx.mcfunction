@@ -1,0 +1,2 @@
+$playsound $(sound)
+$particle $(particle)

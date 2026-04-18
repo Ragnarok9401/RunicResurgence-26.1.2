@@ -1,0 +1,11 @@
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel1,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_protection
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel2,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_fire_protection
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel3,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_projectile_protection
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel4,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_blast_protection
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel5,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_feather_falling
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel6,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_depth_strider
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel7,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_frost_walker
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel8,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_soul_speed
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel9,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_thorns
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel10,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_unbreaking
+execute as @n[type=marker,tag=ArenAEABootsSel,tag=ArenAEABootsSel11,tag=!ArenAEABootsSelComplete] at @s run function rr_aea:ae_altar/core/ench_select/boots/boots_enchant_selected_mending

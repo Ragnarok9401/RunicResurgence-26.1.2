@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "slots": {
+        "contents": {
+          "items": "minecraft:potion",
+          "count": 1,
+          "components": {
+            "potion_contents": {
+              "potion": "long_night_vision"
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 15,
+  "description": {
+    "translate": "enchantment.rr_recast.speedcasting",
+    "fallback": "Speedcasting",
+    "color": "gray"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 8
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 1
+}

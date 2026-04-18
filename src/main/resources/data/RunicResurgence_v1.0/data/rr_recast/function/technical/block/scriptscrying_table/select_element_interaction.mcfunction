@@ -1,0 +1,1 @@
+$function rr_recast:technical/block/scriptscrying_table/$(element)/on_interact with entity @s data.spell_script

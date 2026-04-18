@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_gold": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:gold_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "rr_recast:item/equipment/weapon/tomahawk/golden_tomahawk"
+      ]
+    }
+  }
+  

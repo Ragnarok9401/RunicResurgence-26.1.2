@@ -1,0 +1,12 @@
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel1,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_sharpness
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel2,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_smite
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel3,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_boa
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel4,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_knockback
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel5,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_fire
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel6,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_looting
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel7,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_sweeping
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel8,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_echo
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel9,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_fervor
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel10,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_unbreaking
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel11,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_mending
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEASwordSel,tag=ArenAEASwordSel12,distance=..10] at @s run function rr_aea:ae_altar/core/interface/sword/sword_maul

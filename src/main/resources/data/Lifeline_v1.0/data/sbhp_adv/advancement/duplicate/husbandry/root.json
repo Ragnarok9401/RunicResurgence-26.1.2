@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "consumed_item": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "sends_telemetry_event": true
+}

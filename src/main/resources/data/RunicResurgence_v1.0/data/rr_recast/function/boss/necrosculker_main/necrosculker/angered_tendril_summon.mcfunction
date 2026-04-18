@@ -1,0 +1,3 @@
+
+$execute as @s[tag=RunicNSLookOther] at @s run execute as @e[type=item_display,tag=RunicNSHead1,limit=1,sort=nearest] at @s rotated ~ 0 positioned ^$(X) ^-1.5 ^$(Z) run summon marker ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Tags:["rr.boss.ns.ticking","RunicNSTendril2","RunicNSTendrilSet2","RunicNSTendrilReached2"]}
+$execute as @s[tag=RunicNSLookOther] at @s run execute as @e[type=item_display,tag=RunicNSHead1,limit=1,sort=nearest] at @s rotated ~ 0 positioned ^$(X) ^-1.5 ^$(Z) run playsound minecraft:block.sculk_catalyst.place hostile @a[distance=..50] ~ ~ ~ 0.6 1.2 0

@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "ii ",
+      "isr"
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "s": "minecraft:stick",
+      "r": "minecraft:feather"
+    },
+    "result": {
+      "id": "minecraft:music_disc_cat",
+      "count": 1,
+      "components": {
+        "!jukebox_playable": {},
+        "consumable": {"consume_seconds":9999999,"animation":"spear","has_consume_particles":false},
+        "custom_data": {"rr.item":true,"rr.tomahawk":true,"rr.tomahawk.iron":true,"rr.tomahawk_dmg":5.5,"rr.tomahawk_speed":1.12,"rr.tomahawk_weight":3.6,"rr.count":4},
+        "item_name": "Iron Tomahawk",
+        "lore":
+        [
+            [{"text":"Base Thrown Damage: ","color":"dark_green","italic":false},
+            {"text":"5.5","color":"green"}],
+            [{"text":"Base Speed: ","color":"dark_green","italic":false},
+            {"text":"1.12","color":"green"}],
+            [{"text":"Base Weight: ","color":"dark_green","italic":false},
+            {"text":"3.6","color":"green"}]
+        ],
+        "max_stack_size": 1,
+        "tool":
+        {
+            "default_mining_speed":1,
+            "damage_per_block":0,
+            "rules":
+            [
+                {"speed":5,"correct_for_drops":true,"blocks":"#mineable/axe"}
+            ]
+        },
+        "weapon": {"disable_blocking_for_seconds":0.25,"item_damage_per_attack":0},
+        "attribute_modifiers":
+        [
+            {"id":"attack_damage","type":"attack_damage","amount":5,"operation":"add_value","slot":"mainhand","display":{"type":"default"}}
+        ],
+        "item_model": "rr_recast:equipment/weapon/tomahawk/iron_tomahawk"
+      }
+    },
+    "show_notification": true
+  }
+  

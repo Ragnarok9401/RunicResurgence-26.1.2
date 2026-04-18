@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_aea:blessing/shield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_aea:blessing/bow",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_aea:blessing/sharp",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_aea:blessing/boots",
+          "weight": 2
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "exclusive_set": "#rr_aea:exclusive_set/vices",
+  "anvil_cost": 3,
+  "description": {
+    "text": "",
+    "color": "dark_red",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.vice_icon",
+        "fallback": "↓",
+        "color": "dark_red",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "dark_red",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.opening",
+                "fallback": "Opening",
+                "color": "dark_red"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 3,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:shield",
+  "weight": 1
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:ender_pearl"
+    ],
+    "result": {
+      "id": "minecraft:music_disc_cat",
+      "count": 4,
+      "components": {
+        "max_stack_size": 64,
+        "item_name": {"text":"Ender Dust"},
+        "rarity": "common",
+        "item_model": "rr_recast:generic/ender_dust",
+        "custom_data": "{rr.item:1b,rr.ender_dust:1b}",
+        "!minecraft:jukebox_playable": {}
+      }
+    }
+  }
+  

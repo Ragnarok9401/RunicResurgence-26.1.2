@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "snow_block"
+    },
+    "title": "Snow Block",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "aea_adv:enchantments/wanderlust_blessing/nature_root",
+  "criteria": {
+    "step_on_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "rr_aea:wanderlust"
+                  }
+                ]
+              }
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:snow_block"
+            }
+          },
+          "periodic_tick": 5
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rr_aea:technical/enchantments/wanderlust_blessing/new_block_seen_common"
+  },
+  "sends_telemetry_event": false
+}

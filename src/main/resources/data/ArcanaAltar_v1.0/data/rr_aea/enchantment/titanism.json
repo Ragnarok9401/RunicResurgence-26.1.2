@@ -1,0 +1,110 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "text": "",
+    "color": "light_purple",
+    "strikethrough": false,
+    "extra": [
+      {
+        "translate": "enchantment.aea.blessing_icon",
+        "fallback": "*",
+        "color": "light_purple",
+        "strikethrough": true,
+        "extra": [
+          {
+            "text": " ",
+            "color": "light_purple",
+            "strikethrough": false,
+            "extra": [
+              {
+                "translate": "enchantment.aea.titanism",
+                "fallback": "Titanism",
+                "color": "light_purple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 34,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1,
+  "effects": {
+    "attributes": [
+      {
+        "attribute": "attack_damage",
+        "amount": 3.0,
+        "operation": "add_multiplied_total",
+        "id": "rr_aea:enchantment.titanism.damage_mult"
+      },
+      {
+        "attribute": "attack_knockback",
+        "amount": 0.5,
+        "operation": "add_multiplied_base",
+        "id": "rr_aea:enchantment.titanism.knockback_mult"
+      },
+      {
+        "attribute": "jump_strength",
+        "amount": -1,
+        "operation": "add_multiplied_total",
+        "id": "rr_aea:enchantment.titanism.jump_reduction"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "amount": -0.8,
+        "operation": "add_multiplied_total",
+        "id": "rr_aea:enchantment.titanism.speed_reduction"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": [],
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "rr_aea:technical/enchantments/titanism_blessing/on_hit"
+            }
+          ]
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": [],
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "rr_aea:technical/enchantments/titanism_blessing/self_effects"
+            }
+          ]
+        }
+      }
+    ],
+    "location_changed": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "rr_aea:technical/enchantments/titanism_blessing/moving"
+        }
+      }
+    ]
+  }
+}

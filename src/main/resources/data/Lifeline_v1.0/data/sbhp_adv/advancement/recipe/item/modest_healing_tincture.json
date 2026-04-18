@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "get_paper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:redstone"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "sbhp:item/modest_healing_tincture"
+      ]
+    }
+  }
+  

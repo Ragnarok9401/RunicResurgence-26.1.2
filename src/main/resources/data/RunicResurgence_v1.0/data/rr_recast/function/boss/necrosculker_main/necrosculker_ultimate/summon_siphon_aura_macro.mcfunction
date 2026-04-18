@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~1.5 ~$(z) run summon marker ~ ~ ~ {Tags:[rr.boss.ns_void.ticking,rr.boss.ns_void.siphon_aura_summon]}

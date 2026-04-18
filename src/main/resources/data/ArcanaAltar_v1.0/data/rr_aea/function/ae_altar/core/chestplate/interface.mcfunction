@@ -1,0 +1,9 @@
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel1] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel2] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_fire_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel3] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_projectile_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel4] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_blast_protection
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel5] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_thorns
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel6] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_unbreaking
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel7] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_mending
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel8] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_enlarge
+execute as @s[type=marker,tag=ArenAEADTMain,tag=ArenAEAChestplateSel,tag=ArenAEAChestplateSel9] at @s run function rr_aea:ae_altar/core/interface/chestplate/chestplate_shrink

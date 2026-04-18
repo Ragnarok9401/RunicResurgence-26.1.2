@@ -1,0 +1,1 @@
+give @p music_disc_cat[max_stack_size=64,item_model="rr_recast:block/transmission_pylon/transmission_pylon_inactive",item_name="Transmission Pylon",rarity="uncommon",!jukebox_playable,custom_data={rr.item:1b,rr.transmission_pylon:1b}] 1

@@ -1,0 +1,10 @@
+execute if data entity @s[tag=!rr.block.scriptscrying_table.main.guess_cooldown] data.minigame.guess_4 unless data entity @s data.minigame.guess_5 run data modify entity @s data.minigame.guess_5 set from entity @n[distance=..4,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] data.ring_num.num
+execute if data entity @s[tag=!rr.block.scriptscrying_table.main.guess_cooldown] data.minigame.guess_3 unless data entity @s data.minigame.guess_4 run data modify entity @s data.minigame.guess_4 set from entity @n[distance=..4,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] data.ring_num.num
+execute if data entity @s[tag=!rr.block.scriptscrying_table.main.guess_cooldown] data.minigame.guess_2 unless data entity @s data.minigame.guess_3 run data modify entity @s data.minigame.guess_3 set from entity @n[distance=..4,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] data.ring_num.num
+execute if data entity @s[tag=!rr.block.scriptscrying_table.main.guess_cooldown] data.minigame.guess_1 unless data entity @s data.minigame.guess_2 run data modify entity @s data.minigame.guess_2 set from entity @n[distance=..4,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] data.ring_num.num
+execute unless data entity @s[tag=!rr.block.scriptscrying_table.main.guess_cooldown] data.minigame.guess_1 run data modify entity @s data.minigame.guess_1 set from entity @n[distance=..4,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] data.ring_num.num
+
+execute as @n[distance=..0.1,tag=rr.block.scriptscrying_table.interaction.ring,type=interaction] if data entity @s interaction if score @s rr.block.id = @n[distance=..4,tag=rr.block.scriptscrying_table.main,type=item_display] rr.block.id at @s run function rr_recast:technical/block/scriptscrying_table/arcane/create_new_interaction
+
+execute if data entity @s data.minigame.guess_5 at @s run function rr_recast:technical/block/scriptscrying_table/arcane/check_guess
+tag @a[tag=rr.player.spell_script.interacting] remove rr.player.spell_script.interacting

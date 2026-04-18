@@ -1,0 +1,8 @@
+execute as @n[distance=..0.5,tag=rr.block.scriptscrying_table.item_display.script,type=item_display] run data modify entity @s item.components."minecraft:custom_data"."spell_script" set from entity @n[distance=..0.1,tag=rr.block.scriptscrying_table.main,type=item_display] data.spell_script
+execute as @n[distance=..0.5,tag=rr.block.scriptscrying_table.item_display.script,type=item_display] run data modify entity @s item.components."minecraft:custom_data"."minigame" set from entity @n[distance=..0.1,tag=rr.block.scriptscrying_table.main,type=item_display] data.minigame
+execute as @n[distance=..0.5,tag=rr.block.scriptscrying_table.item_display.script,type=item_display] run data modify entity @s item.components."minecraft:custom_data"."display_text" set from entity @n[distance=..0.55,tag=rr.block.scriptscrying_table.text_display.minigame,type=text_display] text
+
+execute as @n[distance=..0.5,tag=rr.block.scriptscrying_table.item_display.script,type=item_display] at @s run summon item ~ ~0.25 ~ {Item:{id:"minecraft:music_disc_cat",count:1},Tags:[rr.block.scriptscrying_table.item]}
+execute as @n[distance=..0.75,tag=rr.block.scriptscrying_table.item,type=item] at @s run data modify entity @s Item set from entity @n[distance=..0.75,tag=rr.block.scriptscrying_table.item_display.script,type=item_display] item
+
+$function rr_recast:technical/block/scriptscrying_table/$(element)/clear_minigame

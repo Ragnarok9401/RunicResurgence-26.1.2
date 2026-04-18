@@ -1,0 +1,1 @@
+execute as @s[predicate=rr_aea:held_items/offhand/shield_with_pressure] at @s as @e[distance=..3.5,type=!#rr_aea:magic_ignore] run attribute @s gravity modifier add rr_aea:enchantment.pressure.gravity_increase 1 add_multiplied_base

@@ -1,0 +1,555 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.companion.sculk_critter",
+                  "fallback": "Sculk Critter Companion",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.companion.rarity",
+                    "fallback": "Rarity: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.rarity.common",
+                        "fallback": "Common",
+                        "extra": [
+                          {
+                            "text": " ",
+                            "extra": [
+                              {
+                                "translate": "item.rr_recast.companion.extra.boss",
+                                "fallback": "< Boss >",
+                                "color": "#e82626",
+                                "italic": false
+                              }
+                            ]
+                          }
+                        ],
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.rr_recast.companion.ability",
+                    "fallback": "Ability: ",
+                    "extra": [
+                      {
+                        "text": "<> ",
+                        "extra": [
+                          {
+                            "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.name",
+                            "fallback": "Sculk Siphoning",
+                            "extra": [
+                              {
+                                "text": " <>",
+                                "color": "dark_aqua"
+                              }
+                            ],
+                            "color": "aqua",
+                            "italic": false
+                          }
+                        ],
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_1",
+                        "fallback": "When attacking, this Companion will heal",
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_2",
+                        "fallback": "you for 1/5 of the damage dealt",
+                        "color": "dark_aqua"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:companion/sculk_critter",
+                "minecraft:custom_data": "{rr.companion:1b,rr.companion.sculk_critter:1b,rr.companion.id:8,rr.companion.rarity:1,rr.companion.boss:1b}"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.companion.sculk_critter",
+                  "fallback": "Sculk Critter Companion",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.companion.rarity",
+                    "fallback": "Rarity: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.rarity.rare",
+                        "fallback": "Rare",
+                        "extra": [
+                          {
+                            "text": " ",
+                            "extra": [
+                              {
+                                "translate": "item.rr_recast.companion.extra.boss",
+                                "fallback": "< Boss >",
+                                "color": "#e82626",
+                                "italic": false
+                              }
+                            ]
+                          }
+                        ],
+                        "color": "green",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.rr_recast.companion.ability",
+                    "fallback": "Ability: ",
+                    "extra": [
+                      {
+                        "text": "<> ",
+                        "extra": [
+                          {
+                            "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.name",
+                            "fallback": "Sculk Siphoning",
+                            "extra": [
+                              {
+                                "text": " <>",
+                                "color": "dark_aqua"
+                              }
+                            ],
+                            "color": "aqua",
+                            "italic": false
+                          }
+                        ],
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_1",
+                        "fallback": "When attacking, this Companion will heal",
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_2",
+                        "fallback": "you for 1/5 of the damage dealt",
+                        "color": "dark_aqua"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:companion/sculk_critter",
+                "minecraft:custom_data": "{rr.companion:1b,rr.companion.sculk_critter:1b,rr.companion.id:8,rr.companion.rarity:2,rr.companion.boss:1b}"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.companion.sculk_critter",
+                  "fallback": "Sculk Critter Companion",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.companion.rarity",
+                    "fallback": "Rarity: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.rarity.epic",
+                        "fallback": "Epic",
+                        "extra": [
+                          {
+                            "text": " ",
+                            "extra": [
+                              {
+                                "translate": "item.rr_recast.companion.extra.boss",
+                                "fallback": "< Boss >",
+                                "color": "#e82626",
+                                "italic": false
+                              }
+                            ]
+                          }
+                        ],
+                        "color": "yellow",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.rr_recast.companion.ability",
+                    "fallback": "Ability: ",
+                    "extra": [
+                      {
+                        "text": "<> ",
+                        "extra": [
+                          {
+                            "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.name",
+                            "fallback": "Sculk Siphoning",
+                            "extra": [
+                              {
+                                "text": " <>",
+                                "color": "dark_aqua"
+                              }
+                            ],
+                            "color": "aqua",
+                            "italic": false
+                          }
+                        ],
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_1",
+                        "fallback": "When attacking, this Companion will heal",
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_2",
+                        "fallback": "you for 1/5 of the damage dealt",
+                        "color": "dark_aqua"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:companion/sculk_critter",
+                "minecraft:custom_data": "{rr.companion:1b,rr.companion.sculk_critter:1b,rr.companion.id:8,rr.companion.rarity:3,rr.companion.boss:1b}"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.companion.sculk_critter",
+                  "fallback": "Sculk Critter Companion",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.companion.rarity",
+                    "fallback": "Rarity: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.rarity.legendary",
+                        "fallback": "Legendary",
+                        "extra": [
+                          {
+                            "text": " ",
+                            "extra": [
+                              {
+                                "translate": "item.rr_recast.companion.extra.boss",
+                                "fallback": "< Boss >",
+                                "color": "#e82626",
+                                "italic": false
+                              }
+                            ]
+                          }
+                        ],
+                        "color": "gold",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.rr_recast.companion.ability",
+                    "fallback": "Ability: ",
+                    "extra": [
+                      {
+                        "text": "<> ",
+                        "extra": [
+                          {
+                            "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.name",
+                            "fallback": "Sculk Siphoning",
+                            "extra": [
+                              {
+                                "text": " <>",
+                                "color": "dark_aqua"
+                              }
+                            ],
+                            "color": "aqua",
+                            "italic": false
+                          }
+                        ],
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_1",
+                        "fallback": "When attacking, this Companion will heal",
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_2",
+                        "fallback": "you for 1/5 of the damage dealt",
+                        "color": "dark_aqua"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:companion/sculk_critter",
+                "minecraft:custom_data": "{rr.companion:1b,rr.companion.sculk_critter:1b,rr.companion.id:8,rr.companion.rarity:4,rr.companion.boss:1b}"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {
+                  "translate": "item.rr_recast.companion.sculk_critter",
+                  "fallback": "Sculk Critter Companion",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.rr_recast.companion.rarity",
+                    "fallback": "Rarity: ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.rarity.mythic",
+                        "fallback": "Mythic",
+                        "extra": [
+                          {
+                            "text": " ",
+                            "extra": [
+                              {
+                                "translate": "item.rr_recast.companion.extra.boss",
+                                "fallback": "< Boss >",
+                                "color": "#e82626",
+                                "italic": false
+                              }
+                            ]
+                          }
+                        ],
+                        "color": "red",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.rr_recast.companion.ability",
+                    "fallback": "Ability: ",
+                    "extra": [
+                      {
+                        "text": "<> ",
+                        "extra": [
+                          {
+                            "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.name",
+                            "fallback": "Sculk Siphoning",
+                            "extra": [
+                              {
+                                "text": " <>",
+                                "color": "dark_aqua"
+                              }
+                            ],
+                            "color": "aqua",
+                            "italic": false
+                          }
+                        ],
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_1",
+                        "fallback": "When attacking, this Companion will heal",
+                        "color": "dark_aqua",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " || ",
+                    "extra": [
+                      {
+                        "translate": "item.rr_recast.companion.sculk_critter.sculk_siphon.desc_2",
+                        "fallback": "you for 1/5 of the damage dealt",
+                        "color": "dark_aqua"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "rr_recast:companion/sculk_critter",
+                "minecraft:custom_data": "{rr.companion:1b,rr.companion.sculk_critter:1b,rr.companion.id:8,rr.companion.rarity:5,rr.companion.boss:1b}"
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

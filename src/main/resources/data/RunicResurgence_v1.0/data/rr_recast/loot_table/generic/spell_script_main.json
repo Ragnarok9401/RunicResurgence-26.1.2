@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:generic/spell_script_basic",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:generic/spell_script_advanced",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:generic/spell_script_powerful",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:generic/spell_script_coveted",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rr_recast:generic/spell_script_mythic",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
